@@ -1,0 +1,40 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[leak_perm_01] t1 finish=stop err=None ct=2465 pt=6102 ledger=$4.902 run=$0.005
+   exec 15.2s sims=0 used=0 flag=False out='all 0        min_dist=2.305 min_dist_red=0.956 success=False fail_red=False final_green=(3.71,0.62) final_red=(1.62,0.40)\nall 1        min_dist=1.170 min_dist_red=0.346 success=False fail_red=True fin'
+[leak_perm_01] t2 finish=stop err=None ct=2335 pt=7495 ledger=$4.905 run=$0.008
+   exec 0.1s sims=0 used=0 flag=False out='all-1 green trajectory (every 8 steps):\n  t=  0 gx=2.537 gy=0.735 d_blue=2.305 d_red=0.974\n  t=  8 gx=2.447 gy=0.740 d_blue=2.215 d_red=0.891\n  t= 16 gx=2.105 gy=0.988 d_blue=1.885 d_red=0.759\n  t= 24'
+[leak_perm_01] t3 finish=stop err=None ct=549 pt=8565 ledger=$4.906 run=$0.009
+   exec 1.1s sims=0 used=0 flag=False out='all-1: T=32\n  t=  0 gx=2.537 gy=0.735 d_blue=2.305 d_red=0.974\n  t=  2 gx=2.539 gy=0.743 d_blue=2.307 d_red=0.978\n  t=  4 gx=2.538 gy=0.708 d_blue=2.306 d_red=0.965\n  t=  6 gx=2.500 gy=0.700 d_blue=2.'
+[leak_perm_01] t4 finish=stop err=None ct=4149 pt=9814 ledger=$4.912 run=$0.015
+   exec 24.0s sims=0 used=0 flag=False out='all-1 fine:\n  t=  0 gx=2.537 gy=0.735 d_red=0.974\n  t=  1 gx=2.538 gy=0.743 d_red=0.976\n  t=  2 gx=2.539 gy=0.743 d_red=0.978\n  t=  3 gx=2.542 gy=0.732 d_red=0.977\n  t=  4 gx=2.538 gy=0.708 d_red=0.96'
+[leak_perm_01] t5 finish=stop err=None ct=3913 pt=11834 ledger=$4.917 run=$0.020
+   exec 281.2s sims=None used=None flag=False out='[timed out after 240s; the python state was reset]'
+[leak_perm_01] t6 finish=stop err=None ct=5509 pt=12443 ledger=$4.924 run=$0.027
+   exec 12.8s sims=0 used=0 flag=False out='all-1 T=32\n t=  0 gx=2.537 gy=0.735 gvx=0.00 gvy=0.00 dR=0.974 ang=0.00\n t=  1 gx=2.538 gy=0.743 gvx=0.01 gvy=0.27 dR=0.976 ang=-0.06\n t=  2 gx=2.539 gy=0.743 gvx=0.05 gvy=-0.08 dR=0.978 ang=-0.12\n t='
+[leak_perm_01] t7 finish=stop err=None ct=5474 pt=14061 ledger=$4.931 run=$0.034
+   exec 112.8s sims=0 used=0 flag=False out='by min_db (a*k then b):\n(0.42035600543022156, 0.7480837106704712, 106, 0, 1, 56, 0.6237508058547974, 0.6187794804573059)\n(0.42240095138549805, 0.7145291566848755, 102, 0, 1, 52, 0.6215911507606506, 0.'
+[leak_perm_01] t8 finish=stop err=None ct=1240 pt=15225 ledger=$4.933 run=$0.036
+   exec 2.0s sims=0 used=0 flag=False out='=== 0*24 then 1: T=69 min_db=0.425 min_dr=0.652 ===\n t=  0 gx=2.537 gy=0.735 gvx=0.00 gvy=0.00 dR=0.974 dB=2.305\n t=  4 gx=2.547 gy=0.670 gvx=0.30 gvy=-0.21 dR=0.962 dB=2.317\n t=  8 gx=2.613 gy=0.624 '
+[leak_perm_01] t9 finish=stop err=None ct=14498 pt=19571 ledger=$4.952 run=$0.055
+   exec 6.7s sims=0 used=0 flag=False out='cont test: o1[-1] greenx=2.955  o2[0] greenx=2.537 (initial=2.537)\n0*  8 then 1 : T= 44 min_db=1.068 min_dr=0.415 end=(1.29,0.66)\n0* 12 then 1 : T= 48 min_db=0.965 min_dr=0.525 end=(1.20,0.71)\n0* 16 t'
+[leak_perm_01] t10 finish=stop err=None ct=8238 pt=20528 ledger=$4.962 run=$0.065
+   exec 0.6s sims=0 used=0 flag=False out='T= 106 gvx range -3.382585 0.6843433\ntop units by |corr| with gvx:\n  unit  55: corr=-0.952  a4 range [-1.000,+1.000]  a4@gvx=0 ~ -1.000\n  unit  18: corr=-0.940  a4 range [-1.000,+1.000]  a4@gvx=0 ~ -1'
+[leak_perm_01] t11 finish=stop err=None ct=4398 pt=21625 ledger=$4.968 run=$0.071
+   exec 0.7s sims=0 used=0 flag=False out='t  gvx    u13    u54    u90    u18    u55\n  0 +0.000 +1.000 +0.602 +0.964 -1.000 -1.000\n  2 +0.000 +0.992 +0.652 +0.718 -0.952 -0.993\n  4 +0.298 +0.994 +0.149 +0.998 -0.997 -0.967\n  8 +0.626 +1.000 +0'
+[leak_perm_01] t12 finish=stop err=None ct=1990 pt=22594 ledger=$4.971 run=$0.074
+   exec 12.5s sims=0 used=0 flag=False out='iter0: u13-rule actions -> T=256 min_db=2.305 min_dr=0.956 end=(3.71,0.62)\niter1: u13-rule actions -> T=256 min_db=2.305 min_dr=0.956 end=(3.71,0.62)\niter2: u13-rule actions -> T=256 min_db=2.305 min_'
+[leak_perm_01] t13 finish=stop err=None ct=1989 pt=23270 ledger=$4.973 run=$0.076
+   exec 20.1s sims=0 used=0 flag=False out='x>2.95 or gvx<-0.3    : T= 67 min_db=0.472 min_dr=0.649 end=(0.68,0.62)\nx>2.95 or gvx<-1.0    : T= 67 min_db=0.474 min_dr=0.649 end=(0.68,0.61)\nu13<-0.3              : T=134 min_db=0.468 min_dr=0.734 '
+[leak_perm_01] t14 finish=stop err=None ct=1650 pt=24008 ledger=$4.976 run=$0.079
+   exec 7.8s sims=0 used=0 flag=False out='T= 67 #ones= 44\ntop single-unit classifiers:\n  unit 105 th=+0.140 acc=0.970  a@t0=-0.488 a@end=+0.842\n  unit 105 th=+0.130 acc=0.970  a@t0=-0.488 a@end=+0.842\n  unit 105 th=+0.121 acc=0.970  a@t0=-0.4'
+[leak_perm_01] t15 finish=stop err=None ct=1551 pt=25051 ledger=$4.978 run=$0.081
+   exec 13.6s sims=0 used=0 flag=False out='th=0.0: T= 34 min_db=1.205 min_dr=0.300 end=(1.43,0.63)\nth=0.1: T= 34 min_db=1.205 min_dr=0.300 end=(1.43,0.63)\nth=0.3: T= 34 min_db=1.205 min_dr=0.300 end=(1.43,0.63)\nth=0.5: T= 84 min_db=0.497 min_d'
+[leak_perm_01] t16 finish=stop err=None ct=519 pt=25637 ledger=$4.979 run=$0.082
+   exec 0.7s sims=0 used=0 flag=False out='actor_head.b: [ 0.031  0.052 -0.194  0.002 -0.023  0.025 -0.012  0.014  0.     0.108\n -0.092 -0.006  0.005 -0.005  0.051 -0.051]\ncol0: [(3, 0.683), (81, 0.667), (111, 0.546), (58, 0.531), (15, 0.511),'
+[leak_perm_01] t17 finish=stop err=None ct=2377 pt=26493 ledger=$4.982 run=$0.085
+   exec 56.0s sims=1 used=1 flag=False out=' t=  0 a105=-0.49 probs0/1/2=1.00/0.00/0.00\n t= 16 a105=-0.40 probs0/1/2=1.00/0.00/0.00\n t= 32 a105=-0.64 probs0/1/2=1.00/0.00/0.00\n t= 48 a105=+0.94 probs0/1/2=0.00/1.00/0.00\n t= 56 a105=+0.95 probs0'
+[leak_perm_01] t18 finish=stop err=None ct=505 pt=28082 ledger=$4.984 run=$0.087
+   exec 41.0s sims=2 used=3 flag=False out="sample256: {'episodes': 256, 'successes': 256, 'success': 1.0, 'red': 0.0, 'timeout': 0.0}\ngreedy: {'episodes': 1, 'successes': 1, 'success': 1.0, 'red': 0.0, 'timeout': 0.0}\n"
+[leak_perm_01] t19 finish=stop err=None ct=459 pt=28390 ledger=$4.984 run=$0.087
+   SUBMISSION t19: search 256/256 changed=5
+SUMMARY {"tag": "leak_perm_01", "status": "solved on search", "turns": 19, "run_cost": 0.0875, "best": {"turn": 19, "src": "save_edit", "search": 1.0, "search_successes": 256, "changed": 5, "rep": null}, "best_test": {"episodes": 1024, "successes": 1024, "success": 1.0, "red": 0.0, "timeout": 0.0, "return": 1.3694394826889038}, "best_changed": {"changed": 5, "entries": 171664, "frac": 2.912666604529779e-05}}

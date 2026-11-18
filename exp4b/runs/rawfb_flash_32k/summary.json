@@ -1,0 +1,47 @@
+{
+ "tag": "rawfb_flash_32k",
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+ "rounds_run": 4,
+ "run_cost": 0.117152,
+ "submissions": [
+  {
+   "round": 1,
+   "search": 0.0,
+   "search_successes": 0,
+   "changed": 386
+  },
+  {
+   "round": 2,
+   "search": 0.0,
+   "search_successes": 0,
+   "changed": 165102
+  }
+ ],
+ "args": {
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "tag": "rawfb_flash_32k",
+  "rounds": 4,
+  "max_tokens": 32768,
+  "wall": 1500,
+  "run_cap": 1.0
+ },
+ "best": {
+  "round": 1,
+  "search": 0.0,
+  "search_successes": 0,
+  "changed": 386
+ },
+ "best_test": {
+  "episodes": 1024,
+  "successes": 0,
+  "success": 0.0,
+  "red": 1.0,
+  "timeout": 0.0,
+  "return": -0.7675310969352722
+ },
+ "best_changed": {
+  "changed": 386,
+  "entries": 171664,
+  "frac": 0.0022485786186969897
+ }
+}

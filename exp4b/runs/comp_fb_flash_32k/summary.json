@@ -1,0 +1,54 @@
+{
+ "tag": "comp_fb_flash_32k",
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+ "rounds_run": 3,
+ "run_cost": 0.060337,
+ "submissions": [
+  {
+   "round": 1,
+   "search": 0.0,
+   "search_successes": 0,
+   "changed": 386
+  },
+  {
+   "round": 2,
+   "search": 0.0,
+   "search_successes": 0,
+   "changed": 165102
+  },
+  {
+   "round": 3,
+   "search": 1.0,
+   "search_successes": 256,
+   "changed": 165102
+  }
+ ],
+ "args": {
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "tag": "comp_fb_flash_32k",
+  "rounds": 4,
+  "max_tokens": 32768,
+  "wall": 1500,
+  "prompt_file": "results/compressed_prompt.txt",
+  "run_cap": 0.6
+ },
+ "best": {
+  "round": 3,
+  "search": 1.0,
+  "search_successes": 256,
+  "changed": 165102
+ },
+ "best_test": {
+  "episodes": 1024,
+  "successes": 1022,
+  "success": 0.998046875,
+  "red": 0.001953125,
+  "timeout": 0.0,
+  "return": 1.3693196773529053
+ },
+ "best_changed": {
+  "changed": 165102,
+  "entries": 171664,
+  "frac": 0.9617741634821512
+ }
+}

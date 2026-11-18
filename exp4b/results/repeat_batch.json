@@ -1,0 +1,32 @@
+{
+ "batch_start_total": 3.483237,
+ "batch_used": 0.17624800000000018,
+ "runs": [
+  {
+   "tag": "repeat_flash_01",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "status": "run cap $0.1",
+   "turns": 22,
+   "run_cost": 0.1055,
+   "submissions": [],
+   "best": null,
+   "args": {
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "tag": "repeat_flash_01",
+    "max_turns": 30,
+    "passes": 30,
+    "max_tokens": 16384,
+    "feedback_rounds": 3,
+    "run_cap": 0.1,
+    "wall": 600,
+    "mock": null,
+    "max_changed": 8600,
+    "seed": 101
+   }
+  },
+  {
+   "tag": "repeat_flash_02",
+   "status": "no summary ([Errno 2] No such file or directory: 'runs/repeat_flash_02/summary.json')"
+  }
+ ]
+}

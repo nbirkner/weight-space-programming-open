@@ -1,0 +1,12 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repair_flash_3] t1 finish=stop err=None ct=2372 pt=6102 ledger=$3.169 run=$0.003
+   exec 10.3s sims=0 used=0 flag=False out='Action 0: car x=3.968 y=0.602, green x=3.705 y=0.616\nAction 1: car x=1.612 y=0.818, green x=1.398 y=0.665\nAction 2: car x=4.766 y=0.880, green x=4.740 y=0.617\n'
+[repair_flash_3] t2 finish=stop err=None ct=672 pt=6422 ledger=$3.170 run=$0.004
+   exec 0.1s sims=0 used=0 flag=False out='Action 1 trajectory (car x,y,angle; green x,y):\nt=  0 car=(2.800,0.725) ang_sin=0.00 green=(2.537,0.735) wheel13=(3.107,0.750)\nt= 16 car=(2.310,0.823) ang_sin=-0.60 green=(2.105,0.988) wheel13=(2.571,'
+[repair_flash_3] t3 finish=stop err=None ct=500 pt=6981 ledger=$3.171 run=$0.005
+   exec 0.1s sims=0 used=0 flag=False out='shape (32, 679)\nt=  0 car=(2.800,0.725) sin=0.00 green=(2.537,0.735) w13=(3.107,0.750)\nt=  1 car=(2.799,0.718) sin=-0.06 green=(2.538,0.743) w13=(3.108,0.726)\nt=  2 car=(2.799,0.701) sin=-0.12 green=('
+[repair_flash_3] t4 finish=stop err=None ct=1734 pt=8581 ledger=$3.174 run=$0.007
+[repair_flash_3] t5 finish=stop err=None ct=1122 pt=8700 ledger=$3.175 run=$0.009
+[repair_flash_3] t6 finish=stop err=None ct=1022 pt=8808 ledger=$3.176 run=$0.010
+[repair_flash_3] t7 finish=stop err=None ct=908 pt=8956 ledger=$3.178 run=$0.011
+SUMMARY {"tag": "repair_flash_3", "status": "feedback rounds used", "turns": 7, "run_cost": 0.0113, "best": null, "best_test": null, "best_changed": null}

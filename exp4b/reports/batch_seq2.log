@@ -1,0 +1,7 @@
+start repeat_seq_08 total 4.5342
+done repeat_seq_08 max turns None None run_cost 0.0775 total 4.6117
+start repeat_seq_09 total 4.6117
+done repeat_seq_09 solved on search 1024 386 run_cost 0.1378 total 4.7495
+start repeat_seq_10 total 4.7495
+done repeat_seq_10 max turns 0 1 run_cost 0.1475 total 4.897
+BATCH DONE total 4.897

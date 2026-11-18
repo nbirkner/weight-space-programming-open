@@ -1,0 +1,468 @@
+{
+ "tools_flash_1": {
+  "calls": 21,
+  "cost": 0.10466099999999998,
+  "pt": 435302,
+  "cached": 403584,
+  "ct": 77267,
+  "reasoning": 65832,
+  "astra": 4.5841140000000005,
+  "astra_nc": 8.21637,
+  "fable": 3.4251408000000003,
+  "fable_nc": 6.573096000000001,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "solved on search",
+  "test": 1024
+ },
+ "raw1shot_flash_32k": {
+  "calls": 1,
+  "cost": 0.123868,
+  "pt": 351760,
+  "cached": 0,
+  "ct": 15283,
+  "reasoning": 15020,
+  "astra": 8.181425,
+  "astra_nc": 8.181425,
+  "fable": 3.4254,
+  "fable_nc": 3.4254,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": null,
+  "test": 0
+ },
+ "repair_flash_1": {
+  "calls": 13,
+  "cost": 0.064059,
+  "pt": 208812,
+  "cached": 183040,
+  "ct": 46024,
+  "reasoning": 35267,
+  "astra": 2.74196,
+  "astra_nc": 4.38932,
+  "fable": 2.083744,
+  "fable_nc": 3.5114560000000004,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "solved on search",
+  "test": 1024
+ },
+ "rawfb_flash_32k": {
+  "calls": 4,
+  "cost": 0.11715199999999999,
+  "pt": 1413178,
+  "cached": 1410560,
+  "ct": 89920,
+  "reasoning": 89305,
+  "astra": 9.617479999999999,
+  "astra_nc": 35.00756,
+  "fable": 3.8998559999999998,
+  "fable_nc": 14.902223999999999,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": null,
+  "test": 0
+ },
+ "comp_fb_flash_32k": {
+  "calls": 3,
+  "cost": 0.060337,
+  "pt": 100060,
+  "cached": 65152,
+  "ct": 41228,
+  "reasoning": 40104,
+  "astra": 2.475632,
+  "astra_nc": 3.062,
+  "fable": 1.9414144000000002,
+  "fable_nc": 2.4495999999999998,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": null,
+  "test": 1022
+ },
+ "repair_flash_2": {
+  "calls": 8,
+  "cost": 0.038151,
+  "pt": 83556,
+  "cached": 74624,
+  "ct": 29187,
+  "reasoning": 25071,
+  "astra": 1.623294,
+  "astra_nc": 2.2949100000000002,
+  "fable": 1.2538608,
+  "fable_nc": 1.835928,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "run cap $1.0",
+  "test": null
+ },
+ "raw1shot_qwenmax_32k": {
+  "calls": 1,
+  "cost": 1.317962,
+  "pt": 488125,
+  "cached": 0,
+  "ct": 13020,
+  "reasoning": 12486,
+  "astra": 10.739,
+  "astra_nc": 10.739,
+  "fable": 4.4258,
+  "fable_nc": 4.4258,
+  "estimated_calls": 0,
+  "model": [
+   "Qwen/Qwen3.7-Max"
+  ],
+  "status": null,
+  "test": 0
+ },
+ "raw1shot_kimik3_32k": {
+  "calls": 1,
+  "cost": 1.340113,
+  "pt": 351817,
+  "cached": 64,
+  "ct": 18989,
+  "reasoning": 18405,
+  "astra": 8.459363,
+  "astra_nc": 8.460515,
+  "fable": 3.5735968,
+  "fable_nc": 3.574096,
+  "estimated_calls": 0,
+  "model": [
+   "moonshotai/Kimi-K3"
+  ],
+  "status": null,
+  "test": 0
+ },
+ "repair_flash_3": {
+  "calls": 7,
+  "cost": 0.011307000000000001,
+  "pt": 54550,
+  "cached": 51200,
+  "ct": 8330,
+  "reasoning": 6910,
+  "astra": 0.5012,
+  "astra_nc": 0.962,
+  "fable": 0.37024,
+  "fable_nc": 0.7696,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "feedback rounds used",
+  "test": null
+ },
+ "repair_flash_4": {
+  "calls": 10,
+  "cost": 0.022910000000000003,
+  "pt": 108337,
+  "cached": 99072,
+  "ct": 16280,
+  "reasoning": 11163,
+  "astra": 1.005722,
+  "astra_nc": 1.89737,
+  "fable": 0.7451344,
+  "fable_nc": 1.517896,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "feedback rounds used",
+  "test": null
+ },
+ "repair_qwenplus_1": {
+  "calls": 4,
+  "cost": 0.17212,
+  "pt": 147295,
+  "cached": 0,
+  "ct": 97645,
+  "reasoning": 3252,
+  "astra": 6.3552,
+  "astra_nc": 6.3552,
+  "fable": 5.08416,
+  "fable_nc": 5.08416,
+  "estimated_calls": 3,
+  "model": [
+   "Qwen/Qwen3.7-Plus"
+  ],
+  "status": "stopped after repeated 240s read timeouts and no visible python/edits; no submission",
+  "test": null
+ },
+ "repair_flash_5": {
+  "calls": 30,
+  "cost": 0.11059799999999999,
+  "pt": 445496,
+  "cached": 406528,
+  "ct": 80389,
+  "reasoning": 69065,
+  "astra": 4.815658,
+  "astra_nc": 8.47441,
+  "fable": 3.6086096,
+  "fable_nc": 6.779528000000001,
+  "estimated_calls": 1,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "max turns",
+  "test": 913
+ },
+ "repeat_flash_01": {
+  "calls": 22,
+  "cost": 0.10545299999999999,
+  "pt": 295540,
+  "cached": 265984,
+  "ct": 79158,
+  "reasoning": 72389,
+  "astra": 4.519444,
+  "astra_nc": 6.9133000000000004,
+  "fable": 3.4559647999999994,
+  "fable_nc": 5.530640000000001,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "run cap $0.1",
+  "test": null
+ },
+ "repeat_flash_02": {
+  "calls": 15,
+  "cost": 0.070795,
+  "pt": 185418,
+  "cached": 159488,
+  "ct": 51716,
+  "reasoning": 44243,
+  "astra": 3.0045879999999996,
+  "astra_nc": 4.43998,
+  "fable": 2.3079776,
+  "fable_nc": 3.551983999999999,
+  "estimated_calls": 1,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ]
+ },
+ "repeat_seq_02": {
+  "calls": 15,
+  "cost": 0.150997,
+  "pt": 229089,
+  "cached": 164736,
+  "ct": 108919,
+  "reasoning": 78192,
+  "astra": 6.254216,
+  "astra_nc": 7.736839999999999,
+  "fable": 4.9045312,
+  "fable_nc": 6.189472,
+  "estimated_calls": 2,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "run cap $0.15",
+  "test": null
+ },
+ "repeat_seq_03": {
+  "calls": 23,
+  "cost": 0.11788599999999999,
+  "pt": 492052,
+  "cached": 420352,
+  "ct": 78211,
+  "reasoning": 67512,
+  "astra": 5.047902,
+  "astra_nc": 8.83107,
+  "fable": 3.7861104000000005,
+  "fable_nc": 7.064856,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "solved on search",
+  "test": 1024
+ },
+ "repeat_seq_04": {
+  "calls": 25,
+  "cost": 0.16078,
+  "pt": 406558,
+  "cached": 375040,
+  "ct": 124228,
+  "reasoning": 114319,
+  "astra": 6.901619999999999,
+  "astra_nc": 10.27698,
+  "fable": 5.296272,
+  "fable_nc": 8.221583999999998,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "run cap $0.15",
+  "test": null
+ },
+ "repeat_seq_05": {
+  "calls": 29,
+  "cost": 0.07063299999999999,
+  "pt": 515987,
+  "cached": 491136,
+  "ct": 50194,
+  "reasoning": 36725,
+  "astra": 3.249346,
+  "astra_nc": 7.6695699999999984,
+  "fable": 2.3047951999999996,
+  "fable_nc": 6.135656,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "solved on search",
+  "test": 1024
+ },
+ "repeat_seq_06": {
+  "calls": 22,
+  "cost": 0.157366,
+  "pt": 495874,
+  "cached": 418432,
+  "ct": 109687,
+  "reasoning": 98867,
+  "astra": 6.677202,
+  "astra_nc": 10.44309,
+  "fable": 5.0907024,
+  "fable_nc": 8.354472,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "run cap $0.15",
+  "test": null
+ },
+ "repeat_seq_07": {
+  "calls": 26,
+  "cost": 0.149576,
+  "pt": 488128,
+  "cached": 460416,
+  "ct": 115417,
+  "reasoning": 104365,
+  "astra": 6.508386,
+  "astra_nc": 10.65213,
+  "fable": 4.9304592000000005,
+  "fable_nc": 8.521704000000001,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "solved on search",
+  "test": 1024
+ },
+ "repeat_seq_08": {
+  "calls": 39,
+  "cost": 0.14498799999999995,
+  "pt": 565528,
+  "cached": 516096,
+  "ct": 105885,
+  "reasoning": 78765,
+  "astra": 6.304665999999999,
+  "astra_nc": 10.94953,
+  "fable": 4.7340751999999995,
+  "fable_nc": 8.759623999999999,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "max turns",
+  "test": null
+ },
+ "repeat_seq_09": {
+  "calls": 27,
+  "cost": 0.137808,
+  "pt": 744038,
+  "cached": 708480,
+  "ct": 102407,
+  "reasoning": 79632,
+  "astra": 6.184409999999998,
+  "astra_nc": 12.560730000000003,
+  "fable": 4.52244,
+  "fable_nc": 10.048583999999998,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "solved on search",
+  "test": 1024
+ },
+ "repeat_seq_10": {
+  "calls": 30,
+  "cost": 0.14749700000000002,
+  "pt": 611557,
+  "cached": 575360,
+  "ct": 110987,
+  "reasoning": 101527,
+  "astra": 6.48668,
+  "astra_nc": 11.664919999999997,
+  "fable": 4.8441279999999995,
+  "fable_nc": 9.331935999999999,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "max turns",
+  "test": 0
+ },
+ "leak_perm_01": {
+  "calls": 19,
+  "cost": 0.08746399999999999,
+  "pt": 350788,
+  "cached": 320896,
+  "ct": 63808,
+  "reasoning": 54564,
+  "astra": 3.8102159999999996,
+  "astra_nc": 6.6982800000000005,
+  "fable": 2.8556352,
+  "fable_nc": 5.358624000000001,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "solved on search",
+  "test": 1024
+ },
+ "leak_perm_02": {
+  "calls": 14,
+  "cost": 0.08282399999999998,
+  "pt": 183901,
+  "cached": 171008,
+  "ct": 64940,
+  "reasoning": 59424,
+  "astra": 3.546938,
+  "astra_nc": 5.08601,
+  "fable": 2.7349456000000005,
+  "fable_nc": 4.068808000000001,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "solved on search",
+  "test": 1024
+ },
+ "leak_perm_03": {
+  "calls": 29,
+  "cost": 0.11677500000000002,
+  "pt": 611815,
+  "cached": 584320,
+  "ct": 87518,
+  "reasoning": 72373,
+  "astra": 5.235170000000002,
+  "astra_nc": 10.494050000000001,
+  "fable": 3.8375440000000003,
+  "fable_nc": 8.395240000000003,
+  "estimated_calls": 0,
+  "model": [
+   "deepseek-ai/DeepSeek-V4.1-Flash"
+  ],
+  "status": "solved on search",
+  "test": 1024
+ }
+}

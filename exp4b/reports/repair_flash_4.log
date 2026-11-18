@@ -1,0 +1,18 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repair_flash_4] t1 finish=stop err=None ct=4487 pt=6102 ledger=$3.183 run=$0.005
+   exec 8.0s sims=0 used=0 flag=False out='actor_head.b: [ 0.031  0.052 -0.194  0.002 -0.023  0.025 -0.012  0.014  0.     0.108\n -0.092 -0.006  0.005 -0.005  0.051 -0.051]\nactor_head.W shape: (128, 16)\nobs shape: (1, 679)\nstart logits: [13.067'
+[repair_flash_4] t2 finish=stop err=None ct=599 pt=7034 ledger=$3.184 run=$0.007
+   exec 18.1s sims=1 used=1 flag=False out='action1 episode length: 32\nlast obs poly5: 1.6121391 0.8182641\nlast obs green: 1.3978152 0.6652699\nlast obs wheel13: 1.8406984 1.0266052\ndist green-car: 0.2633286\n\naction2 episode length: 256\nlast obs'
+[repair_flash_4] t3 finish=stop err=None ct=765 pt=7780 ledger=$3.185 run=$0.008
+   exec 7.7s sims=1 used=2 flag=False out="simulate keys: ['episodes', 'successes', 'success', 'red', 'timeout', 'return', 'trace_ep0']\nsimulate W: {'episodes': 64, 'successes': 0, 'success': 0.0, 'red': 0.0, 'timeout': 1.0, 'return': 0.151850"
+[repair_flash_4] t4 finish=stop err=None ct=4358 pt=9355 ledger=$3.191 run=$0.014
+   exec 1.8s sims=0 used=2 flag=False out='action 0: len=256, final db=3.266 (blue), dr=1.649 (red)\n  first blue touch: [], first red touch: []\naction 1: len=32, final db=0.958 (blue), dr=0.213 (red)\n  first blue touch: [], first red touch: [3'
+[repair_flash_4] t5 finish=stop err=None ct=1864 pt=10469 ledger=$3.194 run=$0.016
+   exec 8.5s sims=0 used=2 flag=False out='period2 ones1: RED at 32, len=33\nperiod3 ones1: timeout len=39 finaldb=1.246\nperiod3 ones2: RED at 31, len=32\nperiod4 ones1: timeout len=256 finaldb=1.413\nperiod4 ones2: timeout len=33 finaldb=1.191\np'
+[repair_flash_4] t6 finish=stop err=None ct=976 pt=11719 ledger=$3.195 run=$0.018
+   exec 0.1s sims=0 used=2 flag=False out='step | car x,y,ang | green x,y | wheel13 x,y\n  0 | 2.800,0.725,0.00 | 2.537,0.735 | 3.107,0.750\n  1 | 2.799,0.718,-0.06 | 2.538,0.743 | 3.108,0.726\n  2 | 2.799,0.701,-0.12 | 2.539,0.743 | 3.107,0.688\n'
+[repair_flash_4] t7 finish=stop err=None ct=1332 pt=13220 ledger=$3.198 run=$0.020
+[repair_flash_4] t8 finish=stop err=None ct=1149 pt=13783 ledger=$3.199 run=$0.022
+[repair_flash_4] t9 finish=stop err=None ct=468 pt=14226 ledger=$3.200 run=$0.022
+[repair_flash_4] t10 finish=stop err=None ct=282 pt=14649 ledger=$3.201 run=$0.023
+SUMMARY {"tag": "repair_flash_4", "status": "feedback rounds used", "turns": 10, "run_cost": 0.0229, "best": null, "best_test": null, "best_changed": null}

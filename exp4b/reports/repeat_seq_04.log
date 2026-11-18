@@ -1,0 +1,49 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repeat_seq_04] t1 finish=stop err=None ct=3776 pt=6102 ledger=$3.935 run=$0.006
+   exec 9.5s sims=0 used=0 flag=False out="{'embed.W': (679, 128), 'embed.b': (128,), 'actor0.W': (128, 128), 'actor0.b': (128,), 'actor1.W': (128, 128), 'actor1.b': (128,), 'actor2.W': (128, 128), 'actor2.b': (128,), 'actor3.W': (128, 128), '"
+[repeat_seq_04] t2 finish=stop err=None ct=2016 pt=7549 ledger=$3.938 run=$0.009
+   exec 3.6s sims=0 used=0 flag=False out='n=  4 T=256 car=(3.94,0.60) green=(3.68,0.62) blue_touch=False red_touch=False\nn=  8 T=256 car=(3.14,0.61) green=(2.88,0.62) blue_touch=False red_touch=False\nn= 12 T=256 car=(2.09,0.89) green=(1.85,0.'
+[repeat_seq_04] t3 finish=stop err=None ct=2318 pt=8384 ledger=$3.941 run=$0.012
+   exec 0.1s sims=0 used=0 flag=False out='T = 32\nt=  0 car=(2.800,0.725) green=(2.537,0.735) w13=(3.107,0.750) blue_t=False red_t=False\nt=  2 car=(2.799,0.701) green=(2.539,0.743) w13=(3.107,0.688) blue_t=False red_t=False\nt=  4 car=(2.793,0.'
+[repeat_seq_04] t4 finish=stop err=None ct=6289 pt=9516 ledger=$3.949 run=$0.020
+   exec 0.1s sims=0 used=0 flag=False out='T = 32\nt= 26 car=(1.823,0.965) green=(1.561,0.987) gvel=(-1.479,-1.242) blue_t=False red_t=False\nt= 27 car=(1.780,0.955) green=(1.517,0.939) gvel=(-1.302,-1.490) blue_t=False red_t=False\nt= 28 car=(1.'
+[repeat_seq_04] t5 finish=stop err=None ct=7906 pt=10158 ledger=$3.958 run=$0.030
+   exec 7.5s sims=0 used=0 flag=False out="1*12                           -> ('timeout', np.float32(1.634), 256)\n1*14                           -> ('timeout', np.float32(3.243), 256)\n1*15                           -> ('red', np.int64(49), 50)\n"
+[repeat_seq_04] t6 finish=length err=None ct=16384 pt=11245 ledger=$3.979 run=$0.050
+[repeat_seq_04] t7 finish=stop err=None ct=4548 pt=11281 ledger=$3.984 run=$0.056
+   exec 268.2s sims=None used=None flag=False out='[timed out after 240s; the python state was reset]'
+[repeat_seq_04] t8 finish=stop err=None ct=3868 pt=12174 ledger=$3.989 run=$0.061
+   exec 60.0s sims=0 used=0 flag=False out='step 0 best dist 2.305 seq [0]\nstep 1 best dist 2.305 seq [1, 0]\nstep 2 best dist 2.306 seq [0, 1, 0]\nstep 3 best dist 2.307 seq [1, 2, 0, 0]\nstep 4 best dist 2.309 seq [0, 1, 2, 1, 0]\nstep 5 best dis'
+[repeat_seq_04] t9 finish=stop err=None ct=5668 pt=14149 ledger=$3.997 run=$0.068
+[repeat_seq_04] t10 finish=stop err=None ct=1103 pt=14185 ledger=$3.998 run=$0.070
+   exec 7.5s sims=0 used=0 flag=False out='a=0: T=256 tb=False tr=False green_final=[3.7054338  0.61590177] blue=[0.23251286 0.77250665] dist=3.476\na=1: T=32 tb=False tr=True green_final=[1.3978152 0.6652699] blue=[0.23251286 0.77250665] dist='
+[repeat_seq_04] t11 finish=stop err=None ct=1131 pt=14883 ledger=$4.000 run=$0.071
+   exec 204.6s sims=0 used=0 flag=False out='FOUND: None\nbest: 1.4465928 [0, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 2, 0, 2, 0, 0, 0, 1, 1, 2, 2, 1, 1, 0, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '
+[repeat_seq_04] t12 finish=length err=None ct=16384 pt=15631 ledger=$4.020 run=$0.091
+[repeat_seq_04] t13 finish=stop err=None ct=1488 pt=15667 ledger=$4.022 run=$0.093
+   exec 0.1s sims=0 used=0 flag=False out='t=0: car=[2.8   0.725] green=[2.537 0.735] w13=[3.107 0.75 ] ramp=[2.228 0.558] red=[1.622 0.402] blue=[0.232 0.762]\nt=10: car=[2.626 0.694] green=[2.381 0.788] w13=[2.925 0.618] ramp=[2.228 0.558] re'
+[repeat_seq_04] t14 finish=stop err=None ct=1329 pt=16373 ledger=$4.023 run=$0.095
+   exec 1.7s sims=0 used=0 flag=False out='action 2, T= 256\nt=0: car=[2.8  0.72] green=[2.54 0.73] w13=[3.11 0.75]\nt=16: car=[3.85 0.6 ] green=[3.59 0.61] w13=[4.16 0.62]\nt=32: car=[4.56 0.77] green=[4.35 0.61] w13=[4.78 0.99]\nt=48: car=[4.64 '
+[repeat_seq_04] t15 finish=stop err=None ct=5442 pt=17402 ledger=$4.030 run=$0.102
+   exec 101.0s sims=0 used=0 flag=False out='0 2.305 [0]\n5 2.299 [0, 1, 2, 1, 1, 0]\n10 2.179 [0, 1, 2, 1, 1, 1, 1, 1, 1, 1, 0]\n15 1.977 [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]\n20 1.705 [1, 1, 1, 1, 1, 1, 1, 1, 0, 2, 2, 0]\n25 1.499 [1, 1, 1, 0, 2, 0'
+[repeat_seq_04] t16 finish=stop err=None ct=1807 pt=18258 ledger=$4.033 run=$0.105
+   exec 4.5s sims=0 used=0 flag=False out="2*0+1*32: ('red', 31)\n2*0+1*40: ('red', 31)\n"
+[repeat_seq_04] t17 finish=stop err=None ct=9345 pt=18721 ledger=$4.044 run=$0.116
+   exec 0.1s sims=0 used=0 flag=False out='Traceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker.py", line 90, in <module>\n    exec(compile(req["code"], "<model_code>", "exec"), NS)\n  File "<model_code>", line 21, in <module'
+[repeat_seq_04] t18 finish=stop err=None ct=370 pt=19222 ledger=$4.045 run=$0.117
+   exec 0.1s sims=0 used=0 flag=False out='Traceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker.py", line 90, in <module>\n    exec(compile(req["code"], "<model_code>", "exec"), NS)\n  File "<model_code>", line 22, in <module'
+[repeat_seq_04] t19 finish=stop err=None ct=403 pt=19692 ledger=$4.046 run=$0.118
+   exec 0.1s sims=0 used=0 flag=False out='Traceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker.py", line 90, in <module>\n    exec(compile(req["code"], "<model_code>", "exec"), NS)\n  File "<model_code>", line 22, in <module'
+[repeat_seq_04] t20 finish=stop err=None ct=477 pt=20161 ledger=$4.047 run=$0.118
+   exec 82.3s sims=0 used=0 flag=False out="successes: [(8, 56, ('success', 60, 0.6548697352409363)), (8, 60, ('success', 60, 0.6548697352409363)), (8, 64, ('success', 60, 0.6548697352409363)), (8, 68, ('success', 60, 0.6548697352409363)), (8, "
+[repeat_seq_04] t21 finish=stop err=None ct=403 pt=20806 ledger=$4.048 run=$0.119
+   exec 0.2s sims=0 used=0 flag=False out='t= 0 green=(2.537,0.735) car=(2.800,0.725) w13=(3.107,0.750)\nt= 1 green=(2.538,0.711) car=(2.801,0.716) w13=(3.106,0.758)\nt= 2 green=(2.540,0.673) car=(2.802,0.695) w13=(3.104,0.758)\nt= 3 green=(2.565'
+[repeat_seq_04] t22 finish=stop err=None ct=4737 pt=23167 ledger=$4.054 run=$0.126
+   exec 0.5s sims=0 used=0 flag=False out='t= 0 green=(2.537,0.735) car=(2.800,0.725) argmax=0 p=[1. 0. 0.]\nt= 1 green=(2.538,0.711) car=(2.801,0.716) argmax=0 p=[0.567 0.189 0.244]\nt= 2 green=(2.540,0.673) car=(2.802,0.695) argmax=1 p=[0. 1. '
+[repeat_seq_04] t23 finish=stop err=None ct=15123 pt=25721 ledger=$4.073 run=$0.145
+   exec 0.2s sims=0 used=0 flag=False out='Traceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker.py", line 90, in <module>\n    exec(compile(req["code"], "<model_code>", "exec"), NS)\n  File "<model_code>", line 10, in <module'
+[repeat_seq_04] t24 finish=stop err=None ct=513 pt=26283 ledger=$4.074 run=$0.146
+   exec 93.6s sims=3 used=3 flag=False out='T= 61\nunit 6: corr=0.664 a4[0]=0.998 a4[5]=1.000 a4[15]=0.880 a4[40]=-1.000 headW[0:3]=[ 0.683 -0.638 -0.005]\nunit 7: corr=0.608 a4[0]=0.826 a4[5]=0.635 a4[15]=-0.758 a4[40]=-0.218 headW[0:3]=[-0.039 '
+[repeat_seq_04] t25 finish=stop err=None ct=11400 pt=29828 ledger=$4.089 run=$0.161
+   exec 45.8s sims=0 used=3 flag=False out="green_y<0.62 ('red', 31)\ncarvel>=0 ('timeout', 90)\ngreen_x>2.5 ('timeout', 90)\ncar_x<3.1 ('timeout', 90)\ncarvel>=0.3 ('red', 31)\n"
+SUMMARY {"tag": "repeat_seq_04", "status": "run cap $0.15", "turns": 25, "run_cost": 0.1608, "best": null, "best_test": null, "best_changed": null}

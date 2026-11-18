@@ -1,0 +1,60 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repeat_seq_08] t1 finish=stop err=None ct=1418 pt=6102 ledger=$4.538 run=$0.004
+[repeat_seq_08] t2 finish=stop err=None ct=472 pt=6558 ledger=$4.539 run=$0.004
+[repeat_seq_08] t3 finish=stop err=None ct=259 pt=6851 ledger=$4.539 run=$0.005
+   exec 0.0s sims=0 used=0 flag=False out=''
+[repeat_seq_08] t4 finish=stop err=None ct=212 pt=6901 ledger=$4.539 run=$0.005
+   exec 13.0s sims=0 used=0 flag=False out="{'embed.W': (679, 128), 'embed.b': (128,), 'actor0.W': (128, 128), 'actor0.b': (128,), 'actor1.W': (128, 128), 'actor1.b': (128,), 'actor2.W': (128, 128), 'actor2.b': (128,), 'actor3.W': (128, 128), '"
+[repeat_seq_08] t5 finish=stop err=None ct=1000 pt=7544 ledger=$4.541 run=$0.007
+   exec 0.0s sims=0 used=0 flag=False out=''
+[repeat_seq_08] t6 finish=stop err=None ct=393 pt=7594 ledger=$4.541 run=$0.007
+   exec 0.0s sims=0 used=0 flag=False out=''
+[repeat_seq_08] t7 finish=stop err=None ct=1606 pt=7644 ledger=$4.543 run=$0.009
+   exec 0.0s sims=0 used=0 flag=False out=''
+[repeat_seq_08] t8 finish=stop err=None ct=933 pt=7694 ledger=$4.545 run=$0.010
+   exec 0.1s sims=0 used=0 flag=False out='0 body [2.8  0.72] green [2.54 0.73] dist_gb 2.31\n8 body [2.7  0.67] green [2.45 0.74] dist_gb 2.22\n16 body [2.31 0.82] green [2.11 0.99] dist_gb 1.89\n24 body [1.91 0.98] green [1.66 1.06] dist_gb 1.4'
+[repeat_seq_08] t9 finish=stop err=None ct=194 pt=8054 ledger=$4.545 run=$0.011
+   exec 0.1s sims=0 used=0 flag=False out='obs shape (32, 679) logits shape (32, 3)\n'
+[repeat_seq_08] t10 finish=stop err=None ct=156 pt=8155 ledger=$4.545 run=$0.011
+   exec 0.0s sims=0 used=0 flag=False out=''
+[repeat_seq_08] t11 finish=stop err=None ct=225 pt=8205 ledger=$4.546 run=$0.011
+   exec 0.1s sims=0 used=0 flag=False out='0 body [2.8  0.72] green [2.54 0.73] dist_gb 2.31\n1 body [2.8  0.72] green [2.54 0.74] dist_gb 2.31\n2 body [2.8 0.7] green [2.54 0.74] dist_gb 2.31\n3 body [2.8  0.67] green [2.54 0.73] dist_gb 2.31\n4 '
+[repeat_seq_08] t12 finish=stop err=None ct=1955 pt=9272 ledger=$4.548 run=$0.014
+   exec 0.0s sims=0 used=0 flag=False out=''
+[repeat_seq_08] t13 finish=stop err=None ct=1005 pt=9322 ledger=$4.550 run=$0.015
+   exec 0.0s sims=0 used=0 flag=False out=''
+[repeat_seq_08] t14 finish=stop err=None ct=542 pt=9372 ledger=$4.550 run=$0.016
+   exec 0.0s sims=0 used=0 flag=False out=''
+[repeat_seq_08] t15 finish=stop err=None ct=1174 pt=9422 ledger=$4.552 run=$0.018
+   exec 2.2s sims=0 used=0 flag=False out='always1\nT= 32 first succ None first fail None\nalways2\nT= 256 first succ None first fail None\nalways0\nT= 256 first succ None first fail None\n'
+[repeat_seq_08] t16 finish=stop err=None ct=399 pt=9787 ledger=$4.553 run=$0.018
+   exec 0.1s sims=0 used=0 flag=False out='T= 32\nlast body [1.6121391 0.8182641] green [1.3978152 0.6652699] red [1.6225     0.40249997] blue [0.23251286 0.77250665]\ndg 1.1702262 dr 0.34573293\n'
+[repeat_seq_08] t17 finish=stop err=None ct=2572 pt=10044 ledger=$4.556 run=$0.022
+   exec 5.0s sims=0 used=0 flag=False out='1x5+0                T=256 TIMEOUT  min_dg=2.20 min_dr=0.88 last_g=[3.54 0.62]\n1x10+0               T=256 TIMEOUT  min_dg=1.87 min_dr=0.76 last_g=[3.2  0.61]\n1x15+0               T= 50 FAIL@49  min_dg'
+[repeat_seq_08] t18 finish=stop err=None ct=664 pt=11174 ledger=$4.557 run=$0.023
+   exec 6.3s sims=0 used=0 flag=False out='2x5+1                T= 54 SUCCESS@53  min_dg=0.45 min_dr=0.64 last_g=[0.65 0.61]\n2x10+1               T= 68 SUCCESS@67  min_dg=0.43 min_dr=0.71 last_g=[0.63 0.62]\n2x15+1               T= 75 SUCCESS@7'
+[repeat_seq_08] t19 finish=stop err=None ct=999 pt=12408 ledger=$4.559 run=$0.024
+   exec 0.3s sims=0 used=0 flag=False out='t  body_x body_y angle  green_x green_y  gvel_x gvel_y  dr\n  0   2.80   0.73   0.00    2.54   0.73    0.00   0.00  0.97\n  4   2.87   0.66   0.18    2.61   0.63    1.30  -0.91  1.01\n  8   3.10   0.62  '
+[repeat_seq_08] t20 finish=stop err=None ct=1035 pt=13480 ledger=$4.560 run=$0.026
+   exec 0.0s sims=0 used=0 flag=False out='obs1 body [2.8   0.725] obs2 body [2.8   0.725]\n'
+[repeat_seq_08] t21 finish=stop err=None ct=2832 pt=13776 ledger=$4.564 run=$0.030
+   exec 11.2s sims=0 used=0 flag=False out='1 T 33\n2 T 37\n3 T 40\n4 T 43\n5 S 53\n6 T 52\n7 T 59\n8 T 61\n9 T 64\n10 S 67\n11 S 71\n12 T 74\n13 S 77\n14 S 78\n15 S 74\n16 S 72\n17 S 71\n18 T 72\n19 T 72\n20 S 70\n21 T 70\n22 T 71\n23 T 74\n24 S 76\n25 T 77\n26 T 78\n2'
+[repeat_seq_08] t22 finish=stop err=None ct=1207 pt=14496 ledger=$4.566 run=$0.031
+   exec 0.3s sims=0 used=0 flag=False out='top corr units with body_x:\n106 0.723 range -0.95 1.0\n46 0.687 range -1.0 1.0\n70 -0.558 range -1.0 0.66\n113 0.532 range -1.0 1.0\n100 0.52 range -0.99 1.0\n73 0.492 range -0.32 1.0\n123 -0.492 range -1.0'
+[repeat_seq_08] t23 finish=stop err=None ct=15760 pt=15090 ledger=$4.585 run=$0.051
+   exec 46.2s sims=1 used=1 flag=False out='edits 4606\nstart logits [-20.   0.   1.  10. -10. -10.  10. -10. -10.  10. -10. -10.  10. -10.\n  10. -10.]\nT 84\n0 gvx 0.0 logits [-20.   0.   1.  10. -10. -10.  10. -10. -10.  10. -10. -10.  10. -10.\n'
+[repeat_seq_08] t24 finish=stop err=None ct=1340 pt=16348 ledger=$4.587 run=$0.053
+   exec 1.0s sims=1 used=2 flag=False out='T 256\n0 bx 2.8 gvx 0.0 gx 2.54 dg 2.31\n3 bx 2.8 gvx 0.01 gx 2.54 dg 2.31\n6 bx 2.78 gvx -0.43 gx 2.52 dg 2.29\n9 bx 2.71 gvx -0.81 gx 2.45 dg 2.22\n12 bx 2.59 gvx -1.13 gx 2.35 dg 2.12\n15 bx 2.44 gvx -1.'
+[repeat_seq_08] t25 finish=stop err=None ct=632 pt=17313 ledger=$4.588 run=$0.054
+   exec 1.0s sims=1 used=3 flag=False out='T 256\n0 bx 2.8 gvx 0.0 gx 2.54 dg 2.31\n3 bx 2.83 gvx 0.9 gx 2.57 dg 2.34\n6 bx 2.97 gvx 1.7 gx 2.71 dg 2.49\n9 bx 3.17 gvx 2.08 gx 2.9 dg 2.68\n12 bx 3.42 gvx 2.81 gx 3.16 dg 2.93\n15 bx 3.74 gvx 3.33 gx '
+[repeat_seq_08] t26 finish=stop err=None ct=4934 pt=18628 ledger=$4.595 run=$0.060
+   exec 2.1s sims=0 used=3 flag=False out='2x12+1 thr=3.0 bad=32 first_bad=7 traj=T\n2x12+1 thr=3.3 bad=31 first_bad=11 traj=T\n2x12+1 thr=3.4 bad=31 first_bad=43 traj=T\n2x12+1 thr=3.5 bad=33 first_bad=12 traj=T\n2x12+1 thr=3.6 bad=37 first_bad=1'
+[repeat_seq_08] t27 finish=stop err=None ct=2535 pt=19330 ledger=$4.598 run=$0.064
+   exec 6.5s sims=0 used=3 flag=False out='2x12+1 a=0.1 thr=3.8 bad=41 first=12 traj=T\n2x12+1 a=0.1 thr=4.0 bad=49 first=12 traj=T\n2x12+1 a=0.1 thr=4.2 bad=62 first=12 traj=T\n2x12+1 a=0.1 thr=4.4 bad=62 first=12 traj=T\n2x12+1 a=0.2 thr=3.8 bad'
+[repeat_seq_08] t28 finish=stop err=None ct=1651 pt=20351 ledger=$4.600 run=$0.066
+   exec 5.8s sims=6 used=9 flag=False out='thr 3.0 greedy T T 256 last_bx 3.03 last_dg 2.54\nthr 3.1 greedy T T 256 last_bx 3.35 last_dg 2.86\nthr 3.2 greedy T T 256 last_bx 3.18 last_dg 2.69\nthr 3.3 greedy T T 256 last_bx 3.87 last_dg 3.38\nthr '
+[repeat_seq_08] t29 finish=stop err=None ct=1794 pt=21125 ledger=$4.603 run=$0.069
+   exec 20.6s sims=21 used=30 flag=False out='a=1 thr=3.5: T min_dg=2.309999942779541 min_dr=0.9599999785423279\na=1 thr=4.0: T min_dg=2.309999942779541 min_dr=0.9599999785423279\na=1 thr=4.5: T min_dg=2.309999942779541 min_dr=0.9599999785423279\na='
+[repeat_seq_08] t30 finish=stop err=None ct=6887 pt=22547 ledger=$4.612 run=$0.077
+   exec 14.9s sims=0 used=30 flag=False out='best None\n'
+SUMMARY {"tag": "repeat_seq_08", "status": "max turns", "turns": 30, "run_cost": 0.0775, "best": null, "best_test": null, "best_changed": null}

@@ -1,0 +1,41 @@
+{
+ "tag": "raw1shot_flash_32k",
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+ "rounds_run": 1,
+ "run_cost": 0.123868,
+ "submissions": [
+  {
+   "round": 1,
+   "search": 0.0,
+   "search_successes": 0,
+   "changed": 386
+  }
+ ],
+ "args": {
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "tag": "raw1shot_flash_32k",
+  "rounds": 1,
+  "max_tokens": 32768,
+  "wall": 1500,
+  "run_cap": 1.5
+ },
+ "best": {
+  "round": 1,
+  "search": 0.0,
+  "search_successes": 0,
+  "changed": 386
+ },
+ "best_test": {
+  "episodes": 1024,
+  "successes": 0,
+  "success": 0.0,
+  "red": 1.0,
+  "timeout": 0.0,
+  "return": -0.7675310969352722
+ },
+ "best_changed": {
+  "changed": 386,
+  "entries": 171664,
+  "frac": 0.0022485786186969897
+ }
+}

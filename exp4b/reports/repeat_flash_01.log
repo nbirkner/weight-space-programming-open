@@ -1,0 +1,46 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repeat_flash_01] t1 finish=stop err=None ct=2395 pt=6102 ledger=$3.488 run=$0.005
+   exec 10.4s sims=0 used=0 flag=False out="{'embed.W': (679, 128), 'embed.b': (128,), 'actor0.W': (128, 128), 'actor0.b': (128,), 'actor1.W': (128, 128), 'actor1.b': (128,), 'actor2.W': (128, 128), 'actor2.b': (128,), 'actor3.W': (128, 128), '"
+[repeat_flash_01] t2 finish=stop err=None ct=836 pt=6873 ledger=$3.491 run=$0.008
+   exec 1.5s sims=0 used=0 flag=False out='1x64           min_d=1.170 t=31 final_car=(1.61,0.82) final_green=(1.40,0.67)\n1x96           min_d=1.170 t=31 final_car=(1.61,0.82) final_green=(1.40,0.67)\n1x128          min_d=1.170 t=31 final_car=(1'
+[repeat_flash_01] t3 finish=stop err=None ct=1450 pt=7707 ledger=$3.493 run=$0.010
+   exec 0.2s sims=0 used=0 flag=False out='0 car=(2.80,0.73,a=0.00) g=(2.54,0.73) w13=(3.11,0.75)\n8 car=(2.70,0.67,a=-0.24) g=(2.45,0.74) w13=(3.00,0.62)\n16 car=(2.31,0.82,a=-0.64) g=(2.11,0.99) w13=(2.57,0.66)\n24 car=(1.91,0.98,a=-0.27) g=(1.'
+[repeat_flash_01] t4 finish=stop err=None ct=332 pt=8261 ledger=$3.494 run=$0.010
+   exec 0.2s sims=0 used=0 flag=False out='shape (32, 679)\n0 car=(2.80,0.73,a=0.00) g=(2.54,0.73) w13=(3.11,0.75)\n4 car=(2.79,0.65,a=-0.20) g=(2.54,0.71) w13=(3.10,0.61)\n8 car=(2.70,0.67,a=-0.24) g=(2.45,0.74) w13=(3.00,0.62)\n12 car=(2.53,0.73'
+[repeat_flash_01] t5 finish=stop err=None ct=1290 pt=8737 ledger=$3.495 run=$0.012
+   exec 4.2s sims=1 used=1 flag=False out="{'episodes': 1, 'successes': 0, 'success': 0.0, 'red': 0.0, 'timeout': 1.0, 'return': 0.15207606554031372, 'trace_ep0': 'step | body x,y | green wheel x,y | wheel x,y | action0 | p(0/1/2)\\n   0 | 2.80"
+[repeat_flash_01] t6 finish=stop err=None ct=2817 pt=9753 ledger=$3.499 run=$0.016
+   exec 267.9s sims=None used=None flag=False out='[timed out after 240s; the python state was reset]'
+[repeat_flash_01] t7 finish=stop err=None ct=2434 pt=10145 ledger=$3.502 run=$0.019
+   exec 8.6s sims=0 used=1 flag=False out='16 (16, 679) last green=(2.16,0.95)\n32 (32, 679) last green=(1.40,0.67)\n48 (32, 679) last green=(1.40,0.67)\n64 (32, 679) last green=(1.40,0.67)\n'
+[repeat_flash_01] t8 finish=stop err=None ct=4044 pt=10336 ledger=$3.507 run=$0.024
+   exec 10.2s sims=0 used=1 flag=True out='a4 range -0.9999999626387871 0.9999919908214708\nhead W col1 max abs 0.669 sum -2.992000000000001\nhead b [ 0.031  0.052 -0.194  0.002 -0.023  0.025 -0.012  0.014  0.     0.108\n -0.092 -0.006  0.005 -0.'
+[repeat_flash_01] t9 finish=stop err=None ct=2446 pt=11002 ledger=$3.511 run=$0.027
+   exec 15.4s sims=1 used=2 flag=False out="{'episodes': 64, 'successes': 0, 'success': 0.0, 'red': 1.0, 'timeout': 0.0, 'return': -0.7675309777259827}\n"
+[repeat_flash_01] t10 finish=stop err=None ct=402 pt=11229 ledger=$3.511 run=$0.028
+   exec 4.0s sims=1 used=3 flag=False out='step | body x,y | green wheel x,y | wheel x,y | action0 | p(0/1/2)\n   0 | 2.80,0.72 | 2.54,0.74 | 3.11,0.73 | 1 | 0.00/1.00/0.00\n  16 | 2.26,0.86 | 2.05,1.02 | 2.52,0.70 | 1 | 0.00/1.00/0.00\n  32 | 1.'
+[repeat_flash_01] t11 finish=stop err=None ct=3705 pt=12168 ledger=$3.516 run=$0.033
+   exec 9.2s sims=0 used=3 flag=False out='final_g=(1.40,0.67) gxmin=1.40 gymax=1.09 a=0 b=1 k=0\nfinal_g=(1.40,0.67) gxmin=1.40 gymax=1.09 a=1 b=0 k=32\nfinal_g=(1.40,0.67) gxmin=1.40 gymax=1.09 a=1 b=1 k=0\nfinal_g=(1.40,0.67) gxmin=1.40 gymax='
+[repeat_flash_01] t12 finish=stop err=None ct=1158 pt=13087 ledger=$3.518 run=$0.034
+   exec 0.1s sims=0 used=3 flag=False out='0 car=(2.80,0.73,a=0.00) g=(2.54,0.73) w13=(3.11,0.75) bodyvel=(0.00,0.00)\n2 car=(2.80,0.70,a=-0.12) g=(2.54,0.74) w13=(3.11,0.69) bodyvel=(-0.02,-0.61)\n4 car=(2.79,0.65,a=-0.20) g=(2.54,0.71) w13=(3.'
+[repeat_flash_01] t13 finish=stop err=None ct=5405 pt=14076 ledger=$3.525 run=$0.041
+   exec 35.4s sims=0 used=3 flag=False out='gx=1.40 gy=0.67 gvx=-0.67 a=1 b=0 k=30\ngx=1.40 gy=0.67 gvx=-0.67 a=0 b=1 k=0\ngx=1.40 gy=0.67 gvx=-0.67 a=1 b=0 k=32\ngx=1.40 gy=0.67 gvx=-0.67 a=1 b=1 k=0\ngx=1.40 gy=0.67 gvx=-0.67 a=1 b=1 k=2\ngx=1.40 '
+[repeat_flash_01] t14 finish=stop err=None ct=2059 pt=15253 ledger=$3.528 run=$0.044
+   exec 88.9s sims=0 used=3 flag=False out='gx=1.39 a=2 b=1 k=1\ngx=1.40 a=1 b=0 k=29\ngx=1.40 a=1 b=0 k=30\ngx=1.40 a=0 b=1 k=0\ngx=1.40 a=1 b=0 k=31\ngx=1.40 a=1 b=0 k=32\ngx=1.40 a=1 b=1 k=0\ngx=1.40 a=1 b=1 k=1\ngx=1.40 a=1 b=1 k=2\ngx=1.40 a=1 b=1 '
+[repeat_flash_01] t15 finish=stop err=None ct=14002 pt=15992 ledger=$3.545 run=$0.061
+   exec 22.7s sims=3 used=6 flag=False out='T=3.5 success=0.000 red=0.000 timeout=1.000 ret=-0.174\nT=4.0 success=0.000 red=0.000 timeout=1.000 ret=-0.273\nT=4.5 success=0.000 red=0.000 timeout=1.000 ret=-0.333\n'
+[repeat_flash_01] t16 finish=stop err=None ct=5618 pt=16538 ledger=$3.552 run=$0.068
+   exec 30.5s sims=4 used=10 flag=False out='T=1.3 hi=1 lo=0  succ=0.000 red=1.000 to=0.000 ret=-0.768\nT=1.3 hi=1 lo=2  succ=0.000 red=1.000 to=0.000 ret=-0.768\nT=1.5 hi=1 lo=0  succ=0.000 red=1.000 to=0.000 ret=-0.778\nT=1.3 hi=2 lo=1  succ=0.00'
+[repeat_flash_01] t17 finish=stop err=None ct=4581 pt=17233 ledger=$3.558 run=$0.074
+   exec 23.3s sims=4 used=14 flag=False out='step | body x,y | green wheel x,y | wheel x,y | action0 | p(0/1/2)\n   0 | 2.80,0.72 | 2.54,0.74 | 3.11,0.73 | 1 | 0.00/1.00/0.00\n  16 | 2.26,0.86 | 2.05,1.02 | 2.52,0.70 | 1 | 0.00/1.00/0.00\n  32 | 1.'
+[repeat_flash_01] t18 finish=stop err=None ct=8194 pt=18593 ledger=$3.568 run=$0.085
+   exec 23.2s sims=3 used=17 flag=False out='car pos 1.61,0.82 sin,cos 0.61,0.79\npoly 0 pos 2.50,-4.80 sin,cos 1.00,1.00\npoly 4 pos 0.23,0.77 sin,cos 1.00,1.00\npoly 5 pos 1.61,0.82 sin,cos 0.79,1.00\npoly 6 pos 2.23,0.56 sin,cos 0.58,1.00\npoly 7 '
+[repeat_flash_01] t19 finish=stop err=None ct=3193 pt=19423 ledger=$3.572 run=$0.089
+   exec 30.8s sims=4 used=21 flag=False out='R=3.5 succ=0.000 red=0.000 to=1.000 ret=-0.295\nR=4.0 succ=0.000 red=0.000 to=1.000 ret=-0.287\nR=4.5 succ=0.000 red=0.000 to=1.000 ret=-0.385\nR=5.0 succ=0.000 red=0.000 to=1.000 ret=-0.457\n'
+[repeat_flash_01] t20 finish=stop err=None ct=6025 pt=19906 ledger=$3.580 run=$0.096
+   exec 11.0s sims=0 used=21 flag=False out="((np.float32(1.3929228), np.float32(0.7707103), np.float32(1.3929228), np.float32(0.7707103)), ('2^k1', 1))\n((np.float32(1.3978152), np.float32(0.6652699), np.float32(1.3978152), np.float32(0.6652699)"
+[repeat_flash_01] t21 finish=stop err=None ct=1684 pt=20992 ledger=$3.582 run=$0.099
+   exec 0.3s sims=1 used=22 flag=False out='step | body x,y | green wheel x,y | wheel x,y | action0 | p(0/1/2)\n   0 | 2.80,0.72 | 2.54,0.71 | 3.11,0.76 | 2 | 0.00/0.13/0.87\n  16 | 3.97,0.60 | 3.71,0.61 | 4.28,0.62 | 2 | 0.00/0.00/1.00\n  32 | 4.'
+[repeat_flash_01] t22 finish=stop err=None ct=5088 pt=22134 ledger=$3.589 run=$0.105
+   exec 31.2s sims=4 used=26 flag=False out='T=1.5 succ=0.000 red=1.000 to=0.000 ret=-0.784\nT=1.7 succ=0.000 red=1.000 to=0.000 ret=-0.794\nT=1.9 succ=0.000 red=1.000 to=0.000 ret=-0.811\nT=2.1 succ=0.000 red=0.750 to=0.250 ret=-0.591\n'
+SUMMARY {"tag": "repeat_flash_01", "status": "run cap $0.1", "turns": 22, "run_cost": 0.1055, "best": null, "best_test": null, "best_changed": null}

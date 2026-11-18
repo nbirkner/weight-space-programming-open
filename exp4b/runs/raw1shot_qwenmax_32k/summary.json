@@ -1,0 +1,42 @@
+{
+ "tag": "raw1shot_qwenmax_32k",
+ "model": "Qwen/Qwen3.7-Max",
+ "rounds_run": 1,
+ "run_cost": 1.317962,
+ "submissions": [
+  {
+   "round": 1,
+   "search": 0.0,
+   "search_successes": 0,
+   "changed": 1275
+  }
+ ],
+ "args": {
+  "model": "Qwen/Qwen3.7-Max",
+  "tag": "raw1shot_qwenmax_32k",
+  "rounds": 1,
+  "max_tokens": 32768,
+  "wall": 1500,
+  "prompt_file": null,
+  "run_cap": 2.0
+ },
+ "best": {
+  "round": 1,
+  "search": 0.0,
+  "search_successes": 0,
+  "changed": 1275
+ },
+ "best_test": {
+  "episodes": 1024,
+  "successes": 0,
+  "success": 0.0,
+  "red": 0.0,
+  "timeout": 1.0,
+  "return": -0.33435168862342834
+ },
+ "best_changed": {
+  "changed": 1275,
+  "entries": 171664,
+  "frac": 0.007427299841550937
+ }
+}

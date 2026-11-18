@@ -1,0 +1,45 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repeat_seq_06] t1 finish=stop err=None ct=2464 pt=6102 ledger=$4.165 run=$0.005
+   exec 9.6s sims=0 used=0 flag=False out='Shapes:\nembed.W (679, 128)\nembed.b (128,)\nactor0.W (128, 128)\nactor0.b (128,)\nactor1.W (128, 128)\nactor1.b (128,)\nactor2.W (128, 128)\nactor2.b (128,)\nactor3.W (128, 128)\nactor3.b (128,)\nactor4.W (128,'
+[repeat_seq_06] t2 finish=stop err=None ct=577 pt=7422 ledger=$4.166 run=$0.006
+   exec 0.1s sims=0 used=0 flag=False out='t=  0 poly5 (2.800,0.725,0.00) c12 (2.537,0.735) c13 (3.107,0.750) poly4 (0.232,0.762)\nt=  8 poly5 (2.700,0.667,-0.24) c12 (2.447,0.740) c13 (3.004,0.617) poly4 (0.233,0.772)\nt= 16 poly5 (2.310,0.823,'
+[repeat_seq_06] t3 finish=stop err=None ct=556 pt=8038 ledger=$4.167 run=$0.007
+   exec 0.1s sims=0 used=0 flag=False out='episode length: 32\nlast: poly5 (1.612,0.818) c12 (1.398,0.665) c13 (1.841,1.027) poly4 (0.233,0.773)\ndist c12-poly4: 1.1702262\npoly7 (red): 1.6225 0.40249997\n'
+[repeat_seq_06] t4 finish=stop err=None ct=4878 pt=8428 ledger=$4.173 run=$0.013
+   exec 35.8s sims=0 used=0 flag=False out='len 32\nt=  0 body (2.800,0.725) ang=0.000 c12 (2.537,0.735) c13 (3.107,0.750)\nt=  2 body (2.799,0.701) ang=-0.124 c12 (2.539,0.743) c13 (3.107,0.688)\nt=  4 body (2.793,0.647) ang=-0.197 c12 (2.538,0.7'
+[repeat_seq_06] t5 finish=stop err=None ct=865 pt=9595 ledger=$4.174 run=$0.014
+   exec 0.4s sims=0 used=0 flag=False out='len 103\nt=  0 a=1 c12 (2.537,0.735) dblue=2.098 dred=0.552\nt=  1 a=1 c12 (2.538,0.743) dblue=2.099 dred=0.556\nt=  2 a=1 c12 (2.539,0.743) dblue=2.100 dred=0.557\nt=  3 a=1 c12 (2.542,0.732) dblue=2.103'
+[repeat_seq_06] t6 finish=stop err=None ct=10547 pt=12996 ledger=$4.188 run=$0.028
+   exec 0.4s sims=0 used=0 flag=False out='T = 103\n  0 a=1 n=0 x=2.54 y=0.73 b=0.00 lg=[13.1,-7.9,-9.3]\n  1 a=1 n=1 x=2.54 y=0.74 b=-0.06 lg=[3.7,3.7,-16.1]\n  2 a=1 n=0 x=2.54 y=0.74 b=-0.12 lg=[8.8,-1.2,-16.2]\n  3 a=1 n=1 x=2.54 y=0.73 b=-0.1'
+[repeat_seq_06] t7 finish=stop err=None ct=10340 pt=17081 ledger=$4.202 run=$0.042
+   exec 271.4s sims=None used=None flag=False out='[timed out after 240s; the python state was reset]'
+[repeat_seq_06] t8 finish=stop err=None ct=6411 pt=17575 ledger=$4.210 run=$0.050
+   exec 100.6s sims=0 used=0 flag=False out='num success: 20\n(5, 40, 40, (True, 93, 0.19698001444339752, 0.5663736462593079))\n(5, 40, 50, (True, 93, 0.1963193565607071, 0.567112147808075))\n(5, 40, 60, (True, 93, 0.1963193565607071, 0.56711214780'
+[repeat_seq_06] t9 finish=stop err=None ct=5194 pt=18669 ledger=$4.216 run=$0.057
+   exec 0.4s sims=0 used=0 flag=False out='T= 103\n  0 a=1 x=2.80 y=0.73 vx=0.00 vy=0.00 ang=0.00 av=0.00\n  1 a=1 x=2.80 y=0.72 vx=-0.02 vy=-0.28 ang=-0.06 av=-0.21\n  2 a=1 x=2.80 y=0.70 vx=-0.02 vy=-0.61 ang=-0.12 av=-0.20\n  3 a=1 x=2.80 y=0.6'
+[repeat_seq_06] t10 finish=length err=None ct=16384 pt=22298 ledger=$4.237 run=$0.077
+[repeat_seq_06] t11 finish=stop err=None ct=5742 pt=22334 ledger=$4.244 run=$0.084
+   exec 269.7s sims=None used=None flag=False out='[timed out after 240s; the python state was reset]'
+[repeat_seq_06] t12 finish=stop err=None ct=5878 pt=22989 ledger=$4.252 run=$0.092
+   exec 25.1s sims=0 used=0 flag=False out='gx>1.5 (False, 0.959, 0.213, 32)\ngx>2.0 (False, 1.133, 0.226, 30)\ngx>2.5 (False, 1.772, 0.458, 256)\ngx>3.0 (False, 2.044, 0.499, 256)\ngy<1.0 (False, 1.172, 0.231, 31)\nang<0.3 (False, 0.953, 0.217, 76)'
+[repeat_seq_06] t13 finish=stop err=None ct=3845 pt=24002 ledger=$4.257 run=$0.097
+   exec 268.9s sims=None used=None flag=False out='[timed out after 240s; the python state was reset]'
+[repeat_seq_06] t14 finish=stop err=None ct=2835 pt=24925 ledger=$4.261 run=$0.101
+   exec 8.3s sims=0 used=0 flag=False out='WIN traj:\n  0 a=1 gx=2.54 gy=0.73 gvx=0.00 gvy=0.00 bx=2.80 by=0.73 ang=0.00\n  1 a=1 gx=2.54 gy=0.74 gvx=0.01 gvy=0.27 bx=2.80 by=0.72 ang=-0.06\n  2 a=1 gx=2.54 gy=0.74 gvx=0.05 gvy=-0.08 bx=2.80 by=0'
+[repeat_seq_06] t15 finish=stop err=None ct=5222 pt=30148 ledger=$4.269 run=$0.109
+   exec 67.4s sims=0 used=0 flag=False out='gx>2.2 (False, 1.237, 0.209, 50)\ngx>2.3 (False, 1.396, 0.459, 256)\ngx>2.35 (False, 1.573, 0.459, 256)\ngx>2.4 (False, 1.646, 0.459, 256)\ngx>2.45 (False, 1.682, 0.458, 256)\ngx>2.5 (False, 1.772, 0.458, '
+[repeat_seq_06] t16 finish=stop err=None ct=3407 pt=32002 ledger=$4.273 run=$0.114
+   exec 0.6s sims=0 used=0 flag=False out='Traceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker.py", line 90, in <module>\n    exec(compile(req["code"], "<model_code>", "exec"), NS)\n  File "<model_code>", line 6, in <module>'
+[repeat_seq_06] t17 finish=stop err=None ct=215 pt=32393 ledger=$4.274 run=$0.114
+   exec 0.4s sims=0 used=0 flag=False out='Traceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker.py", line 90, in <module>\n    exec(compile(req["code"], "<model_code>", "exec"), NS)\n  File "<model_code>", line 7, in <module>'
+[repeat_seq_06] t18 finish=stop err=None ct=360 pt=32715 ledger=$4.275 run=$0.115
+   exec 0.3s sims=0 used=0 flag=False out='agree: 35 / 103\n  0 a=1 g=0 lg=13.1,-7.9,-9.3 gx=2.54 gy=0.73 gvx=0.00 gvy=0.00\n  3 a=1 g=1 lg=1.6,5.6,-15.8 gx=2.54 gy=0.73 gvx=0.08 gvy=-0.42\n  6 a=1 g=1 lg=-2.4,9.4,-16.8 gx=2.50 gy=0.70 gvx=-0.63 '
+[repeat_seq_06] t19 finish=stop err=None ct=10617 pt=34576 ledger=$4.288 run=$0.128
+   exec 12.4s sims=0 used=0 flag=False out='R1 (True, 0.203, 0.29, 101)\nR2 (False, 0.602, 0.239, 96)\nR3 (False, 0.602, 0.239, 96)\nR4 (False, 1.035, 0.207, 31)\nR5 (True, 0.198, 0.29, 101)\nR6 (True, 0.203, 0.29, 101)\n'
+[repeat_seq_06] t20 finish=stop err=None ct=4489 pt=35564 ledger=$4.294 run=$0.134
+   exec 14.8s sims=0 used=0 flag=False out='gx>2.9|gvx<-1.4 (False, 0.685, 0.197, 61)\ngx>3.0|gvx<-1.5 (True, 0.211, 0.241, 72)\ngx>3.0|gvx<-1.3 (True, 0.197, 0.263, 124)\ngx>3.0|gvx<-1.5|gx>2.4&gvx<0.5 (True, 0.203, 0.29, 101)\ngx>3.0|gvx<-1.5|gx>'
+[repeat_seq_06] t21 finish=stop err=None ct=7346 pt=36922 ledger=$4.304 run=$0.144
+   exec 16.6s sims=2 used=2 flag=False out="greedy: {'episodes': 1, 'successes': 0, 'success': 0.0, 'red': 1.0, 'timeout': 0.0, 'return': -0.77997887134552, 'trace_ep0': 'step | body x,y | green wheel x,y | wheel x,y | action0 | p(0/1/2)\\n   0 "
+[repeat_seq_06] t22 finish=stop err=None ct=1515 pt=39100 ledger=$4.317 run=$0.157
+   exec 8.7s sims=3 used=5 flag=False out='greedy: 0.0 0.0\nsim64: 0.0\n'
+SUMMARY {"tag": "repeat_seq_06", "status": "run cap $0.15", "turns": 22, "run_cost": 0.1574, "best": null, "best_test": null, "best_changed": null}

@@ -1,0 +1,192 @@
+{
+ "astra": {
+  "file": "lm_understand-logs/exp4_fix_car/networks/edited_actor.npz",
+  "fresh_seed_424242": {
+   "episodes": 1024,
+   "successes": 1024,
+   "success": 1.0,
+   "red": 0.0,
+   "timeout": 0.0,
+   "return": 1.373849868774414
+  },
+  "fresh_seed_99": {
+   "episodes": 1024,
+   "successes": 1024,
+   "success": 1.0,
+   "red": 0.0,
+   "timeout": 0.0,
+   "return": 1.373849868774414
+  },
+  "greedy_success": 1.0,
+  "changed": {
+   "changed": 6073,
+   "entries": 171664,
+   "frac": 0.035377248578618695
+  },
+  "per_tensor_changed": {
+   "embed.W": 1887,
+   "embed.b": 1,
+   "actor0.W": 1132,
+   "actor0.b": 6,
+   "actor1.W": 1255,
+   "actor1.b": 4,
+   "actor2.W": 760,
+   "actor2.b": 2,
+   "actor3.W": 507,
+   "actor3.b": 2,
+   "actor4.W": 506,
+   "actor4.b": 2,
+   "actor_head.W": 6,
+   "actor_head.b": 3
+  }
+ },
+ "repair_flash_1": {
+  "file": "runs/repair_flash_1/submission_t13.npz",
+  "fresh_seed_424242": {
+   "episodes": 1024,
+   "successes": 1024,
+   "success": 1.0,
+   "red": 0.0,
+   "timeout": 0.0,
+   "return": 1.374774694442749
+  },
+  "fresh_seed_99": {
+   "episodes": 1024,
+   "successes": 1024,
+   "success": 1.0,
+   "red": 0.0,
+   "timeout": 0.0,
+   "return": 1.3747764825820923
+  },
+  "greedy_success": 1.0,
+  "changed": {
+   "changed": 2957,
+   "entries": 171664,
+   "frac": 0.017225510299189114
+  },
+  "per_tensor_changed": {
+   "embed.W": 1280,
+   "embed.b": 2,
+   "actor0.W": 256,
+   "actor0.b": 2,
+   "actor1.W": 256,
+   "actor1.b": 2,
+   "actor2.W": 256,
+   "actor2.b": 2,
+   "actor3.W": 256,
+   "actor3.b": 2,
+   "actor4.W": 255,
+   "actor4.b": 2,
+   "actor_head.W": 383,
+   "actor_head.b": 3
+  }
+ },
+ "tools_flash_1": {
+  "file": "runs/tools_flash_1/submission_t21.npz",
+  "fresh_seed_424242": {
+   "episodes": 1024,
+   "successes": 1024,
+   "success": 1.0,
+   "red": 0.0,
+   "timeout": 0.0,
+   "return": 1.3729721307754517
+  },
+  "fresh_seed_99": {
+   "episodes": 1024,
+   "successes": 1024,
+   "success": 1.0,
+   "red": 0.0,
+   "timeout": 0.0,
+   "return": 1.372971773147583
+  },
+  "greedy_success": 1.0,
+  "changed": {
+   "changed": 165103,
+   "entries": 171664,
+   "frac": 0.9617799888153602
+  },
+  "per_tensor_changed": {
+   "embed.W": 80585,
+   "embed.b": 88,
+   "actor0.W": 16340,
+   "actor0.b": 128,
+   "actor1.W": 16351,
+   "actor1.b": 128,
+   "actor2.W": 16342,
+   "actor2.b": 128,
+   "actor3.W": 16349,
+   "actor3.b": 128,
+   "actor4.W": 16349,
+   "actor4.b": 128,
+   "actor_head.W": 2044,
+   "actor_head.b": 15
+  }
+ },
+ "comp_fb_flash": {
+  "file": "runs/comp_fb_flash_32k/edit_r3.npz",
+  "fresh_seed_424242": {
+   "episodes": 1024,
+   "successes": 1021,
+   "success": 0.9970703125,
+   "red": 0.0029296875,
+   "timeout": 0.0,
+   "return": 1.367039442062378
+  },
+  "fresh_seed_99": {
+   "episodes": 1024,
+   "successes": 1020,
+   "success": 0.99609375,
+   "red": 0.00390625,
+   "timeout": 0.0,
+   "return": 1.3650298118591309
+  },
+  "greedy_success": 1.0,
+  "changed": {
+   "changed": 165102,
+   "entries": 171664,
+   "frac": 0.9617741634821512
+  },
+  "per_tensor_changed": {
+   "embed.W": 80585,
+   "embed.b": 88,
+   "actor0.W": 16339,
+   "actor0.b": 128,
+   "actor1.W": 16351,
+   "actor1.b": 128,
+   "actor2.W": 16342,
+   "actor2.b": 128,
+   "actor3.W": 16349,
+   "actor3.b": 128,
+   "actor4.W": 16349,
+   "actor4.b": 128,
+   "actor_head.W": 2044,
+   "actor_head.b": 15
+  }
+ },
+ "base": {
+  "file": "networks/base_shown.npz",
+  "fresh_seed_424242": {
+   "episodes": 1024,
+   "successes": 0,
+   "success": 0.0,
+   "red": 0.0,
+   "timeout": 1.0,
+   "return": 0.15194235742092133
+  },
+  "fresh_seed_99": {
+   "episodes": 1024,
+   "successes": 0,
+   "success": 0.0,
+   "red": 0.0,
+   "timeout": 1.0,
+   "return": 0.151889830827713
+  },
+  "greedy_success": 0.0,
+  "changed": {
+   "changed": 0,
+   "entries": 171664,
+   "frac": 0.0
+  },
+  "per_tensor_changed": {}
+ }
+}

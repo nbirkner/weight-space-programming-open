@@ -1,0 +1,22 @@
+{
+ "tag": "repeat_seq_08",
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+ "status": "max turns",
+ "turns": 30,
+ "run_cost": 0.0775,
+ "submissions": [],
+ "best": null,
+ "args": {
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "tag": "repeat_seq_08",
+  "max_turns": 30,
+  "passes": 30,
+  "max_tokens": 16384,
+  "feedback_rounds": 3,
+  "run_cap": 0.15,
+  "wall": 600,
+  "mock": null,
+  "max_changed": 8600,
+  "seed": 208
+ }
+}

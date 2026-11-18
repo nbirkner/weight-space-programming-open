@@ -1,0 +1,56 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repeat_seq_09] t1 finish=stop err=None ct=7964 pt=6102 ledger=$4.621 run=$0.010
+   exec 14.5s sims=0 used=0 flag=False out="{'embed.W': (679, 128), 'embed.b': (128,), 'actor0.W': (128, 128), 'actor0.b': (128,), 'actor1.W': (128, 128), 'actor1.b': (128,), 'actor2.W': (128, 128), 'actor2.b': (128,), 'actor3.W': (128, 128), '"
+[repeat_seq_09] t2 finish=stop err=None ct=10325 pt=13259 ledger=$4.636 run=$0.024
+   exec 1.2s sims=0 used=0 flag=False out='0 const: red=False(t=-1) blue=False(t=-1) dmin=2.305 final green=(3.71,0.62) body=(3.97,0.60,a=-0.01)\n1 const: red=True(t=31) blue=False(t=-1) dmin=1.170 final green=(1.40,0.67) body=(1.61,0.82,a=0.66'
+[repeat_seq_09] t3 finish=stop err=None ct=10154 pt=14387 ledger=$4.649 run=$0.037
+   exec 13.5s sims=0 used=0 flag=False out='action 1 trace (i, body_x, body_y, green_x, green_y, w13_x, w13_y):\n0 2.80 0.73 2.54 0.73 3.11 0.75\n1 2.80 0.72 2.54 0.74 3.11 0.73\n2 2.80 0.70 2.54 0.74 3.11 0.69\n3 2.80 0.67 2.54 0.73 3.10 0.64\n4 2.'
+[repeat_seq_09] t4 finish=stop err=None ct=828 pt=16526 ledger=$4.650 run=$0.039
+   exec 27.9s sims=0 used=0 flag=False out='2*k+1:\n  k=2: RED at 36\n  k=3: NONE at 256\n  k=4: NONE at 256\n  k=5: RED at 48\n  k=6: RED at 51\n  k=7: RED at 54\n  k=8: RED at 56\n  k=9: RED at 59\n  k=10: SUCCESS at 67\n  k=11: SUCCESS at 71\n  k=12: N'
+[repeat_seq_09] t5 finish=stop err=None ct=7492 pt=17518 ledger=$4.660 run=$0.048
+   exec 40.7s sims=0 used=0 flag=False out='2*10+1 trace (i, body_x, body_y, green_x, green_y, w13_x, w13_y):\n0 2.80 0.73 2.537 0.735 3.107 0.750\n1 2.80 0.72 2.538 0.711 3.106 0.758\n2 2.80 0.70 2.540 0.673 3.104 0.758\n3 2.83 0.68 2.565 0.654 3.'
+[repeat_seq_09] t6 finish=stop err=None ct=2047 pt=20063 ledger=$4.663 run=$0.051
+   exec 278.5s sims=None used=None flag=False out='[timed out after 240s; the python state was reset]'
+[repeat_seq_09] t7 finish=stop err=None ct=6511 pt=20758 ledger=$4.671 run=$0.059
+   exec 39.1s sims=0 used=0 flag=False out="gx<2.8 & vx>=0 -> 2 : ('RED', 56) conv=True\ngx<2.9 & vx>=0 -> 2 : ('RED', 59) conv=True\ngx<3.0 & vx>=0 -> 2 : ('SUCCESS', 71) conv=True\ngx<2.8 -> 2 : ('NONE', 256) conv=False\ngx<2.9 -> 2 : ('NONE', 25"
+[repeat_seq_09] t8 finish=stop err=None ct=2292 pt=21391 ledger=$4.674 run=$0.063
+   exec 1.0s sims=0 used=0 flag=False out="policy: ('SUCCESS', 71) conv: True\n0 bx=2.80 by=0.73 gx=2.537 gy=0.735 gvx=0.00 gvy=0.00 w13x=3.11\n3 bx=2.83 by=0.68 gx=2.565 gy=0.654 gvx=0.90 gvy=-0.61 w13x=3.13\n6 bx=2.97 by=0.64 gx=2.712 gy=0.610 "
+[repeat_seq_09] t9 finish=stop err=None ct=10771 pt=22955 ledger=$4.688 run=$0.076
+   exec 9.2s sims=0 used=0 flag=False out="gvx>=0: ('NONE', 71) conv=True\ngvx>=-0.1: ('NONE', 71) conv=True\ngvx>=0.1: ('RED', 31) conv=True\ngvx>=-0.3: ('NONE', 71) conv=True\ngx<3 & gvx>=0: ('SUCCESS', 71) conv=True\ngx<3.5 & gvx>=0: ('RED', 68)"
+[repeat_seq_09] t10 finish=stop err=None ct=1600 pt=23936 ledger=$4.690 run=$0.078
+   exec 1.0s sims=0 used=0 flag=False out='top corr with target:\n  unit 110: corr_t=-0.796 corr_gx=0.143 corr_vx=-0.403\n  unit 6: corr_t=0.605 corr_gx=0.277 corr_vx=0.877\n  unit 63: corr_t=-0.535 corr_gx=-0.516 corr_vx=-0.822\n  unit 74: corr_t'
+[repeat_seq_09] t11 finish=stop err=None ct=4520 pt=25563 ledger=$4.696 run=$0.085
+   exec 1.0s sims=0 used=0 flag=False out='T= 72 conv= True num action2 steps: 11\nunit 6: act2_mean=0.976 act1_mean=-0.463 range=[-1.000,1.000]\nunit 4: act2_mean=0.879 act1_mean=-0.347 range=[-0.999,1.000]\nunit 14: act2_mean=1.000 act1_mean=-0'
+[repeat_seq_09] t12 finish=stop err=None ct=2597 pt=26710 ledger=$4.700 run=$0.088
+   exec 5.7s sims=0 used=0 flag=False out="converged at iter 12\nedited greedy outcome: ('NONE', 71)\nscore on act2 steps: 1.4071871753251166 1.9999278007659391\nscore on act1 steps: -1.9999320433684726 1.999678389082012\n"
+[repeat_seq_09] t13 finish=stop err=None ct=1786 pt=27769 ledger=$4.703 run=$0.091
+   exec 0.9s sims=0 used=0 flag=False out='score act2: 4.345144993011441 9.713890203494906\nscore act1: -9.892592691156125 8.582247363099542\nthr: 6.463696178055492 sep ok: False\ns2 act2: 5.247703348813841 10.348763369235119 act1: -10.8112597560'
+[repeat_seq_09] t14 finish=stop err=None ct=1574 pt=28740 ledger=$4.705 run=$0.093
+   exec 9.1s sims=0 used=0 flag=False out="gx<3 & gvx>=0: ('SUCCESS', 71) conv=True\ngx<3.05 & gvx>=0: ('SUCCESS', 71) conv=True\ngx<3.1 & gvx>=0: ('NONE', 74) conv=True\ngx<3.2 & gvx>=0: ('SUCCESS', 77) conv=True\ngx<3.0 & gvx>=-0.2: ('SUCCESS', "
+[repeat_seq_09] t15 finish=stop err=None ct=1846 pt=29850 ledger=$4.708 run=$0.096
+   exec 1.2s sims=0 used=0 flag=False out='num separable pairs: 0\n'
+[repeat_seq_09] t16 finish=stop err=None ct=2405 pt=30564 ledger=$4.711 run=$0.099
+   exec 0.9s sims=0 used=0 flag=False out='[6, 110] sep: False margin: None\n[6, 110, 63] sep: False margin: None\n[6, 110, 63, 74] sep: False margin: None\n[6, 110, 63, 74, 104] sep: False margin: None\n[6, 110, 63, 74, 104, 32] sep: False margin'
+[repeat_seq_09] t17 finish=stop err=None ct=9436 pt=31601 ledger=$4.723 run=$0.111
+   exec 113.3s sims=0 used=0 flag=False out="linear rules 3-gx+k*gvx > 0 -> 2:\n  k=0.0: ('NONE', 256) conv=True\n  k=0.2: ('NONE', 256) conv=True\n  k=0.5: ('RED', 63) conv=True\n  k=1.0: ('RED', 78) conv=True\n  k=2.0: ('NONE', 71) conv=True\n  k=3."
+[repeat_seq_09] t18 finish=stop err=None ct=967 pt=32607 ledger=$4.724 run=$0.113
+   exec 2.3s sims=0 used=0 flag=False out='T= 77 num act2: 24\nunit 6: sep+=False sep-=False a2mean=0.797 a1mean=-0.714\nunit 74: sep+=False sep-=False a2mean=-0.998 a1mean=0.790\nunit 4: sep+=False sep-=False a2mean=0.993 a1mean=-0.745\nunit 14: '
+[repeat_seq_09] t19 finish=stop err=None ct=1524 pt=33872 ledger=$4.727 run=$0.115
+   exec 7.6s sims=0 used=0 flag=False out="gvx>0 rule: lo(act1max)= 0.04901521358832883  hi(act2min)= 1.048361825750378  thr= 0.5486885196693534\nconv at 6\nedited greedy outcome: ('SUCCESS', 76)\ntarget rule outcome: ('SUCCESS', 76)\nedited greed"
+[repeat_seq_09] t20 finish=stop err=None ct=577 pt=35135 ledger=$4.728 run=$0.117
+   exec 52.0s sims=1 used=1 flag=False out="sampled: {'episodes': 256, 'successes': 26, 'success': 0.1015625, 'red': 0.65234375, 'timeout': 0.24609375, 'return': -0.4014146327972412}\n"
+[repeat_seq_09] t21 finish=stop err=None ct=1126 pt=35708 ledger=$4.730 run=$0.118
+   exec 149.7s sims=4 used=5 flag=False out='thr= 0.5486885196693534\nscale=3.0: success=0.188 red=0.668 timeout=0.145\nscale=5.0: success=0.141 red=0.746 timeout=0.113\nscale=8.0: success=0.129 red=0.672 timeout=0.199\nscale=12.0: success=0.148 red'
+[repeat_seq_09] t22 finish=stop err=None ct=3611 pt=36354 ledger=$4.735 run=$0.123
+   exec 113.6s sims=3 used=8 flag=False out='thr= 0.5486885196693534\nscale=3.0: success=0.000 red=0.000 timeout=1.000\nscale=6.0: success=0.000 red=0.000 timeout=1.000\nscale=12.0: success=0.000 red=0.000 timeout=1.000\n'
+[repeat_seq_09] t23 finish=stop err=None ct=1821 pt=37010 ledger=$4.737 run=$0.126
+   exec 3.7s sims=0 used=8 flag=False out="greedy action seq first 20: [1, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]\ntarget seq first 20: [1, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]\nobs gvx first 20: ['0.00', '0"
+[repeat_seq_09] t24 finish=stop err=None ct=6973 pt=37959 ledger=$4.746 run=$0.135
+   exec 109.5s sims=3 used=11 flag=False out='thr= 0.5486885196693534\nk=2.0: logits0=[-20.           0.99934614  -0.99934614] success=0.910 red=0.090 timeout=0.000\nk=5.0: logits0=[-20.          2.4983654  -2.4983654] success=1.000 red=0.000 timeo'
+[repeat_seq_09] t25 finish=stop err=None ct=541 pt=38665 ledger=$4.747 run=$0.136
+   exec 37.2s sims=1 used=12 flag=False out="[saved edit: 386 of 171664 weights differ from the shown network]\nfinal: {'episodes': 256, 'successes': 256, 'success': 1.0, 'red': 0.0, 'timeout': 0.0, 'return': 1.3746669292449951}\n"
+[repeat_seq_09] t26 finish=stop err=None ct=620 pt=39222 ledger=$4.748 run=$0.137
+   exec 71.9s sims=2 used=14 flag=False out='[saved edit: 386 of 171664 weights differ from the shown network]\nrun1: 0.99609375 run2: 1.0\n'
+[repeat_seq_09] t27 finish=stop err=None ct=499 pt=39814 ledger=$4.750 run=$0.138
+   SUBMISSION t27: search 256/256 changed=386
+SUMMARY {"tag": "repeat_seq_09", "status": "solved on search", "turns": 27, "run_cost": 0.1378, "best": {"turn": 27, "src": "save_edit", "search": 1.0, "search_successes": 256, "changed": 386, "rep": null}, "best_test": {"episodes": 1024, "successes": 1024, "success": 1.0, "red": 0.0, "timeout": 0.0, "return": 1.3746120929718018}, "best_changed": {"changed": 386, "entries": 171664, "frac": 0.0022485786186969897}}

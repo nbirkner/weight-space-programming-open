@@ -1,0 +1,4 @@
+repeat_seq_03 {'file': 'runs/repeat_seq_03/submission_t23.npz', 'seed_424242': 1024, 'seed_99': 1024, 'seed_87654_collision': 1024, 'greedy': 1.0, 'changed': 2932}
+repeat_seq_05 {'file': 'runs/repeat_seq_05/submission_t29.npz', 'seed_424242': 1024, 'seed_99': 1024, 'seed_87654_collision': 1024, 'greedy': 1.0, 'changed': 2297}
+repeat_seq_07 {'file': 'runs/repeat_seq_07/submission_t26.npz', 'seed_424242': 1024, 'seed_99': 1024, 'seed_87654_collision': 1024, 'greedy': 1.0, 'changed': 2312}
+repeat_seq_09 {'file': 'runs/repeat_seq_09/submission_t27.npz', 'seed_424242': 1022, 'seed_99': 1022, 'seed_87654_collision': 1024, 'greedy': 1.0, 'changed': 386}

@@ -1,0 +1,193 @@
+THE OBSERVATION
+The network sees a 10 x 10 grid. Rows are numbered 0 (top) to 9 (bottom) and columns 0 (left) to 9 (right). The outer ring of cells (row 0, row 9, column 0 and column 9) is a wall border; the playable area is the inner 8 x 8 cells (rows 1-8, columns 1-8).
+Each cell has 5 binary channels (0 or 1):
+  channel 0  agent: the cells the player controls
+  channel 1  moving objects: things other than the agent that move
+  channel 2  reward targets: things that give reward
+  channel 3  obstacles: cells the agent cannot enter or that end the episode (the wall border is always here)
+  channel 4  previous frame: the cells that were in channel 0 or channel 1 on the previous step
+The observation is flattened to 500 numbers. Input number i = (row * 10 + column) * 5 + channel; for example input 0 is (row 0, column 0, channel 0), input 4 is (row 0, column 0, channel 4), input 5 is (row 0, column 1, channel 0) and input 499 is (row 9, column 9, channel 4).
+
+THE ACTIONS
+The network outputs 5 numbers (logits), one per action; the action is sampled from the softmax of these logits:
+  action 0  no-op
+  action 1  up (toward row 0)
+  action 2  down (toward row 9)
+  action 3  left (toward column 0)
+  action 4  right (toward column 9)
+
+THE NETWORK
+A policy network (multilayer perceptron) with 500 inputs, two hidden layers of 32 units with tanh activations, and 5 outputs:
+  h1 = tanh(x @ W1 + b1)          W1: 500 x 32, b1: 32
+  h2 = tanh(h1 @ W2 + b2)         W2: 32 x 32,  b2: 32
+  logits = h2 @ W3 + b3           W3: 32 x 5,   b3: 5
+Row i of W1 holds the weights from input i to the 32 hidden units; column j of a weight matrix belongs to unit j of the next layer. 17,253 parameters in total. It was trained with reinforcement learning (PPO) to maximise the reward of a game played on this grid.
+
+QUESTION. The weights below belong to one policy network that was trained with reinforcement learning to play a game on this grid. Which game was it trained on? Work from the weights. You have no tools: no code execution, no calculator, nothing to run. This is a single response.
+
+Answer in this order:
+Observations: <what you see in the weights: for each input channel, where in the grid its weights are large or show structure and what that suggests; what the output layer and its biases show about the actions; quote the weights you rely on>
+Reasoning: <which kinds of game fit these observations, which are ruled out, and why>
+Game: <the game, as specifically as you can; if it resembles a well-known game, give that game's name>
+Description: <what the agent does and what gives reward, in one or two sentences>
+Confidence: <0-100>%
+
+THE NETWORK'S WEIGHTS (SUMMARISED)
+Policy network weights. Forward pass: h1 = tanh(x @ W1 + b1); h2 = tanh(h1 @ W2 + b2); logits = h2 @ W3 + b3. Values are computed from weights rounded to 3 decimals.
+W1 is shown as maps: for every input cell (row, column) and channel, the L2 norm of that input's 32 outgoing W1 weights. Glyph maps use the scale " .:-=+*#%@" (blank = 0, @ = channel maximum), two characters per cell.
+
+W1 L2 map, channel 0 (agent), max 7.10:
+   0 1 2 3 4 5 6 7 8 9 
+0 |                    |
+1 |  @@                |
+2 |  @@                |
+3 |  ++                |
+4 |  --                |
+5 |  ==                |
+6 |  ##                |
+7 |  ##                |
+8 |  **                |
+9 |                    |
+Values:
+0: 0.38 0.49 0.34 0.29 0.36 0.37 0.35 0.40 0.46 0.30
+1: 0.31 6.48 0.40 0.37 0.31 0.43 0.39 0.38 0.33 0.34
+2: 0.27 7.10 0.37 0.32 0.35 0.30 0.30 0.36 0.29 0.39
+3: 0.32 3.99 0.39 0.34 0.41 0.35 0.34 0.35 0.43 0.43
+4: 0.31 2.74 0.33 0.42 0.39 0.41 0.36 0.42 0.28 0.37
+5: 0.40 3.33 0.38 0.33 0.36 0.41 0.39 0.37 0.36 0.38
+6: 0.28 4.98 0.37 0.37 0.40 0.37 0.29 0.34 0.40 0.35
+7: 0.30 5.22 0.29 0.34 0.34 0.31 0.35 0.34 0.38 0.41
+8: 0.38 4.68 0.34 0.35 0.33 0.36 0.31 0.43 0.39 0.34
+9: 0.41 0.36 0.33 0.30 0.36 0.39 0.37 0.40 0.41 0.39
+
+W1 L2 map, channel 1 (moving objects), max 12.17:
+   0 1 2 3 4 5 6 7 8 9 
+0 |                    |
+1 |    ##++--++--::::  |
+2 |    %%**++====--::  |
+3 |    ++##====----..  |
+4 |    **##++==++--..  |
+5 |    %%++##++==--..  |
+6 |    ##@@++++--==..  |
+7 |    ####++======..  |
+8 |    ++##****----::  |
+9 |                    |
+Values:
+0: 0.32 0.35 0.33 0.34 0.32 0.38 0.32 0.44 0.32 0.37
+1: 0.36 0.43 9.41 6.46 4.82 6.60 4.76 3.46 2.69 0.41
+2: 0.34 0.47 10.66 7.91 6.64 5.34 5.53 4.67 2.52 0.34
+3: 0.33 0.38 6.22 9.53 5.48 5.83 4.70 3.83 2.12 0.32
+4: 0.39 0.26 8.21 8.69 6.71 5.18 6.61 4.15 2.29 0.29
+5: 0.39 0.35 10.81 6.80 9.16 6.17 5.62 4.22 2.40 0.32
+6: 0.38 0.42 8.63 12.17 7.18 6.42 4.24 5.31 1.73 0.36
+7: 0.36 0.39 9.64 9.14 6.86 5.82 5.35 4.99 2.37 0.28
+8: 0.38 0.37 6.19 8.52 8.21 8.41 4.20 4.72 2.76 0.34
+9: 0.37 0.31 0.37 0.32 0.36 0.34 0.33 0.41 0.39 0.35
+
+W1 L2 map, channel 2 (reward targets), max 0.97:
+   0 1 2 3 4 5 6 7 8 9 
+0 |--::----====------==|
+1 |------::--==--====##|
+2 |--------------==--%%|
+3 |--------==--------##|
+4 |------==--------==%%|
+5 |==========--==::==%%|
+6 |--==--==------====@@|
+7 |--====::--==----==%%|
+8 |--------====--==--##|
+9 |==----====----------|
+Values:
+0: 0.35 0.25 0.37 0.32 0.43 0.39 0.35 0.34 0.34 0.40
+1: 0.36 0.38 0.36 0.29 0.32 0.43 0.38 0.45 0.46 0.75
+2: 0.31 0.32 0.31 0.34 0.32 0.35 0.34 0.41 0.34 0.85
+3: 0.34 0.33 0.29 0.35 0.39 0.31 0.34 0.31 0.32 0.76
+4: 0.33 0.33 0.37 0.44 0.32 0.35 0.30 0.37 0.40 0.82
+5: 0.41 0.39 0.46 0.39 0.42 0.38 0.40 0.27 0.41 0.82
+6: 0.29 0.42 0.35 0.39 0.32 0.30 0.32 0.40 0.41 0.97
+7: 0.35 0.39 0.42 0.29 0.37 0.41 0.34 0.38 0.39 0.81
+8: 0.38 0.37 0.30 0.38 0.41 0.42 0.36 0.41 0.33 0.72
+9: 0.42 0.38 0.38 0.41 0.45 0.33 0.36 0.37 0.34 0.37
+
+W1 L2 map, channel 3 (obstacles), max 0.89:
+   0 1 2 3 4 5 6 7 8 9 
+0 |@@##%%%%@@%%%%@@@@%%|
+1 |%%--====--==----==@@|
+2 |%%====--==--==----%%|
+3 |@@==----==--++====%%|
+4 |%%--==--==----==--@@|
+5 |@@--------==--==--##|
+6 |%%----==----==++--@@|
+7 |@@----==--------==@@|
+8 |%%------======::==%%|
+9 |%%##@@@@%%%%%%@@##%%|
+Values:
+0: 0.87 0.69 0.76 0.76 0.89 0.79 0.80 0.84 0.80 0.76
+1: 0.80 0.31 0.39 0.42 0.30 0.37 0.33 0.32 0.38 0.81
+2: 0.80 0.36 0.41 0.35 0.36 0.34 0.39 0.33 0.29 0.79
+3: 0.86 0.36 0.28 0.34 0.42 0.30 0.47 0.38 0.42 0.74
+4: 0.77 0.35 0.41 0.29 0.39 0.33 0.28 0.37 0.34 0.81
+5: 0.82 0.28 0.31 0.27 0.28 0.38 0.33 0.40 0.33 0.70
+6: 0.75 0.31 0.35 0.41 0.34 0.31 0.37 0.46 0.32 0.83
+7: 0.80 0.31 0.33 0.36 0.33 0.29 0.29 0.35 0.37 0.83
+8: 0.74 0.31 0.30 0.31 0.39 0.39 0.36 0.25 0.36 0.79
+9: 0.80 0.68 0.84 0.85 0.74 0.72 0.80 0.86 0.71 0.76
+
+W1 L2 map, channel 4 (previous frame), max 13.82:
+   0 1 2 3 4 5 6 7 8 9 
+0 |                    |
+1 |  ::::----##::::::  |
+2 |  ::--====----::..  |
+3 |  ..++++--==----..  |
+4 |  ..++++--==--::..  |
+5 |  ..==++++------..  |
+6 |  ::======--==--..  |
+7 |  ::::++**==--::..  |
+8 |  --::--++@@--::::  |
+9 |                    |
+Values:
+0: 0.29 0.38 0.41 0.31 0.37 0.41 0.40 0.31 0.36 0.41
+1: 0.39 3.62 3.85 4.37 4.76 10.59 3.60 3.17 3.24 0.38
+2: 0.31 3.25 4.77 6.41 5.95 5.10 4.41 3.72 2.74 0.38
+3: 0.34 2.37 7.73 7.86 4.65 6.46 5.13 4.95 2.68 0.28
+4: 0.41 2.35 8.23 7.08 4.83 5.71 5.27 3.16 1.81 0.39
+5: 0.37 1.77 6.08 7.28 7.08 4.64 4.97 4.19 2.10 0.25
+6: 0.33 3.12 5.70 6.86 5.78 5.40 5.57 4.26 2.06 0.42
+7: 0.32 3.51 4.13 8.18 9.35 6.91 4.80 3.64 2.47 0.31
+8: 0.36 4.38 3.50 4.61 8.14 13.82 4.36 3.37 3.19 0.44
+9: 0.30 0.39 0.29 0.36 0.36 0.36 0.33 0.40 0.40 0.35
+
+Top-8 W1 connections per hidden unit, by absolute weight: (row, column, channel) weight
+unit 0: (r3,c3,ch4) 3.882; (r3,c2,ch4) -3.564; (r6,c3,ch1) -3.162; (r8,c5,ch4) -2.802; (r5,c3,ch1) 2.694; (r8,c4,ch1) -2.502; (r5,c4,ch4) -2.422; (r5,c6,ch1) -2.368
+unit 1: (r5,c4,ch1) 3.775; (r2,c1,ch0) -3.588; (r8,c5,ch1) -3.351; (r2,c4,ch1) 3.316; (r1,c5,ch1) 3.278; (r7,c2,ch1) 3.206; (r6,c3,ch1) 3.178; (r1,c2,ch1) -3.169
+unit 2: (r1,c2,ch1) 2.039; (r1,c4,ch4) 1.808; (r8,c7,ch4) 1.649; (r2,c5,ch1) 1.533; (r6,c4,ch4) 1.451; (r8,c4,ch1) -1.421; (r7,c3,ch4) -1.418; (r6,c3,ch1) -1.364
+unit 3: (r6,c2,ch1) -2.036; (r5,c3,ch4) -1.870; (r7,c3,ch1) -1.810; (r1,c5,ch4) -1.729; (r2,c8,ch1) 1.616; (r4,c2,ch4) 1.566; (r2,c7,ch4) 1.423; (r5,c5,ch1) 1.381
+unit 4: (r2,c2,ch1) -3.780; (r8,c5,ch1) -3.269; (r8,c5,ch4) -3.174; (r4,c3,ch1) -3.099; (r8,c4,ch1) -2.932; (r5,c2,ch1) 2.849; (r1,c2,ch1) -2.772; (r4,c3,ch4) -2.653
+unit 5: (r1,c5,ch4) 3.115; (r7,c2,ch1) 2.792; (r5,c5,ch4) -2.466; (r4,c6,ch1) -2.250; (r6,c3,ch1) 2.143; (r5,c4,ch4) -2.118; (r5,c2,ch1) 2.114; (r2,c2,ch1) -2.046
+unit 6: (r5,c4,ch1) 4.754; (r6,c4,ch4) 3.351; (r3,c4,ch1) 3.329; (r6,c4,ch1) 2.925; (r6,c3,ch4) -2.893; (r8,c5,ch4) -2.840; (r7,c4,ch1) -2.824; (r2,c2,ch1) -2.733
+unit 7: (r5,c6,ch1) 1.759; (r7,c7,ch4) -1.662; (r7,c2,ch1) 1.656; (r3,c3,ch4) -1.544; (r3,c3,ch1) -1.453; (r7,c7,ch1) -1.441; (r4,c2,ch1) -1.411; (r6,c7,ch1) 1.406
+unit 8: (r3,c3,ch1) 2.554; (r3,c2,ch1) 2.257; (r5,c3,ch1) -2.236; (r8,c5,ch4) 2.227; (r2,c2,ch1) 2.110; (r7,c6,ch4) 1.684; (r1,c2,ch1) 1.595; (r3,c5,ch1) -1.504
+unit 9: (r6,c3,ch1) 3.495; (r7,c2,ch1) -3.103; (r8,c3,ch1) -2.135; (r8,c5,ch4) 1.974; (r3,c3,ch4) 1.879; (r6,c2,ch1) -1.859; (r7,c3,ch4) -1.768; (r2,c3,ch1) 1.735
+unit 10: (r7,c3,ch1) -3.387; (r7,c3,ch4) -3.268; (r8,c5,ch4) 3.134; (r6,c3,ch1) -2.825; (r1,c5,ch4) -2.218; (r5,c6,ch4) -2.173; (r7,c6,ch1) -2.155; (r6,c7,ch1) -1.956
+unit 11: (r4,c5,ch4) 3.130; (r8,c4,ch4) -3.110; (r8,c5,ch4) -3.084; (r6,c3,ch1) 3.068; (r7,c4,ch4) 2.974; (r1,c1,ch0) 2.697; (r6,c2,ch1) 2.636; (r3,c4,ch4) 2.314
+unit 12: (r4,c6,ch1) 3.170; (r7,c3,ch1) -2.863; (r8,c5,ch1) -2.825; (r2,c5,ch1) 2.683; (r7,c7,ch1) 2.678; (r7,c4,ch4) -2.504; (r3,c5,ch4) 2.342; (r3,c5,ch1) 2.275
+unit 13: (r4,c3,ch1) 3.015; (r3,c3,ch1) -2.978; (r5,c3,ch1) 2.846; (r8,c5,ch1) -2.573; (r8,c5,ch4) -2.405; (r6,c3,ch1) 2.217; (r3,c2,ch4) -2.138; (r2,c7,ch1) -2.110
+unit 14: (r6,c5,ch1) -3.191; (r7,c4,ch4) -2.847; (r1,c5,ch4) 2.725; (r7,c2,ch1) 2.406; (r2,c4,ch4) -2.296; (r1,c2,ch1) -2.091; (r7,c3,ch1) 2.011; (r3,c5,ch1) -1.999
+unit 15: (r7,c3,ch4) 2.553; (r6,c5,ch1) -2.523; (r7,c2,ch4) -2.497; (r1,c1,ch0) -2.474; (r4,c2,ch4) -2.472; (r2,c5,ch1) -2.270; (r6,c2,ch1) 1.988; (r8,c5,ch1) -1.904
+unit 16: (r4,c2,ch1) -4.991; (r8,c5,ch4) 4.491; (r2,c2,ch1) 3.740; (r4,c3,ch4) 3.405; (r4,c2,ch4) -3.376; (r3,c5,ch4) -3.281; (r2,c3,ch1) 3.232; (r5,c2,ch1) -3.204
+unit 17: (r6,c4,ch1) 2.950; (r8,c4,ch1) -2.800; (r6,c3,ch1) 2.620; (r5,c4,ch1) 2.471; (r6,c6,ch4) 2.435; (r4,c6,ch1) -2.424; (r7,c3,ch4) 2.133; (r3,c5,ch4) -1.955
+unit 18: (r8,c5,ch4) -2.494; (r5,c4,ch4) -2.489; (r3,c5,ch4) 2.094; (r6,c3,ch1) 2.027; (r7,c3,ch1) 1.998; (r5,c2,ch1) 1.922; (r6,c1,ch0) -1.904; (r6,c6,ch4) 1.817
+unit 19: (r1,c5,ch4) 5.236; (r8,c5,ch4) -4.515; (r7,c4,ch4) 3.963; (r4,c2,ch4) 3.905; (r6,c2,ch1) 3.625; (r6,c3,ch1) 3.198; (r5,c2,ch1) 3.091; (r2,c2,ch1) -3.068
+unit 20: (r6,c3,ch1) 2.976; (r8,c5,ch4) -2.975; (r5,c2,ch1) 2.227; (r8,c4,ch1) -2.060; (r8,c3,ch1) 1.956; (r5,c5,ch1) -1.947; (r7,c5,ch4) -1.770; (r6,c3,ch4) 1.748
+unit 21: (r6,c7,ch4) -2.360; (r8,c1,ch0) 2.358; (r6,c3,ch1) 2.167; (r5,c3,ch1) 1.869; (r7,c1,ch0) 1.790; (r3,c2,ch1) 1.776; (r6,c2,ch4) 1.728; (r1,c2,ch1) 1.721
+unit 22: (r4,c6,ch4) 2.612; (r8,c5,ch4) -2.536; (r3,c2,ch4) 2.403; (r7,c4,ch4) 2.383; (r4,c4,ch1) -2.292; (r7,c5,ch1) 2.270; (r2,c3,ch1) -2.199; (r5,c2,ch1) 2.162
+unit 23: (r8,c3,ch1) -3.100; (r5,c4,ch4) 2.911; (r2,c2,ch1) 2.519; (r7,c4,ch1) -2.426; (r8,c5,ch4) 2.425; (r4,c3,ch1) -2.396; (r1,c5,ch4) 2.301; (r6,c1,ch0) 2.234
+unit 24: (r6,c3,ch1) -2.631; (r7,c5,ch4) 2.480; (r1,c3,ch1) 2.207; (r7,c5,ch1) 2.091; (r7,c2,ch1) -2.087; (r2,c1,ch0) -2.085; (r5,c2,ch1) -1.876; (r5,c6,ch1) 1.827
+unit 25: (r5,c2,ch1) -3.063; (r8,c5,ch4) 2.816; (r7,c4,ch4) -2.576; (r7,c2,ch1) -2.373; (r6,c2,ch1) -2.336; (r1,c1,ch0) -2.322; (r2,c2,ch1) 2.089; (r1,c2,ch1) 2.062
+unit 26: (r1,c2,ch1) -3.022; (r5,c2,ch1) 2.922; (r8,c5,ch4) -2.763; (r2,c2,ch1) -2.476; (r2,c3,ch1) -1.845; (r1,c1,ch0) -1.791; (r8,c3,ch1) 1.773; (r6,c2,ch1) 1.754
+unit 27: (r5,c4,ch1) 2.011; (r8,c4,ch1) -1.627; (r2,c1,ch0) 1.608; (r5,c5,ch1) -1.200; (r1,c2,ch1) -1.172; (r6,c5,ch4) 1.137; (r8,c1,ch4) 1.131; (r8,c2,ch1) 1.026
+unit 28: (r6,c3,ch1) -2.707; (r7,c3,ch1) -2.105; (r7,c4,ch1) -2.046; (r2,c6,ch1) 1.789; (r5,c3,ch4) -1.678; (r1,c3,ch1) 1.502; (r5,c2,ch1) -1.428; (r2,c6,ch4) -1.401
+unit 29: (r6,c3,ch1) 3.462; (r8,c4,ch4) -3.062; (r8,c5,ch4) -3.031; (r7,c2,ch1) 2.987; (r7,c3,ch1) 2.824; (r6,c2,ch4) -2.679; (r7,c5,ch4) -2.378; (r6,c2,ch1) 2.191
+unit 30: (r8,c4,ch4) 2.747; (r3,c3,ch4) 2.631; (r8,c3,ch1) -2.517; (r4,c5,ch1) -2.472; (r5,c4,ch1) -2.460; (r8,c5,ch4) 2.406; (r4,c2,ch1) 2.331; (r6,c3,ch1) -2.267
+unit 31: (r1,c5,ch4) 3.913; (r8,c5,ch4) -3.838; (r2,c2,ch1) -3.767; (r3,c3,ch1) -3.152; (r3,c2,ch4) 2.840; (r1,c2,ch1) -2.763; (r2,c3,ch1) -2.728; (r7,c4,ch4) 2.717
+
+Only a summary of the first layer is shown. b1, W2, b2, W3 and b3 are omitted.

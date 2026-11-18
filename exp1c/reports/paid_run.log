@@ -1,0 +1,125 @@
+135 cells to run; ledger so far $0.0062
+[2026-11-16 11:27:37] flash__heatmap__cap2048__breakout_a9f535cc__s2 a1 -> incomplete (None) pt=12559 ct=2048 $0.0062 finish=length err=None wall=10.4s | spent $0.0124
+[2026-11-16 11:27:37] flash__heatmap__cap2048__breakout_a9f535cc__s3 a1 -> incomplete (None) pt=12559 ct=2048 $0.0062 finish=length err=None wall=10.5s | spent $0.0187
+[2026-11-16 11:27:38] flash__heatmap__cap2048__pong_dfc6cb65__s1 a1 -> incomplete (None) pt=12600 ct=2048 $0.0062 finish=length err=None wall=10.6s | spent $0.0249
+[2026-11-16 11:27:46] flash__heatmap__cap2048__pacman_bdf99279__s1 a1 -> incomplete (None) pt=12667 ct=2048 $0.0063 finish=length err=None wall=8.7s | spent $0.0312
+[2026-11-16 11:27:46] flash__heatmap__cap2048__pong_dfc6cb65__s3 a1 -> incomplete (None) pt=12600 ct=2048 $0.0062 finish=length err=None wall=8.9s | spent $0.0374
+[2026-11-16 11:27:47] flash__heatmap__cap2048__pong_dfc6cb65__s2 a1 -> incomplete (None) pt=12600 ct=2048 $0.0062 finish=length err=None wall=9.6s | spent $0.0436
+[2026-11-16 11:27:59] flash__heatmap__cap2048__pacman_bdf99279__s3 a1 -> incomplete (None) pt=12667 ct=2048 $0.0063 finish=length err=None wall=13.1s | spent $0.0499
+[2026-11-16 11:28:01] flash__heatmap__cap2048__pacman_bdf99279__s2 a1 -> incomplete (None) pt=12667 ct=2048 $0.0063 finish=length err=None wall=15.1s | spent $0.0562
+[2026-11-16 11:28:02] flash__heatmap__cap2048__freeway_0bbcc3ea__s1 a1 -> incomplete (None) pt=12592 ct=2048 $0.0062 finish=length err=None wall=15.2s | spent $0.0624
+[2026-11-16 11:28:07] flash__heatmap__cap2048__freeway_0bbcc3ea__s2 a1 -> incomplete (None) pt=12592 ct=2048 $0.0062 finish=length err=None wall=7.4s | spent $0.0686
+[2026-11-16 11:28:09] flash__heatmap__cap2048__freeway_0bbcc3ea__s3 a1 -> incomplete (None) pt=12592 ct=2048 $0.0062 finish=length err=None wall=7.5s | spent $0.0749
+[2026-11-16 11:28:16] flash__heatmap__cap4096__breakout_a9f535cc__s1 a1 -> incomplete (None) pt=12559 ct=4096 $0.0087 finish=length err=None wall=13.6s | spent $0.0836
+[2026-11-16 11:28:22] flash__heatmap__cap4096__breakout_a9f535cc__s2 a1 -> incomplete (None) pt=12559 ct=4096 $0.0087 finish=length err=None wall=14.8s | spent $0.0922
+[2026-11-16 11:28:22] flash__heatmap__cap4096__breakout_a9f535cc__s3 a1 -> correct ('Breakout, specifically an Atari-style Breakout on a 10Ã\x97) pt=12559 ct=3980 $0.0085 finish=stop err=None wall=13.3s | spent $0.1008
+[2026-11-16 11:28:31] flash__heatmap__cap4096__pong_dfc6cb65__s1 a1 -> incomplete (None) pt=12600 ct=4096 $0.0087 finish=length err=None wall=15.0s | spent $0.1095
+[2026-11-16 11:28:36] flash__heatmap__cap4096__pong_dfc6cb65__s2 a1 -> incomplete (None) pt=12600 ct=4096 $0.0087 finish=length err=None wall=14.4s | spent $0.1182
+[2026-11-16 11:28:36] flash__heatmap__cap4096__pong_dfc6cb65__s3 a1 -> incomplete (None) pt=12600 ct=4096 $0.0087 finish=length err=None wall=14.2s | spent $0.1269
+[2026-11-16 11:28:43] flash__heatmap__cap4096__pacman_bdf99279__s1 a1 -> incomplete (None) pt=12667 ct=4096 $0.0087 finish=length err=None wall=11.8s | spent $0.1356
+[2026-11-16 11:28:48] flash__heatmap__cap4096__pacman_bdf99279__s3 a1 -> incomplete (None) pt=12667 ct=4096 $0.0087 finish=length err=None wall=11.4s | spent $0.1443
+[2026-11-16 11:28:49] flash__heatmap__cap4096__pacman_bdf99279__s2 a1 -> incomplete (None) pt=12667 ct=4096 $0.0087 finish=length err=None wall=13.3s | spent $0.1530
+[2026-11-16 11:29:06] flash__heatmap__cap4096__freeway_0bbcc3ea__s1 a1 -> incomplete (None) pt=12592 ct=4096 $0.0087 finish=length err=None wall=22.9s | spent $0.1617
+[2026-11-16 11:29:11] flash__heatmap__cap4096__freeway_0bbcc3ea__s2 a1 -> incomplete (None) pt=12592 ct=4096 $0.0087 finish=length err=None wall=23.0s | spent $0.1704
+[2026-11-16 11:29:11] flash__heatmap__cap4096__freeway_0bbcc3ea__s3 a1 -> incomplete (None) pt=12592 ct=4096 $0.0087 finish=length err=None wall=22.0s | spent $0.1791
+[2026-11-16 11:29:26] flash__heatmap__cap8192__breakout_a9f535cc__s1 a1 -> correct ('Breakout / Atari Breakout.') pt=12559 ct=6478 $0.0115 finish=stop err=None wall=20.7s | spent $0.1906
+[2026-11-16 11:29:33] flash__heatmap__cap8192__breakout_a9f535cc__s3 a1 -> miss ('') pt=12559 ct=7265 $0.0125 finish=stop err=None wall=22.0s | spent $0.2031
+[2026-11-16 11:29:35] flash__heatmap__cap8192__breakout_a9f535cc__s2 a1 -> miss ('') pt=12559 ct=7358 $0.0126 finish=stop err=None wall=24.1s | spent $0.2157
+[2026-11-16 11:29:41] flash__heatmap__cap8192__pong_dfc6cb65__s1 a1 -> correct ('Pong.') pt=12600 ct=4891 $0.0096 finish=stop err=None wall=14.7s | spent $0.2254
+[2026-11-16 11:29:52] flash__heatmap__cap8192__pong_dfc6cb65__s2 a1 -> correct ('Pong (a grid-based version of Atari Pong).') pt=12600 ct=6147 $0.0112 finish=stop err=None wall=19.1s | spent $0.2365
+[2026-11-16 11:29:54] flash__heatmap__cap8192__pong_dfc6cb65__s3 a1 -> miss ('') pt=12600 ct=6351 $0.0114 finish=stop err=None wall=18.8s | spent $0.2479
+[2026-11-16 11:30:06] flash__heatmap__cap8192__pacman_bdf99279__s1 a1 -> incomplete (None) pt=12667 ct=8192 $0.0136 finish=length err=None wall=24.7s | spent $0.2615
+[2026-11-16 11:30:24] flash__heatmap__cap8192__pacman_bdf99279__s2 a1 -> miss ('Asterix (MinAtar Asterix)') pt=12667 ct=7282 $0.0125 finish=stop err=None wall=31.6s | spent $0.2741
+[2026-11-16 11:30:27] flash__heatmap__cap8192__pacman_bdf99279__s3 a1 -> miss ('Sokoban.') pt=12667 ct=7474 $0.0128 finish=stop err=None wall=32.9s | spent $0.2869
+[2026-11-16 11:30:34] flash__heatmap__cap8192__freeway_0bbcc3ea__s1 a1 -> miss ('') pt=12592 ct=4129 $0.0087 finish=stop err=None wall=28.7s | spent $0.2956
+[2026-11-16 11:30:46] flash__heatmap__cap16384__breakout_a9f535cc__s1 a1 -> correct ('Breakout / Brick Breaker.') pt=12559 ct=2787 $0.0071 finish=stop err=None wall=11.5s | spent $0.3027
+[2026-11-16 11:30:53] flash__heatmap__cap8192__freeway_0bbcc3ea__s2 a1 -> correct ('Freeway (Atari-style road-crossing game)') pt=12592 ct=5723 $0.0106 finish=stop err=None wall=28.6s | spent $0.3133
+[2026-11-16 11:31:00] flash__heatmap__cap16384__breakout_a9f535cc__s2 a1 -> miss ('') pt=12559 ct=3563 $0.0080 finish=stop err=None wall=14.4s | spent $0.3214
+[2026-11-16 11:31:14] flash__heatmap__cap8192__freeway_0bbcc3ea__s3 a1 -> incomplete (None) pt=12592 ct=8192 $0.0136 finish=length err=None wall=47.3s | spent $0.3350
+[2026-11-16 11:31:27] flash__heatmap__cap16384__breakout_a9f535cc__s3 a1 -> correct ('Breakout, specifically Atari-style Breakout.') pt=12559 ct=5734 $0.0106 finish=stop err=None wall=34.0s | spent $0.3456
+[2026-11-16 11:31:43] flash__heatmap__cap16384__pong_dfc6cb65__s1 a1 -> correct ('Pong.') pt=12600 ct=5666 $0.0106 finish=stop err=None wall=43.0s | spent $0.3562
+[2026-11-16 11:32:35] flash__heatmap__cap16384__pacman_bdf99279__s1 a1 -> miss ('Sokoban (or a Sokoban variant such as Boxoban).') pt=12667 ct=10379 $0.0163 finish=stop err=None wall=52.1s | spent $0.3725
+[2026-11-16 11:32:42] flash__heatmap__cap16384__pong_dfc6cb65__s2 a1 -> incomplete (None) pt=12600 ct=16384 $0.0234 finish=length err=None wall=87.7s | spent $0.3959
+[2026-11-16 11:32:50] flash__heatmap__cap16384__pong_dfc6cb65__s3 a1 -> incomplete (None) pt=12600 ct=16384 $0.0234 finish=length err=None wall=83.8s | spent $0.4194
+[2026-11-16 11:33:03] flash__heatmap__cap16384__pacman_bdf99279__s3 a1 -> miss ('Sokoban.') pt=12667 ct=6830 $0.0120 finish=stop err=None wall=21.7s | spent $0.4314
+[2026-11-16 11:33:21] flash__heatmap__cap16384__freeway_0bbcc3ea__s1 a1 -> miss ('') pt=12592 ct=8128 $0.0135 finish=stop err=None wall=30.8s | spent $0.4449
+[2026-11-16 11:33:37] flash__heatmap__cap16384__pacman_bdf99279__s2 a1 -> incomplete (None) pt=12667 ct=16384 $0.0235 finish=length err=None wall=61.6s | spent $0.4683
+[2026-11-16 11:33:40] flash__heatmap__cap16384__freeway_0bbcc3ea__s2 a1 -> correct ('Freeway (MinAtar Freeway / Frogger-style road-crossing game) pt=12592 ct=7749 $0.0131 finish=stop err=None wall=36.4s | spent $0.4814
+[2026-11-16 11:33:58] flash__w1_only__cap24576__breakout_a9f535cc__s1 a1 -> miss ('') pt=7466 ct=3707 $0.0067 finish=stop err=None wall=21.6s | spent $0.4881
+[2026-11-16 11:34:01] flash__w1_only__cap24576__breakout_a9f535cc__s2 a1 -> correct ('Breakout / Atari-style brick-breaker.') pt=7466 ct=3377 $0.0063 finish=stop err=None wall=21.6s | spent $0.4944
+[2026-11-16 11:34:12] flash__w1_only__cap24576__breakout_a9f535cc__s3 a1 -> correct ('Breakout / brick-breaker (Atari Breakout).') pt=7466 ct=3318 $0.0062 finish=stop err=None wall=14.0s | spent $0.5006
+[2026-11-16 11:34:14] flash__heatmap__cap16384__freeway_0bbcc3ea__s3 a1 -> correct ('Freeway') pt=12592 ct=10531 $0.0164 finish=stop err=None wall=52.4s | spent $0.5170
+[2026-11-16 11:34:21] flash__w1_only__cap24576__pong_dfc6cb65__s1 a1 -> correct ('Pong, specifically Atari-style Pong, mirrored so the player) pt=7505 ct=5098 $0.0084 finish=stop err=None wall=19.4s | spent $0.5254
+[2026-11-16 11:35:06] flash__w1_only__cap24576__pong_dfc6cb65__s3 a1 -> correct ('Pong (or a Pong-like game, specifically the left player in ) pt=7505 ct=11284 $0.0158 finish=stop err=None wall=52.0s | spent $0.5412
+[2026-11-16 11:35:13] flash__w1_only__cap24576__pong_dfc6cb65__s2 a1 -> correct ('Pong** (a 10Ã\x9710 grid version, e.g. from Griddly or a si) pt=7505 ct=14430 $0.0196 finish=stop err=None wall=60.8s | spent $0.5608
+[2026-11-16 11:35:39] flash__w1_only__cap24576__pacman_bdf99279__s1 a1 -> correct ('Pac-Man (Pacman).') pt=7577 ct=17269 $0.0230 finish=stop err=None wall=78.4s | spent $0.5838
+[2026-11-16 11:36:16] flash__w1_only__cap24576__pacman_bdf99279__s2 a1 -> correct ('Pac-Man (specifically, a simplified 10Ã\x9710 grid version,) pt=7577 ct=16169 $0.0217 finish=stop err=None wall=70.6s | spent $0.6054
+[2026-11-16 11:36:18] flash__w1_only__cap24576__pacman_bdf99279__s3 a1 -> miss ('Sokoban (box-pushing puzzle).') pt=7577 ct=14286 $0.0194 finish=stop err=None wall=64.3s | spent $0.6249
+[2026-11-16 11:36:25] flash__w1_only__cap24576__freeway_0bbcc3ea__s1 a1 -> miss ('') pt=7496 ct=9063 $0.0131 finish=stop err=None wall=45.6s | spent $0.6380
+[2026-11-16 11:36:55] flash__ascii__cap24576__breakout_a9f535cc__s1 a1 -> correct ('Breakout (Atari Breakout / MinAtar-style Breakout).') pt=3731 ct=5748 $0.0080 finish=stop err=None wall=30.2s | spent $0.6460
+[2026-11-16 11:37:15] flash__w1_only__cap24576__freeway_0bbcc3ea__s3 a1 -> correct ('Freeway (Atari 2600), i.e. a Frogger-like road-crossing gam) pt=7496 ct=9539 $0.0137 finish=stop err=None wall=57.4s | spent $0.6597
+[2026-11-16 11:37:16] flash__w1_only__cap24576__freeway_0bbcc3ea__s2 a1 -> correct ('Freeway (Atari Freeway / MinAtar Freeway).') pt=7496 ct=10800 $0.0152 finish=stop err=None wall=59.8s | spent $0.6749
+[2026-11-16 11:37:19] flash__ascii__cap24576__breakout_a9f535cc__s2 a1 -> correct ('Breakout, specifically an Atari-style/simplified Breakout o) pt=3731 ct=3826 $0.0057 finish=stop err=None wall=24.0s | spent $0.6806
+[2026-11-16 11:37:20] qwen__heatmap_anon__cap24576__breakout_a9f535cc__s2 a1 -> correct ('Breakout') pt=15922 ct=36909 $0.0523 finish=stop err=None wall=593.0s | spent $0.7330
+[2026-11-16 11:37:51] flash__ascii__cap24576__breakout_a9f535cc__s3 a1 -> miss ('') pt=3731 ct=6801 $0.0093 finish=stop err=None wall=36.1s | spent $0.7422
+[2026-11-16 11:37:54] flash__ascii__cap24576__pong_dfc6cb65__s2 a1 -> correct ('Pong') pt=3770 ct=6661 $0.0091 finish=stop err=None wall=34.8s | spent $0.7514
+[2026-11-16 11:37:59] flash__ascii__cap24576__pong_dfc6cb65__s1 a1 -> correct ('Pong (Atari Pong).') pt=3770 ct=7744 $0.0104 finish=stop err=None wall=42.9s | spent $0.7618
+[2026-11-16 11:38:17] flash__ascii__cap24576__pong_dfc6cb65__s3 a1 -> correct ('Pong (Atari Pong).') pt=3770 ct=4754 $0.0068 finish=stop err=None wall=26.3s | spent $0.7686
+[2026-11-16 11:38:50] flash__ascii__cap24576__pacman_bdf99279__s3 a1 -> miss ('Sokoban (push-box puzzle).') pt=3842 ct=5403 $0.0076 finish=stop err=None wall=32.6s | spent $0.7763
+[2026-11-16 11:39:28] flash__ascii__cap24576__freeway_0bbcc3ea__s1 a1 -> correct ('Freeway** (the MinAtar version).') pt=3761 ct=7578 $0.0102 finish=stop err=None wall=37.7s | spent $0.7865
+[2026-11-16 11:39:38] flash__ascii__cap24576__pacman_bdf99279__s1 a1 -> miss ('Sokoban.') pt=3842 ct=20527 $0.0258 finish=stop err=None wall=104.1s | spent $0.8123
+[2026-11-16 11:39:43] flash__ascii__cap24576__pacman_bdf99279__s2 a1 -> correct ('Pac-Man (specifically the Atari 2600 version, or a simplifi) pt=3842 ct=22626 $0.0283 finish=stop err=None wall=104.4s | spent $0.8406
+[2026-11-16 11:39:58] flash__ascii__cap24576__freeway_0bbcc3ea__s2 a1 -> miss ('') pt=3761 ct=6131 $0.0085 finish=stop err=None wall=30.3s | spent $0.8490
+[2026-11-16 11:40:08] flash__ascii__cap24576__freeway_0bbcc3ea__s3 a1 -> miss ('') pt=3761 ct=5769 $0.0081 finish=stop err=None wall=30.0s | spent $0.8571
+[2026-11-16 11:40:21] flash__glyphs__cap24576__breakout_a9f535cc__s1 a1 -> correct ('Breakout (Atari Breakout).') pt=1916 ct=7733 $0.0099 finish=stop err=None wall=37.4s | spent $0.8670
+[2026-11-16 11:40:31] flash__glyphs__cap24576__breakout_a9f535cc__s2 a1 -> correct ('Breakout / Atari Breakout.') pt=1916 ct=7419 $0.0095 finish=stop err=None wall=32.9s | spent $0.8764
+[2026-11-16 11:40:50] flash__glyphs__cap24576__breakout_a9f535cc__s3 a1 -> miss ('') pt=1916 ct=10542 $0.0132 finish=stop err=None wall=42.6s | spent $0.8897
+[2026-11-16 11:40:51] flash__glyphs__cap24576__pong_dfc6cb65__s1 a1 -> correct ('Pong (Atari Pong / video game Pong).') pt=1955 ct=7645 $0.0098 finish=stop err=None wall=29.7s | spent $0.8994
+[2026-11-16 11:41:27] flash__glyphs__cap24576__pong_dfc6cb65__s3 a1 -> correct ('Pong') pt=1955 ct=8387 $0.0107 finish=stop err=None wall=36.4s | spent $0.9101
+[2026-11-16 11:41:42] flash__glyphs__cap24576__pacman_bdf99279__s1 a1 -> miss ('Sokoban (specifically the Boxoban environment).') pt=2027 ct=13714 $0.0171 finish=stop err=None wall=51.6s | spent $0.9271
+[2026-11-16 11:41:58] flash__glyphs__cap24576__pacman_bdf99279__s2 a1 -> miss ('Sokoban (or Boxworld / Sokoban-style puzzle).') pt=2027 ct=6442 $0.0083 finish=stop err=None wall=31.0s | spent $0.9355
+[2026-11-16 11:42:02] flash__glyphs__cap24576__pong_dfc6cb65__s2 a1 -> incomplete (None) pt=1955 ct=24576 $0.0301 finish=length err=None wall=91.7s | spent $0.9656
+[2026-11-16 11:42:27] qwen__heatmap_anon__cap24576__breakout_a9f535cc__s1 a1 -> incomplete (None) pt=15648 ct=53012 $0.0729 finish=None err=wall cap 900s wall=900.0s | spent $1.0384
+[2026-11-16 11:42:32] flash__glyphs__cap24576__freeway_0bbcc3ea__s1 a1 -> miss ('Asterix (MinAtar version, based on the Atari 2600 game Aste) pt=1946 ct=10851 $0.0136 finish=stop err=None wall=34.4s | spent $1.0520
+[2026-11-16 11:42:36] flash__glyphs__cap24576__freeway_0bbcc3ea__s2 a1 -> correct ('Freeway (specifically the MinAtar-style Freeway environment) pt=1946 ct=10373 $0.0130 finish=stop err=None wall=33.8s | spent $1.0651
+[2026-11-16 11:43:04] flash__glyphs__cap24576__pacman_bdf99279__s3 a1 -> incomplete (None) pt=2027 ct=24576 $0.0301 finish=length err=None wall=81.7s | spent $1.0951
+[2026-11-16 11:43:27] flash__glyphs__cap24576__freeway_0bbcc3ea__s3 a1 -> correct ('Freeway (the MinAtar version of the Atari game Freeway).') pt=1946 ct=15362 $0.0190 finish=stop err=None wall=55.1s | spent $1.1142
+[2026-11-16 11:43:31] flash__topk8__cap24576__breakout_a9f535cc__s2 a1 -> correct ('Breakout (Atari Breakout / Arkanoid-style game).') pt=4703 ct=8069 $0.0111 finish=stop err=None wall=27.1s | spent $1.1253
+[2026-11-16 11:43:56] flash__topk8__cap24576__breakout_a9f535cc__s1 a1 -> miss ('Sokoban (also known as Boxworld or Push).') pt=4703 ct=20767 $0.0263 finish=stop err=None wall=79.5s | spent $1.1516
+[2026-11-16 11:44:17] flash__topk8__cap24576__breakout_a9f535cc__s3 a1 -> correct ('Breakout (specifically MinAtar Breakout).') pt=4703 ct=10868 $0.0145 finish=stop err=None wall=49.5s | spent $1.1660
+[2026-11-16 11:44:34] flash__topk8__cap24576__pong_dfc6cb65__s2 a1 -> correct ('Pong.') pt=4703 ct=8927 $0.0121 finish=stop err=None wall=38.7s | spent $1.1782
+[2026-11-16 11:44:41] flash__topk8__cap24576__pong_dfc6cb65__s1 a1 -> correct ('Pong') pt=4703 ct=15003 $0.0194 finish=stop err=None wall=70.5s | spent $1.1976
+[2026-11-16 11:44:56] flash__topk8__cap24576__pong_dfc6cb65__s3 a1 -> correct ('Pong (Atari-style Pong).') pt=4703 ct=9790 $0.0132 finish=stop err=None wall=39.2s | spent $1.2107
+[2026-11-16 11:45:41] flash__topk8__cap24576__pacman_bdf99279__s1 a1 -> miss ('Sokoban**') pt=4703 ct=15106 $0.0195 finish=stop err=None wall=66.2s | spent $1.2303
+[2026-11-16 11:46:32] flash__topk8__cap24576__pacman_bdf99279__s2 a1 -> incomplete (None) pt=4703 ct=24576 $0.0309 finish=length err=None wall=110.8s | spent $1.2612
+[2026-11-16 11:46:33] flash__topk8__cap24576__pacman_bdf99279__s3 a1 -> miss ('Freeway (MinAtar Freeway)') pt=4703 ct=19652 $0.0250 finish=stop err=None wall=97.3s | spent $1.2862
+[2026-11-16 11:46:37] qwen__heatmap_anon__cap24576__breakout_a9f535cc__s1 a2 -> miss ('Space Invaders') pt=15922 ct=15449 $0.0249 finish=stop err=None wall=249.8s | spent $1.3110
+[2026-11-16 11:46:59] flash__topk8__cap24576__freeway_0bbcc3ea__s1 a1 -> correct ('Freeway (MinAtar Freeway).') pt=4703 ct=14828 $0.0192 finish=stop err=None wall=78.7s | spent $1.3302
+[2026-11-16 11:47:11] qwen__heatmap_anon__cap24576__breakout_a9f535cc__s3 a1 -> correct ('Breakout (or a close brick-breaking variant)') pt=15922 ct=36786 $0.0522 finish=stop err=None wall=591.0s | spent $1.3824
+[2026-11-16 11:47:22] flash__topk8__cap24576__freeway_0bbcc3ea__s3 a1 -> miss ('Sokoban (likely a fixed 10Ã\x9710 level).') pt=4703 ct=9954 $0.0134 finish=stop err=None wall=48.8s | spent $1.3958
+[2026-11-16 11:47:35] flash__heatmap_anon__cap24576__breakout_a9f535cc__s1 a1 -> correct ('Breakout (Atari Breakout / Arkanoid-style brick breaker).') pt=12485 ct=12340 $0.0186 finish=stop err=None wall=36.1s | spent $1.4143
+[2026-11-16 11:47:45] flash__topk8__cap24576__freeway_0bbcc3ea__s2 a1 -> correct ('Freeway (specifically MinAtar Freeway).') pt=4703 ct=14268 $0.0185 finish=stop err=None wall=72.9s | spent $1.4329
+[2026-11-16 11:48:12] flash__heatmap_anon__cap24576__breakout_a9f535cc__s3 a1 -> miss ('') pt=12485 ct=13741 $0.0202 finish=stop err=None wall=36.1s | spent $1.4531
+[2026-11-16 11:48:24] flash__heatmap_anon__cap24576__pong_dfc6cb65__s1 a1 -> incomplete (None) pt=11554 ct=14391 $0.0207 finish=None err=None wall=39.0s | spent $1.4738
+[2026-11-16 11:48:28] flash__heatmap_anon__cap24576__breakout_a9f535cc__s2 a1 -> incomplete (None) pt=12485 ct=24576 $0.0332 finish=length err=None wall=65.4s | spent $1.5071
+[2026-11-16 11:48:50] flash__heatmap_anon__cap24576__pacman_bdf99279__s1 a1 -> incomplete (None) pt=11575 ct=0 $0.0035 finish=None err=HTTP 503: { "error": {"message": "Service unavailable", "type": "service_unavailable"} } wall=22.8s | spent $1.5106
+[2026-11-16 11:48:50] flash__heatmap_anon__cap24576__pong_dfc6cb65__s3 a1 -> incomplete (None) pt=11554 ct=292 $0.0038 finish=None err=None wall=26.2s | spent $1.5144
+[2026-11-16 11:49:17] flash__heatmap_anon__cap24576__pong_dfc6cb65__s2 a1 -> incomplete (None) pt=12526 ct=24576 $0.0332 finish=length err=None wall=65.8s | spent $1.5476
+[2026-11-16 11:49:46] flash__heatmap_anon__cap24576__pacman_bdf99279__s3 a1 -> miss ('Sokoban.') pt=12593 ct=10283 $0.0161 finish=stop err=None wall=28.4s | spent $1.5637
+[2026-11-16 11:49:55] flash__heatmap_anon__cap24576__pacman_bdf99279__s2 a1 -> incomplete (None) pt=12593 ct=24576 $0.0333 finish=length err=None wall=64.3s | spent $1.5970
+[2026-11-16 11:49:56] flash__heatmap_anon__cap24576__pacman_bdf99279__s1 a2 -> incomplete (None) pt=12593 ct=24576 $0.0333 finish=length err=None wall=65.5s | spent $1.6303
+[2026-11-16 11:50:32] flash__heatmap_anon__cap24576__freeway_0bbcc3ea__s3 a1 -> correct ('Frogger (or a Frogger-like grid game).') pt=12518 ct=12588 $0.0189 finish=stop err=None wall=36.4s | spent $1.6491
+[2026-11-16 11:50:33] flash__heatmap_anon__cap24576__freeway_0bbcc3ea__s2 a1 -> correct ('Frogger (or a simplified Frogger-like road/river crossing g) pt=12518 ct=13137 $0.0195 finish=stop err=None wall=38.1s | spent $1.6687
+[2026-11-16 11:50:48] flash__heatmap_anon__cap24576__freeway_0bbcc3ea__s1 a1 -> miss ('Seaquest (MinAtar version).') pt=12518 ct=23901 $0.0324 finish=stop err=None wall=62.7s | spent $1.7011
+[2026-11-16 11:51:38] flash__heatmap_shuffled__cap24576__pong_dfc6cb65_shuf101__s1 a1 -> named ('Pac-Man (specifically a simplified 10Ã\x9710 grid version, ) pt=12555 ct=11838 $0.0180 finish=stop err=None wall=49.9s | spent $1.7191
+[2026-11-16 11:52:39] flash__heatmap_shuffled__cap24576__breakout_a9f535cc_shuf102__s1 a1 -> incomplete (None) pt=12557 ct=24576 $0.0333 finish=length err=None wall=126.7s | spent $1.7523
+[2026-11-16 11:52:51] flash__heatmap_shuffled__cap24576__breakout_a9f535cc_shuf101__s1 a1 -> incomplete (None) pt=12563 ct=24576 $0.0333 finish=length err=None wall=138.5s | spent $1.7856
+[2026-11-16 12:03:32] qwen__heatmap_anon__cap24576__pong_dfc6cb65__s1 a1 -> incomplete (None) pt=15592 ct=25480 $0.0376 finish=None err=ConnectionError: HTTPSConnectionPool(host='api.together.xyz', port=443): Read timed out. wall=1015.3s | spent $1.8232
+[2026-11-16 12:03:32] qwen__heatmap_anon__cap24576__pong_dfc6cb65__s2 a1 -> incomplete (None) pt=15592 ct=21764 $0.0328 finish=None err=ConnectionError: HTTPSConnectionPool(host='api.together.xyz', port=443): Read timed out. wall=981.2s | spent $1.8797
+[2026-11-16 12:03:32] flash__heatmap_shuffled__cap24576__pong_dfc6cb65_shuf102__s1 a1 -> incomplete (None) pt=11750 ct=16804 $0.0237 finish=None err=ConnectionError: HTTPSConnectionPool(host='api.together.xyz', port=443): Read timed out. wall=713.7s | spent $1.8469
+[2026-11-16 12:03:32] flash__heatmap_shuffled__cap24576__pacman_bdf99279_shuf101__s1 a1 -> incomplete (None) pt=11771 ct=5980 $0.0107 finish=None err=ConnectionError: HTTPSConnectionPool(host='api.together.xyz', port=443): Read timed out. wall=652.7s | spent $1.8904
+[2026-11-16 12:03:39] flash__heatmap_shuffled__cap24576__pacman_bdf99279_shuf102__s1 a1 -> incomplete (None) pt=11772 ct=4786 $0.0093 finish=None err=ConnectionError: HTTPSConnectionPool(host='api.together.xyz', port=443): Read timed out. wall=648.7s | spent $1.8997
+[2026-11-16 12:05:02] flash__heatmap_shuffled__cap24576__pong_dfc6cb65_shuf102__s1 a2 -> incomplete (None) pt=12549 ct=24576 $0.0333 finish=length err=None wall=90.4s | spent $1.9330
+[2026-11-16 12:05:07] flash__heatmap_shuffled__cap24576__pacman_bdf99279_shuf101__s1 a2 -> incomplete (None) pt=12575 ct=24576 $0.0333 finish=length err=None wall=95.4s | spent $1.9662
+[2026-11-16 12:05:15] flash__heatmap_shuffled__cap24576__pacman_bdf99279_shuf102__s1 a2 -> incomplete (None) pt=12570 ct=24576 $0.0333 finish=length err=None wall=95.9s | spent $1.9995
+[2026-11-16 12:06:22] flash__heatmap_shuffled__cap24576__freeway_0bbcc3ea_shuf101__s1 a1 -> named ('Pac-Man (a simplified grid-based Pac-Man).') pt=12577 ct=14868 $0.0216 finish=stop err=None wall=79.1s | spent $2.0211

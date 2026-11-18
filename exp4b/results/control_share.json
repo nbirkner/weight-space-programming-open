@@ -1,0 +1,10 @@
+{
+ "astra": {
+  "trained_net_in_control_share": 0.3287671232876712,
+  "mean_episode_steps": 73.0
+ },
+ "repair_flash_1": {
+  "trained_net_in_control_share": 0.29577464788732394,
+  "mean_episode_steps": 71.0
+ }
+}

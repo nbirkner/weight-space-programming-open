@@ -1,0 +1,3 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+astra trained-net-in-control share 0.33, mean episode length 73.0 steps
+repair_flash_1 trained-net-in-control share 0.30, mean episode length 71.0 steps

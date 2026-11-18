@@ -1,0 +1,77 @@
+[
+  {
+    "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "object": "model",
+    "type": "chat",
+    "display_name": "DeepSeek V4.1 Flash",
+    "organization": "DeepSeek",
+    "pricing": {
+      "hourly": 0,
+      "input": 0.3,
+      "output": 1.2,
+      "base": 0,
+      "finetune": 0,
+      "cached_input": 0.006,
+      "image_pixel": 0,
+      "transcribe": 0,
+      "image": 0,
+      "video": 0
+    }
+  },
+  {
+    "id": "Qwen/Qwen3.7-Plus",
+    "object": "model",
+    "type": "chat",
+    "display_name": "Qwen3.7 Plus",
+    "organization": "Qwen",
+    "pricing": {
+      "hourly": 0,
+      "input": 0.32,
+      "output": 1.28,
+      "base": 0,
+      "finetune": 0,
+      "image_pixel": 0,
+      "transcribe": 0,
+      "image": 0,
+      "video": 0
+    }
+  },
+  {
+    "id": "Qwen/Qwen3.7-Max",
+    "object": "model",
+    "type": "chat",
+    "display_name": "Qwen3.7 Max",
+    "organization": "Qwen",
+    "pricing": {
+      "hourly": 0,
+      "input": 2.5,
+      "output": 7.5,
+      "base": 0,
+      "finetune": 0,
+      "cached_input": 0.5,
+      "image_pixel": 0,
+      "transcribe": 0,
+      "image": 0,
+      "video": 0
+    }
+  },
+  {
+    "id": "moonshotai/Kimi-K3",
+    "object": "model",
+    "type": "chat",
+    "display_name": "Kimi K3",
+    "organization": "Moonshot AI",
+    "pricing": {
+      "hourly": 0,
+      "input": 3,
+      "output": 15,
+      "base": 0,
+      "finetune": 0,
+      "cached_input": 0.3,
+      "image_pixel": 0,
+      "transcribe": 0,
+      "image": 0,
+      "video": 0
+    }
+  }
+]

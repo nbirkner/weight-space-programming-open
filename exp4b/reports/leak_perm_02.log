@@ -1,0 +1,29 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[leak_perm_02] t1 finish=stop err=None ct=2170 pt=6102 ledger=$4.987 run=$0.003
+   exec 17.2s sims=0 used=0 flag=False out='obs0 shape (1, 679) entry0 logits [13.067953 -7.933359 -9.333055]\nstart poly5 [2.8   0.725 0.    0.   ] green [2.5374997  0.73499995 0.         0.        ]\nall0 min_d 2.305 final poly5 [ 3.97  0.6  -0'
+[leak_perm_02] t2 finish=stop err=None ct=7031 pt=7557 ledger=$4.996 run=$0.012
+   exec 5.2s sims=0 used=0 flag=False out='all1                 len= 32 green=(1.40,0.67) d_blue=1.17 d_red=0.35\nall2                 len=256 green=(4.74,0.62) d_blue=4.51 d_red=3.13\n1,0                  len= 33 green=(1.47,0.64) d_blue=1.24 d'
+[leak_perm_02] t3 finish=stop err=None ct=1768 pt=8449 ledger=$4.999 run=$0.014
+   exec 9.2s sims=0 used=0 flag=False out='all1                   len= 32 green=(1.40,0.67) d_blue=1.17 d_red=0.35 RED\nall2                   len=256 green=(4.74,0.62) d_blue=4.51 d_red=3.13 timeout\n2*32,1                 len= 86 green=(0.67,0'
+[leak_perm_02] t4 finish=stop err=None ct=1438 pt=9497 ledger=$5.001 run=$0.016
+   exec 30.8s sims=0 used=0 flag=False out='2*  4,1 -> ? len=43 green=(1.19,0.69)\n2*  6,1 -> R len=52 green=(1.05,0.65)\n2*  8,1 -> S len=61 green=(0.65,0.61)\n2* 10,1 -> S len=68 green=(0.63,0.62)\n2* 12,1 -> ? len=74 green=(0.69,0.61)\n2* 14,1 ->'
+[leak_perm_02] t5 finish=stop err=None ct=3552 pt=10721 ledger=$5.005 run=$0.021
+   exec 0.7s sims=0 used=0 flag=False out='step | x | logits | probs\n0 2.8 [13.07 -7.93 -9.33] [1. 0. 0.]\n4 2.87 [ -4.39  11.62 -16.38] [0. 1. 0.]\n8 3.1 [  9.86  -2.83 -14.79] [1. 0. 0.]\n12 3.3 [  4.43   1.79 -13.23] [0.93 0.07 0.  ]\n16 3.42 ['
+[leak_perm_02] t6 finish=stop err=None ct=3381 pt=11426 ledger=$5.010 run=$0.025
+   exec 0.3s sims=0 used=0 flag=False out='len 61\nstep | body x,y,ang | green x,y | right x,y | vel body | angvel\n0 [2.8  0.72 0.   0.  ] g [2.54 0.73] r [3.11 0.75] ang 0.0 av 0.0\n1 [ 2.8   0.72  0.03 -0.37] g [2.54 0.71] r [3.11 0.76] ang 0.'
+[leak_perm_02] t7 finish=stop err=None ct=15767 pt=13914 ledger=$5.029 run=$0.045
+   exec 0.3s sims=0 used=0 flag=False out='T 61\n107 early -0.89 late 0.87 diff -1.77\n55 early -0.91 late 0.85 diff -1.76\n3 early 0.97 late -0.78 diff 1.75\n13 early 0.83 late -0.77 diff 1.6\n8 early -0.77 late 0.83 diff -1.6\n11 early -0.97 late '
+[leak_perm_02] t8 finish=length err=None ct=16384 pt=14911 ledger=$5.049 run=$0.065
+[leak_perm_02] t9 finish=stop err=None ct=2500 pt=14947 ledger=$5.053 run=$0.068
+   exec 45.9s sims=1 used=1 flag=False out="{'statements': 389, 'applied': 389, 'entries_written': 389, 'errors': []}\n{'episodes': 256, 'successes': 17, 'success': 0.06640625, 'red': 0.6796875, 'timeout': 0.25390625, 'return': -0.43232989311218"
+[leak_perm_02] t10 finish=stop err=None ct=9317 pt=16159 ledger=$5.064 run=$0.080
+   exec 114.6s sims=3 used=4 flag=False out='unit3 succ 0.902 red 0.098 to 0.0 ret 1.17\nphase succ 1.0 red 0.0 to 0.0 ret 1.37\nunit41 succ 0.0 red 0.145 to 0.855 ret -0.02\n'
+[leak_perm_02] t11 finish=stop err=None ct=424 pt=16833 ledger=$5.065 run=$0.081
+   exec 34.2s sims=2 used=6 flag=False out='entries_written 417 errors []\n1.0 0.0 0.0 1.3729770183563232\ngreedy: 1.0 0.0 0.0\n[saved edit: 386 of 171664 weights differ from the shown network]\nsaved\n'
+[leak_perm_02] t12 finish=stop err=None ct=656 pt=17307 ledger=$5.066 run=$0.082
+   exec 145.2s sims=4 used=10 flag=False out='scale 10 trial 0 succ 1.0 red 0.0 to 0.0\nscale 10 trial 1 succ 1.0 red 0.0 to 0.0\nscale 20 trial 0 succ 1.0 red 0.0 to 0.0\nscale 20 trial 1 succ 1.0 red 0.0 to 0.0\nTraceback (most recent call last):\n '
+[leak_perm_02] t13 finish=stop err=None ct=193 pt=17915 ledger=$5.067 run=$0.082
+   exec 0.0s sims=1 used=11 flag=False out='Traceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker_perm.py", line 90, in <module>\n    exec(compile(req["code"], "<model_code>", "exec"), NS)\n  File "<model_code>", line 2, in <mo'
+[leak_perm_02] t14 finish=stop err=None ct=359 pt=18163 ledger=$5.067 run=$0.083
+   SUBMISSION t14: search 256/256 changed=386
+SUMMARY {"tag": "leak_perm_02", "status": "solved on search", "turns": 14, "run_cost": 0.0828, "best": {"turn": 14, "src": "save_edit", "search": 1.0, "search_successes": 256, "changed": 386, "rep": null}, "best_test": {"episodes": 1024, "successes": 1024, "success": 1.0, "red": 0.0, "timeout": 0.0, "return": 1.3729948997497559}, "best_changed": {"changed": 386, "entries": 171664, "frac": 0.0022485786186969897}}

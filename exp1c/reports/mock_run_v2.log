@@ -1,0 +1,149 @@
+136 cells to run; ledger so far $0.0000
+[2026-11-16 12:14:41] flash__heatmap__cap2048__breakout_a9f535cc__s2 a1 -> correct ('Breakout') pt=11833 ct=1822 $0.0057 finish=stop err=None wall=1.0s | spent $0.0109
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__breakout_a9f535cc__s1 a1 -> correct ('Breakout') pt=11637 ct=2534 $0.0070 finish=stop err=None wall=1.0s | spent $0.0179
+[2026-11-16 12:14:41] flash__heatmap__cap2048__breakout_a9f535cc__s1 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=11833 ct=1375 $0.0052 finish=stop err=None wall=1.0s | spent $0.0052
+[2026-11-16 12:14:41] flash__heatmap__cap2048__breakout_a9f535cc__s3 a1 -> correct ('Breakout') pt=11833 ct=1086 $0.0049 finish=stop err=None wall=1.0s | spent $0.0228
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__breakout_a9f535cc__s3 a1 -> incomplete (None) pt=11637 ct=24576 $0.0352 finish=length err=None wall=1.0s | spent $0.0579
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__pong_dfc6cb65__s1 a1 -> incomplete (None) pt=15592 ct=5694 $0.0123 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.0702
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__breakout_a9f535cc__s2 a1 -> correct ('Breakout') pt=11637 ct=9654 $0.0161 finish=stop err=None wall=1.0s | spent $0.0863
+[2026-11-16 12:14:41] flash__heatmap__cap2048__pong_dfc6cb65__s2 a1 -> correct ('Pong (wall variant)') pt=11791 ct=1984 $0.0059 finish=stop err=None wall=1.0s | spent $0.0922
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__pong_dfc6cb65__s2 a1 -> incomplete (None) pt=11595 ct=24576 $0.0352 finish=length err=None wall=1.0s | spent $0.1323
+[2026-11-16 12:14:41] flash__heatmap__cap2048__pong_dfc6cb65__s3 a1 -> correct ('Pong (wall variant)') pt=11791 ct=1129 $0.0049 finish=stop err=None wall=1.0s | spent $0.0971
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__pong_dfc6cb65__s3 a1 -> correct ('Pong (wall variant)') pt=11595 ct=5295 $0.0105 finish=stop err=None wall=1.0s | spent $0.1794
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__pong_dfc6cb65__s1 a2 -> incomplete (None) pt=15592 ct=20064 $0.0307 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.1689
+[2026-11-16 12:14:41] flash__heatmap__cap2048__pong_dfc6cb65__s1 a1 -> incomplete (None) pt=11791 ct=2048 $0.0060 finish=length err=None wall=1.0s | spent $0.1383
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__pacman_bdf99279__s1 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=11616 ct=7523 $0.0133 finish=stop err=None wall=1.0s | spent $0.1928
+[2026-11-16 12:14:41] flash__heatmap__cap2048__pacman_bdf99279__s1 a1 -> correct ('Pac-Man') pt=11812 ct=1584 $0.0054 finish=stop err=None wall=1.0s | spent $0.1982
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__pacman_bdf99279__s2 a1 -> correct ('Pac-Man') pt=11616 ct=9874 $0.0164 finish=stop err=None wall=1.0s | spent $0.2146
+[2026-11-16 12:14:41] flash__heatmap__cap2048__pacman_bdf99279__s2 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=11812 ct=1913 $0.0058 finish=stop err=None wall=1.0s | spent $0.2204
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__pacman_bdf99279__s3 a1 -> incomplete (None) pt=15620 ct=19965 $0.0306 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.2510
+[2026-11-16 12:14:41] flash__heatmap__cap2048__pacman_bdf99279__s3 a1 -> correct ('Pac-Man') pt=11812 ct=1801 $0.0057 finish=stop err=None wall=1.0s | spent $0.2567
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__freeway_0bbcc3ea__s2 a1 -> incomplete (None) pt=11607 ct=24576 $0.0352 finish=length err=None wall=1.0s | spent $0.2918
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__freeway_0bbcc3ea__s1 a1 -> incomplete (None) pt=11607 ct=24576 $0.0352 finish=length err=None wall=1.0s | spent $0.3270
+[2026-11-16 12:14:41] flash__heatmap__cap2048__freeway_0bbcc3ea__s1 a1 -> correct ('Frogger') pt=11802 ct=1279 $0.0051 finish=stop err=None wall=1.0s | spent $0.3321
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__freeway_0bbcc3ea__s3 a1 -> correct ('Frogger') pt=11607 ct=6422 $0.0119 finish=stop err=None wall=1.0s | spent $0.3440
+[2026-11-16 12:14:41] flash__heatmap__cap2048__freeway_0bbcc3ea__s2 a1 -> correct ('Frogger') pt=11802 ct=1176 $0.0050 finish=stop err=None wall=1.0s | spent $0.3490
+[2026-11-16 12:14:41] qwen__heatmap_anon__cap24576__pacman_bdf99279__s3 a2 -> incomplete (None) pt=15620 ct=23739 $0.0354 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.3844
+[2026-11-16 12:14:41] flash__heatmap__cap2048__freeway_0bbcc3ea__s3 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=11802 ct=1996 $0.0059 finish=stop err=None wall=1.0s | spent $0.3903
+[2026-11-16 12:14:41] qwen__heatmap_shuffled__cap24576__breakout_a9f535cc_shuf101__s1 a1 -> declined ('Unknown; the weights look unstructured') pt=11835 ct=2534 $0.0070 finish=stop err=None wall=1.0s | spent $0.3973
+[2026-11-16 12:14:41] qwen__heatmap_shuffled__cap24576__breakout_a9f535cc_shuf102__s1 a1 -> declined ('Unknown; the weights look unstructured') pt=11835 ct=2534 $0.0070 finish=stop err=None wall=1.0s | spent $0.4044
+[2026-11-16 12:14:41] flash__heatmap__cap4096__breakout_a9f535cc__s1 a1 -> correct ('Breakout') pt=11833 ct=1853 $0.0058 finish=stop err=None wall=1.0s | spent $0.4101
+[2026-11-16 12:14:41] qwen__heatmap_shuffled__cap24576__pong_dfc6cb65_shuf101__s1 a1 -> incomplete (None) pt=15856 ct=13903 $0.0229 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.4330
+[2026-11-16 12:14:41] flash__heatmap__cap4096__breakout_a9f535cc__s2 a1 -> correct ('Breakout') pt=11833 ct=1519 $0.0054 finish=stop err=None wall=1.0s | spent $0.4384
+[2026-11-16 12:14:41] qwen__heatmap_shuffled__cap24576__pong_dfc6cb65_shuf102__s1 a1 -> incomplete (None) pt=15857 ct=13903 $0.0229 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.4612
+[2026-11-16 12:14:41] flash__heatmap__cap4096__breakout_a9f535cc__s3 a1 -> correct ('Breakout') pt=11833 ct=2418 $0.0065 finish=stop err=None wall=1.0s | spent $0.4677
+[2026-11-16 12:14:41] qwen__heatmap_shuffled__cap24576__pacman_bdf99279_shuf101__s1 a1 -> named ('A grid variant of Pong, Breakout, or Snake') pt=11813 ct=7523 $0.0134 finish=stop err=None wall=1.0s | spent $0.4811
+[2026-11-16 12:14:41] qwen__heatmap_shuffled__cap24576__pacman_bdf99279_shuf102__s1 a1 -> named ('A grid variant of Pong, Breakout, or Snake') pt=11814 ct=7523 $0.0134 finish=stop err=None wall=1.0s | spent $0.4945
+[2026-11-16 12:14:41] flash__heatmap__cap4096__pong_dfc6cb65__s1 a1 -> correct ('A grid variant of Pong, Breakout, or Snake') pt=11791 ct=3551 $0.0078 finish=stop err=None wall=1.0s | spent $0.5023
+[2026-11-16 12:14:41] qwen__heatmap_shuffled__cap24576__pong_dfc6cb65_shuf101__s1 a2 -> incomplete (None) pt=15856 ct=15959 $0.0255 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.5278
+[2026-11-16 12:14:41] flash__heatmap__cap4096__pong_dfc6cb65__s2 a1 -> correct ('Pong (wall variant)') pt=11791 ct=2771 $0.0069 finish=stop err=None wall=1.0s | spent $0.5347
+[2026-11-16 12:14:41] qwen__heatmap_shuffled__cap24576__pong_dfc6cb65_shuf102__s1 a2 -> incomplete (None) pt=15857 ct=15959 $0.0255 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.5602
+[2026-11-16 12:14:41] flash__heatmap__cap4096__pong_dfc6cb65__s3 a1 -> correct ('Pong (wall variant)') pt=11791 ct=2560 $0.0066 finish=stop err=None wall=1.0s | spent $0.5668
+[2026-11-16 12:14:41] qwen__heatmap_shuffled__cap24576__freeway_0bbcc3ea_shuf102__s1 a1 -> incomplete (None) pt=11804 ct=24576 $0.0352 finish=length err=None wall=1.0s | spent $0.6373
+[2026-11-16 12:14:41] qwen__heatmap_shuffled__cap24576__freeway_0bbcc3ea_shuf101__s1 a1 -> incomplete (None) pt=11804 ct=24576 $0.0352 finish=length err=None wall=1.0s | spent $0.6020
+[2026-11-16 12:14:41] flash__heatmap__cap4096__pacman_bdf99279__s1 a1 -> correct ('Pac-Man') pt=11812 ct=1839 $0.0058 finish=stop err=None wall=1.0s | spent $0.6430
+[2026-11-16 12:14:41] flash__heatmap__cap4096__pacman_bdf99279__s2 a1 -> correct ('Pac-Man') pt=11812 ct=2056 $0.0060 finish=stop err=None wall=1.0s | spent $0.6490
+[2026-11-16 12:14:41] flash__heatmap__cap4096__pacman_bdf99279__s3 a1 -> correct ('Pac-Man') pt=11812 ct=4042 $0.0084 finish=stop err=None wall=1.0s | spent $0.6574
+[2026-11-16 12:14:41] flash__heatmap__cap4096__freeway_0bbcc3ea__s1 a1 -> incomplete (None) pt=11760 ct=2349 $0.0063 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.6638
+[2026-11-16 12:14:41] flash__heatmap__cap4096__freeway_0bbcc3ea__s2 a1 -> correct ('Frogger') pt=11802 ct=3669 $0.0079 finish=stop err=None wall=1.0s | spent $0.6717
+[2026-11-16 12:14:41] flash__heatmap__cap4096__freeway_0bbcc3ea__s3 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=11802 ct=2731 $0.0068 finish=stop err=None wall=1.0s | spent $0.6785
+[2026-11-16 12:14:41] flash__heatmap__cap4096__freeway_0bbcc3ea__s1 a2 -> incomplete (None) pt=11760 ct=2268 $0.0062 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.6848
+[2026-11-16 12:14:41] flash__heatmap__cap8192__breakout_a9f535cc__s1 a1 -> correct ('Breakout') pt=11833 ct=8045 $0.0132 finish=stop err=None wall=1.0s | spent $0.6980
+[2026-11-16 12:14:41] flash__heatmap__cap8192__breakout_a9f535cc__s2 a1 -> correct ('Breakout') pt=11833 ct=2762 $0.0069 finish=stop err=None wall=1.0s | spent $0.7048
+[2026-11-16 12:14:41] flash__heatmap__cap8192__breakout_a9f535cc__s3 a1 -> correct ('Breakout') pt=11833 ct=4508 $0.0090 finish=stop err=None wall=1.0s | spent $0.7138
+[2026-11-16 12:14:41] flash__heatmap__cap8192__pong_dfc6cb65__s1 a1 -> incomplete (None) pt=11791 ct=8192 $0.0134 finish=length err=None wall=1.0s | spent $0.7272
+[2026-11-16 12:14:41] flash__heatmap__cap8192__pong_dfc6cb65__s2 a1 -> incomplete (None) pt=11791 ct=8192 $0.0134 finish=length err=None wall=1.0s | spent $0.7405
+[2026-11-16 12:14:41] flash__heatmap__cap8192__pong_dfc6cb65__s3 a1 -> correct ('Pong (wall variant)') pt=11791 ct=1634 $0.0055 finish=stop err=None wall=1.0s | spent $0.7460
+[2026-11-16 12:14:41] flash__heatmap__cap8192__pacman_bdf99279__s1 a1 -> correct ('Pac-Man') pt=11812 ct=7550 $0.0126 finish=stop err=None wall=1.0s | spent $0.7586
+[2026-11-16 12:14:41] flash__heatmap__cap8192__pacman_bdf99279__s2 a1 -> correct ('Pac-Man') pt=11812 ct=1782 $0.0057 finish=stop err=None wall=1.0s | spent $0.7643
+[2026-11-16 12:14:41] flash__heatmap__cap8192__pacman_bdf99279__s3 a1 -> correct ('Pac-Man') pt=11812 ct=7680 $0.0128 finish=stop err=None wall=1.0s | spent $0.7771
+[2026-11-16 12:14:41] flash__heatmap__cap8192__freeway_0bbcc3ea__s1 a1 -> incomplete (None) pt=11802 ct=8192 $0.0134 finish=length err=None wall=1.0s | spent $0.7905
+[2026-11-16 12:14:41] flash__heatmap__cap8192__freeway_0bbcc3ea__s2 a1 -> incomplete (None) pt=11760 ct=3339 $0.0075 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.7980
+[2026-11-16 12:14:41] flash__heatmap__cap8192__freeway_0bbcc3ea__s3 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=11802 ct=1093 $0.0049 finish=stop err=None wall=1.0s | spent $0.8028
+[2026-11-16 12:14:41] flash__heatmap__cap16384__breakout_a9f535cc__s1 a1 -> incomplete (None) pt=11791 ct=7088 $0.0120 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.8149
+[2026-11-16 12:14:41] flash__heatmap__cap8192__freeway_0bbcc3ea__s2 a2 -> incomplete (None) pt=11760 ct=2403 $0.0064 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.8213
+[2026-11-16 12:14:41] flash__heatmap__cap16384__breakout_a9f535cc__s2 a1 -> correct ('Breakout') pt=11833 ct=8844 $0.0142 finish=stop err=None wall=1.0s | spent $0.8355
+[2026-11-16 12:14:41] flash__heatmap__cap16384__breakout_a9f535cc__s1 a2 -> incomplete (None) pt=11791 ct=6725 $0.0116 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.8471
+[2026-11-16 12:14:41] flash__heatmap__cap16384__breakout_a9f535cc__s3 a1 -> incomplete (None) pt=11791 ct=4071 $0.0084 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.8555
+[2026-11-16 12:14:41] flash__heatmap__cap16384__pong_dfc6cb65__s1 a1 -> correct ('Pong (wall variant)') pt=11791 ct=4627 $0.0091 finish=stop err=None wall=1.0s | spent $0.8646
+[2026-11-16 12:14:41] flash__heatmap__cap16384__pong_dfc6cb65__s2 a1 -> correct ('A grid variant of Pong, Breakout, or Snake') pt=11791 ct=4103 $0.0085 finish=stop err=None wall=1.0s | spent $0.8730
+[2026-11-16 12:14:41] flash__heatmap__cap16384__breakout_a9f535cc__s3 a2 -> incomplete (None) pt=11791 ct=3607 $0.0079 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.8809
+[2026-11-16 12:14:41] flash__heatmap__cap16384__pong_dfc6cb65__s3 a1 -> correct ('Pong (wall variant)') pt=11791 ct=2254 $0.0062 finish=stop err=None wall=1.0s | spent $0.8871
+[2026-11-16 12:14:41] flash__heatmap__cap16384__pacman_bdf99279__s1 a1 -> correct ('Pac-Man') pt=11812 ct=10940 $0.0167 finish=stop err=None wall=1.0s | spent $0.9038
+[2026-11-16 12:14:41] flash__heatmap__cap16384__pacman_bdf99279__s2 a1 -> correct ('Pac-Man') pt=11812 ct=2616 $0.0067 finish=stop err=None wall=1.0s | spent $0.9105
+[2026-11-16 12:14:41] flash__heatmap__cap16384__pacman_bdf99279__s3 a1 -> correct ('Pac-Man') pt=11812 ct=9601 $0.0151 finish=stop err=None wall=1.0s | spent $0.9256
+[2026-11-16 12:14:41] flash__heatmap__cap16384__freeway_0bbcc3ea__s1 a1 -> correct ('Frogger') pt=11802 ct=6199 $0.0110 finish=stop err=None wall=1.0s | spent $0.9365
+[2026-11-16 12:14:41] flash__heatmap__cap16384__freeway_0bbcc3ea__s2 a1 -> correct ('Frogger') pt=11802 ct=3809 $0.0081 finish=stop err=None wall=1.0s | spent $0.9447
+[2026-11-16 12:14:41] flash__heatmap__cap16384__freeway_0bbcc3ea__s3 a1 -> incomplete (None) pt=11760 ct=9343 $0.0147 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $0.9594
+[2026-11-16 12:14:41] flash__w1_only__cap24576__breakout_a9f535cc__s1 a1 -> incomplete (None) pt=7194 ct=24576 $0.0316 finish=length err=None wall=1.0s | spent $0.9910
+[2026-11-16 12:14:41] flash__w1_only__cap24576__breakout_a9f535cc__s2 a1 -> correct ('Breakout') pt=7194 ct=11841 $0.0164 finish=stop err=None wall=1.0s | spent $1.0074
+[2026-11-16 12:14:41] flash__heatmap__cap16384__freeway_0bbcc3ea__s3 a2 -> incomplete (None) pt=11760 ct=14671 $0.0211 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $1.0285
+[2026-11-16 12:14:41] flash__w1_only__cap24576__breakout_a9f535cc__s3 a1 -> correct ('Breakout') pt=7194 ct=10370 $0.0146 finish=stop err=None wall=1.0s | spent $1.0431
+[2026-11-16 12:14:41] flash__w1_only__cap24576__pong_dfc6cb65__s1 a1 -> incomplete (None) pt=7156 ct=24576 $0.0316 finish=length err=None wall=1.0s | spent $1.0748
+[2026-11-16 12:14:41] flash__w1_only__cap24576__pong_dfc6cb65__s2 a1 -> correct ('Pong (wall variant)') pt=7156 ct=3339 $0.0062 finish=stop err=None wall=1.0s | spent $1.0809
+[2026-11-16 12:14:41] flash__w1_only__cap24576__pong_dfc6cb65__s3 a1 -> correct ('Pong (wall variant)') pt=7156 ct=10994 $0.0153 finish=stop err=None wall=1.0s | spent $1.0963
+[2026-11-16 12:14:41] flash__w1_only__cap24576__pacman_bdf99279__s1 a1 -> incomplete (None) pt=7179 ct=24576 $0.0316 finish=length err=None wall=1.0s | spent $1.1279
+[2026-11-16 12:14:41] flash__w1_only__cap24576__pacman_bdf99279__s2 a1 -> correct ('Pac-Man') pt=7179 ct=2023 $0.0046 finish=stop err=None wall=1.0s | spent $1.1325
+[2026-11-16 12:14:41] flash__w1_only__cap24576__pacman_bdf99279__s3 a1 -> incomplete (None) pt=7179 ct=24576 $0.0316 finish=length err=None wall=1.0s | spent $1.1641
+[2026-11-16 12:14:41] flash__w1_only__cap24576__freeway_0bbcc3ea__s1 a1 -> correct ('Frogger') pt=7169 ct=5721 $0.0090 finish=stop err=None wall=1.0s | spent $1.1732
+[2026-11-16 12:14:41] flash__w1_only__cap24576__freeway_0bbcc3ea__s2 a1 -> correct ('Frogger') pt=7169 ct=5943 $0.0093 finish=stop err=None wall=1.0s | spent $1.1824
+[2026-11-16 12:14:41] flash__w1_only__cap24576__freeway_0bbcc3ea__s3 a1 -> correct ('Frogger') pt=7169 ct=4120 $0.0071 finish=stop err=None wall=1.0s | spent $1.1895
+[2026-11-16 12:14:41] flash__ascii__cap24576__breakout_a9f535cc__s1 a1 -> incomplete (None) pt=4188 ct=7690 $0.0105 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $1.2000
+[2026-11-16 12:14:41] flash__ascii__cap24576__breakout_a9f535cc__s2 a1 -> incomplete (None) pt=4203 ct=24576 $0.0308 finish=length err=None wall=1.0s | spent $1.2308
+[2026-11-16 12:14:41] flash__ascii__cap24576__breakout_a9f535cc__s3 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=4203 ct=11171 $0.0147 finish=stop err=None wall=1.0s | spent $1.2454
+[2026-11-16 12:14:41] flash__ascii__cap24576__breakout_a9f535cc__s1 a2 -> incomplete (None) pt=4188 ct=12881 $0.0167 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $1.2622
+[2026-11-16 12:14:41] flash__ascii__cap24576__pong_dfc6cb65__s1 a1 -> correct ('A grid variant of Pong, Breakout, or Snake') pt=4172 ct=8738 $0.0117 finish=stop err=None wall=1.0s | spent $1.2739
+[2026-11-16 12:14:41] flash__ascii__cap24576__pong_dfc6cb65__s2 a1 -> incomplete (None) pt=4172 ct=24576 $0.0307 finish=length err=None wall=1.0s | spent $1.3046
+[2026-11-16 12:14:41] flash__ascii__cap24576__pong_dfc6cb65__s3 a1 -> incomplete (None) pt=4157 ct=15591 $0.0200 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $1.3246
+[2026-11-16 12:14:41] flash__ascii__cap24576__pacman_bdf99279__s1 a1 -> correct ('Pac-Man') pt=4187 ct=3103 $0.0050 finish=stop err=None wall=1.0s | spent $1.3296
+[2026-11-16 12:14:41] flash__ascii__cap24576__pacman_bdf99279__s2 a1 -> correct ('Pac-Man') pt=4187 ct=5714 $0.0081 finish=stop err=None wall=1.0s | spent $1.3377
+[2026-11-16 12:14:41] flash__ascii__cap24576__pong_dfc6cb65__s3 a2 -> incomplete (None) pt=4157 ct=9618 $0.0128 finish=None err=ConnectionError: Read timed out (mock) wall=1.0s | spent $1.3505
+[2026-11-16 12:14:41] flash__ascii__cap24576__pacman_bdf99279__s3 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=4187 ct=3364 $0.0053 finish=stop err=None wall=1.0s | spent $1.3558
+[2026-11-16 12:14:41] flash__ascii__cap24576__freeway_0bbcc3ea__s1 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=4180 ct=11954 $0.0156 finish=stop err=None wall=1.0s | spent $1.3714
+[2026-11-16 12:14:41] flash__ascii__cap24576__freeway_0bbcc3ea__s2 a1 -> correct ('Frogger') pt=4180 ct=6508 $0.0091 finish=stop err=None wall=1.0s | spent $1.3804
+[2026-11-16 12:14:41] flash__ascii__cap24576__freeway_0bbcc3ea__s3 a1 -> incomplete (None) pt=4180 ct=24576 $0.0307 finish=length err=None wall=1.0s | spent $1.4112
+[2026-11-16 12:14:41] flash__glyphs__cap24576__breakout_a9f535cc__s1 a1 -> correct ('Breakout') pt=2965 ct=10158 $0.0131 finish=stop err=None wall=1.0s | spent $1.4243
+[2026-11-16 12:14:41] flash__glyphs__cap24576__breakout_a9f535cc__s2 a1 -> correct ('Breakout') pt=2965 ct=1272 $0.0024 finish=stop err=None wall=1.0s | spent $1.4267
+[2026-11-16 12:14:41] flash__glyphs__cap24576__breakout_a9f535cc__s3 a1 -> correct ('Breakout') pt=2965 ct=3434 $0.0050 finish=stop err=None wall=1.0s | spent $1.4317
+[2026-11-16 12:14:41] flash__glyphs__cap24576__pong_dfc6cb65__s1 a1 -> correct ('Pong (wall variant)') pt=2962 ct=10578 $0.0136 finish=stop err=None wall=1.0s | spent $1.4453
+[2026-11-16 12:14:41] flash__glyphs__cap24576__pong_dfc6cb65__s2 a1 -> correct ('A grid variant of Pong, Breakout, or Snake') pt=2962 ct=5873 $0.0079 finish=stop err=None wall=1.0s | spent $1.4532
+[2026-11-16 12:14:41] flash__glyphs__cap24576__pong_dfc6cb65__s3 a1 -> correct ('Pong (wall variant)') pt=2962 ct=11719 $0.0150 finish=stop err=None wall=1.0s | spent $1.4681
+[2026-11-16 12:14:41] flash__glyphs__cap24576__pacman_bdf99279__s1 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=2962 ct=4193 $0.0059 finish=stop err=None wall=1.0s | spent $1.4741
+[2026-11-16 12:14:41] flash__glyphs__cap24576__pacman_bdf99279__s2 a1 -> correct ('Pac-Man') pt=2962 ct=2349 $0.0037 finish=stop err=None wall=1.0s | spent $1.4778
+[2026-11-16 12:14:41] flash__glyphs__cap24576__pacman_bdf99279__s3 a1 -> correct ('Pac-Man') pt=2962 ct=9046 $0.0117 finish=stop err=None wall=1.0s | spent $1.4895
+[2026-11-16 12:14:41] flash__glyphs__cap24576__freeway_0bbcc3ea__s1 a1 -> correct ('Frogger') pt=2962 ct=4876 $0.0067 finish=stop err=None wall=1.0s | spent $1.4963
+[2026-11-16 12:14:41] flash__glyphs__cap24576__freeway_0bbcc3ea__s2 a1 -> correct ('Frogger') pt=2962 ct=10473 $0.0135 finish=stop err=None wall=1.0s | spent $1.5097
+[2026-11-16 12:14:41] flash__glyphs__cap24576__freeway_0bbcc3ea__s3 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=2962 ct=9297 $0.0120 finish=stop err=None wall=1.0s | spent $1.5218
+[2026-11-16 12:14:41] flash__topk8__cap24576__breakout_a9f535cc__s1 a1 -> incomplete (None) pt=4754 ct=24576 $0.0309 finish=length err=None wall=1.0s | spent $1.5527
+[2026-11-16 12:14:41] flash__topk8__cap24576__breakout_a9f535cc__s2 a1 -> correct ('Breakout') pt=4754 ct=11841 $0.0156 finish=stop err=None wall=1.0s | spent $1.5683
+[2026-11-16 12:14:41] flash__topk8__cap24576__breakout_a9f535cc__s3 a1 -> correct ('Breakout') pt=4754 ct=10370 $0.0139 finish=stop err=None wall=1.0s | spent $1.5822
+[2026-11-16 12:14:41] flash__topk8__cap24576__pong_dfc6cb65__s1 a1 -> incomplete (None) pt=4746 ct=24576 $0.0309 finish=length err=None wall=1.0s | spent $1.6131
+[2026-11-16 12:14:41] flash__topk8__cap24576__pong_dfc6cb65__s2 a1 -> correct ('Pong (wall variant)') pt=4746 ct=3339 $0.0054 finish=stop err=None wall=1.0s | spent $1.6185
+[2026-11-16 12:14:41] flash__topk8__cap24576__pong_dfc6cb65__s3 a1 -> correct ('Pong (wall variant)') pt=4746 ct=10994 $0.0146 finish=stop err=None wall=1.0s | spent $1.6331
+[2026-11-16 12:14:41] flash__topk8__cap24576__pacman_bdf99279__s1 a1 -> incomplete (None) pt=4754 ct=24576 $0.0309 finish=length err=None wall=1.0s | spent $1.6641
+[2026-11-16 12:14:41] flash__topk8__cap24576__pacman_bdf99279__s2 a1 -> correct ('Pac-Man') pt=4754 ct=2023 $0.0039 finish=stop err=None wall=1.0s | spent $1.6679
+[2026-11-16 12:14:41] flash__topk8__cap24576__pacman_bdf99279__s3 a1 -> incomplete (None) pt=4754 ct=24576 $0.0309 finish=length err=None wall=1.0s | spent $1.6988
+[2026-11-16 12:14:41] flash__topk8__cap24576__freeway_0bbcc3ea__s1 a1 -> correct ('Frogger') pt=4751 ct=5721 $0.0083 finish=stop err=None wall=1.0s | spent $1.7071
+[2026-11-16 12:14:41] flash__topk8__cap24576__freeway_0bbcc3ea__s2 a1 -> correct ('Frogger') pt=4751 ct=5943 $0.0086 finish=stop err=None wall=1.0s | spent $1.7157
+[2026-11-16 12:14:41] flash__topk8__cap24576__freeway_0bbcc3ea__s3 a1 -> correct ('Frogger') pt=4751 ct=4120 $0.0064 finish=stop err=None wall=1.0s | spent $1.7221
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__breakout_a9f535cc__s1 a1 -> correct ('Breakout') pt=11637 ct=8546 $0.0137 finish=stop err=None wall=1.0s | spent $1.7358
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__breakout_a9f535cc__s2 a1 -> correct ('Breakout') pt=11637 ct=4015 $0.0083 finish=stop err=None wall=1.0s | spent $1.7441
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__breakout_a9f535cc__s3 a1 -> miss ('A grid variant of Pong, Breakout, or Snake') pt=11637 ct=2928 $0.0070 finish=stop err=None wall=1.0s | spent $1.7511
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__pong_dfc6cb65__s1 a1 -> correct ('Pong (wall variant)') pt=11595 ct=10120 $0.0156 finish=stop err=None wall=1.0s | spent $1.7667
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__pong_dfc6cb65__s2 a1 -> correct ('Pong (wall variant)') pt=11595 ct=1016 $0.0047 finish=stop err=None wall=1.0s | spent $1.7714
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__pong_dfc6cb65__s3 a1 -> incomplete (None) pt=11595 ct=24576 $0.0330 finish=length err=None wall=1.0s | spent $1.8044
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__pacman_bdf99279__s1 a1 -> correct ('Pac-Man') pt=11616 ct=2979 $0.0071 finish=stop err=None wall=1.0s | spent $1.8115
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__pacman_bdf99279__s2 a1 -> incomplete (None) pt=11616 ct=24576 $0.0330 finish=length err=None wall=1.0s | spent $1.8444
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__pacman_bdf99279__s3 a1 -> incomplete (None) pt=11616 ct=24576 $0.0330 finish=length err=None wall=1.0s | spent $1.8774
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__freeway_0bbcc3ea__s1 a1 -> correct ('Frogger') pt=11607 ct=10694 $0.0163 finish=stop err=None wall=1.0s | spent $1.8937
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__freeway_0bbcc3ea__s2 a1 -> correct ('Frogger') pt=11607 ct=3259 $0.0074 finish=stop err=None wall=1.0s | spent $1.9011
+[2026-11-16 12:14:41] flash__heatmap_anon__cap24576__freeway_0bbcc3ea__s3 a1 -> correct ('Frogger') pt=11607 ct=10157 $0.0157 finish=stop err=None wall=1.0s | spent $1.9168
+[2026-11-16 12:14:41] flash__heatmap_shuffled__cap24576__breakout_a9f535cc_shuf101__s1 a1 -> declined ('Unknown; the weights look unstructured') pt=11835 ct=8546 $0.0138 finish=stop err=None wall=1.0s | spent $1.9306
+[2026-11-16 12:14:41] flash__heatmap_shuffled__cap24576__breakout_a9f535cc_shuf102__s1 a1 -> declined ('Unknown; the weights look unstructured') pt=11835 ct=8546 $0.0138 finish=stop err=None wall=1.0s | spent $1.9444
+[2026-11-16 12:14:41] flash__heatmap_shuffled__cap24576__pong_dfc6cb65_shuf101__s1 a1 -> declined ('Unknown; the weights look unstructured') pt=11792 ct=10120 $0.0157 finish=stop err=None wall=1.0s | spent $1.9601
+[2026-11-16 12:14:41] flash__heatmap_shuffled__cap24576__pong_dfc6cb65_shuf102__s1 a1 -> declined ('Unknown; the weights look unstructured') pt=11793 ct=10120 $0.0157 finish=stop err=None wall=1.0s | spent $1.9758
+[2026-11-16 12:14:41] flash__heatmap_shuffled__cap24576__pacman_bdf99279_shuf101__s1 a1 -> declined ('Unknown; the weights look unstructured') pt=11813 ct=2979 $0.0071 finish=stop err=None wall=1.0s | spent $1.9829
+[2026-11-16 12:14:41] flash__heatmap_shuffled__cap24576__pacman_bdf99279_shuf102__s1 a1 -> declined ('Unknown; the weights look unstructured') pt=11814 ct=2979 $0.0071 finish=stop err=None wall=1.0s | spent $1.9900
+[2026-11-16 12:14:41] flash__heatmap_shuffled__cap24576__freeway_0bbcc3ea_shuf101__s1 a1 -> declined ('Unknown; the weights look unstructured') pt=11804 ct=10694 $0.0164 finish=stop err=None wall=1.0s | spent $2.0064
+[2026-11-16 12:14:41] flash__heatmap_shuffled__cap24576__freeway_0bbcc3ea_shuf102__s1 a1 -> declined ('Unknown; the weights look unstructured') pt=11804 ct=10694 $0.0164 finish=stop err=None wall=1.0s | spent $2.0228
+DONE. ledger total $2.0228; stopped_by_cap=False

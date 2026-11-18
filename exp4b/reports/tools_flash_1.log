@@ -1,0 +1,44 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[tools_flash_1] t1 finish=stop err=None ct=2248 pt=6015 ledger=$0.005 run=$0.005
+   exec 7.7s sims=0 used=0 flag=False out='obs0 shape (1, 679)\ninitial logits: [13.068 -7.933 -9.333  0.251  0.417 -0.219 -0.09   0.374  0.208  0.457\n  0.085 -0.208  1.092 -1.1   -1.78   1.791]\nentry0 logits: [13.068 -7.933 -9.333]\nentry0 prob'
+[tools_flash_1] t2 finish=stop err=None ct=1614 pt=7157 ledger=$0.007 run=$0.007
+   exec 0.7s sims=0 used=0 flag=False out='action 0: T=64, min d=2.306 at t=0, final d=3.638\n  t=  0 body=(2.80,0.73) sin=0.00 cos=1.00 | green=(2.54,0.73) | wheel13=(3.11,0.75)\n  t= 12 body=(2.97,0.60) sin=-0.01 cos=1.00 | green=(2.70,0.62) |'
+[tools_flash_1] t3 finish=stop err=None ct=2018 pt=9553 ledger=$0.010 run=$0.010
+   exec 0.5s sims=0 used=0 flag=False out='action 1 T = 32\nt= 22 body=(2.008,0.968) sin=-0.43 cos=0.90 | green=(1.775,1.089) | wheel13=(2.297,0.859)\nt= 23 body=(1.960,0.974) sin=-0.36 cos=0.93 | green=(1.719,1.077) | wheel13=(2.257,0.888)\nt= 2'
+[tools_flash_1] t4 finish=stop err=None ct=3960 pt=10668 ledger=$0.015 run=$0.015
+   exec 8.8s sims=0 used=0 flag=False out='const1                 T= 32 final g=(1.40,0.67) db=1.170 dr=0.346 RED?\nconst0                 T=256 final g=(3.71,0.62) db=3.477 dr=2.094 \nconst2                 T=256 final g=(4.74,0.62) db=4.511 dr'
+[tools_flash_1] t5 finish=stop err=None ct=2994 pt=12152 ledger=$0.019 run=$0.019
+   exec 146.3s sims=0 used=0 flag=False out='depth 10: db=2.183 dr=0.872 g=(2.42,0.76) tail=[0, 0, 1, 1, 1, 1, 1, 0]\ndepth 20: db=1.717 dr=0.702 g=(1.93,1.03) tail=[1, 1, 1, 1, 1, 2, 2, 0]\ndepth 30: db=1.275 dr=0.468 g=(1.50,0.86) tail=[1, 1, 1,'
+[tools_flash_1] t6 finish=stop err=None ct=6051 pt=13453 ledger=$0.027 run=$0.027
+   exec 31.8s sims=0 used=0 flag=False out='1x8 2x1                    T=256 g=(3.49,0.61) db=3.26 dr=1.88 \n1x8 2x2                    T=256 g=(2.87,0.61) db=2.64 dr=1.27 \n1x8 2x3                    T=256 g=(3.35,0.61) db=3.12 dr=1.74 \n1x8 2x4 '
+[tools_flash_1] t7 finish=stop err=None ct=1073 pt=15641 ledger=$0.029 run=$0.029
+   exec 12.5s sims=0 used=0 flag=False out='[1x3 0x2]rep               T= 33 g=(1.49,0.65) db=1.26 dr=0.28 RED\n[1x3 0x3]rep               T= 45 g=(1.67,0.68) db=1.44 dr=0.28 RED\n[1x3 0x4]rep               T=256 g=(1.85,0.99) db=1.64 dr=0.64 \n[1'
+[tools_flash_1] t8 finish=stop err=None ct=2015 pt=17189 ledger=$0.032 run=$0.032
+   exec 0.9s sims=0 used=0 flag=False out='T 256\nt=  0 body=(2.80,0.73) ang_sin=+0.00 cos=+1.00 | green=(2.54,0.73) vy=+0.00 | w13=(3.11,0.75)\nt=  3 body=(2.80,0.67) ang_sin=-0.19 cos=+0.98 | green=(2.54,0.73) vy=-0.42 | w13=(3.10,0.64)\nt=  6 '
+[tools_flash_1] t9 finish=stop err=None ct=7647 pt=19136 ledger=$0.042 run=$0.042
+   exec 12.6s sims=0 used=0 flag=False out='1x192                      T=256 min_db=1.53@41 fin g=(1.85,0.99) db=1.63 dr=0.63 \n2x192                      T=256 min_db=1.53@41 fin g=(4.28,0.61) db=4.05 dr=2.67 \nalt12                      T=256 m'
+[tools_flash_1] t10 finish=stop err=None ct=2058 pt=20698 ledger=$0.045 run=$0.045
+   exec 0.6s sims=0 used=0 flag=False out='\n=== 2x5 1x40, T=45 ===\nt=  0 body=(2.80,0.73) sin=+0.00 cos=+1.00 vx=+0.00 | green=(2.54,0.73) | w13=(3.11,0.75)\nt=  4 body=(2.87,0.66) sin=+0.18 cos=+0.98 vx=+1.27 | green=(2.61,0.63) | w13=(3.17,0.'
+[tools_flash_1] t11 finish=stop err=None ct=9812 pt=23533 ledger=$0.058 run=$0.058
+   exec 0.3s sims=0 used=0 flag=False out='T 71\n 27: start=+0.762 end=+0.773 min=+0.762 max=+0.773 inc=True dec=False\n 29: start=+0.000 end=+0.000 min=-0.000 max=+0.096 inc=False dec=False\n 52: start=+2.800 end=+0.899 min=+0.899 max=+4.519 inc'
+[tools_flash_1] t12 finish=stop err=None ct=3975 pt=24917 ledger=$0.063 run=$0.063
+   exec 267.7s sims=None used=None flag=False out='[timed out after 240s; the python state was reset]'
+[tools_flash_1] t13 finish=stop err=None ct=6077 pt=25885 ledger=$0.195 run=$0.195
+   exec 14.0s sims=0 used=0 flag=False out='k= 1 x_at_k=2.80 T= 33 db=1.14 dr=0.38 RED\nk= 3 x_at_k=2.83 T= 40 db=1.05 dr=0.44 RED\nk= 5 x_at_k=2.92 T= 54 db=0.44 dr=1.00 SUCCESS\nk= 7 x_at_k=3.03 T= 59 db=0.45 dr=0.99 SUCCESS\nk= 9 x_at_k=3.17 T= '
+[tools_flash_1] t14 finish=stop err=None ct=14284 pt=26704 ledger=$0.212 run=$0.212
+   exec 18.7s sims=0 used=0 flag=False out='xvx: T=72 db=0.48 dr=0.96 SUCCESS n2=19 n1=54\nvx: T=74 db=0.47 dr=0.97 SUCCESS n2=23 n1=52\n'
+[tools_flash_1] t15 finish=stop err=None ct=6228 pt=27265 ledger=$0.220 run=$0.220
+   exec 0.5s sims=0 used=0 flag=False out='T 71 match 0.9577464788732394\nmismatch idx: [20 21 22]\n0 vx=0.00 lg [-10.   0.   5.] a 2\n5 vx=1.56 lg [-10.     0.    20.03] a 2\n10 vx=2.44 lg [-10.     0.    20.32] a 2\n15 vx=3.34 lg [-10.     0.    '
+[tools_flash_1] t16 finish=stop err=None ct=872 pt=28178 ledger=$0.222 run=$0.222
+   exec 37.0s sims=1 used=1 flag=False out='success 1.0 red 0.0 timeout 0.0\nmean return None\ntrace None\n'
+[tools_flash_1] t17 finish=stop err=None ct=1895 pt=28516 ledger=$0.224 run=$0.224
+   exec 28.2s sims=1 used=2 flag=False out='G50 b2=10: 1.0 0.0 0.0\n[saved edit: 165103 of 171664 weights differ from the shown network]\nsaved\n'
+[tools_flash_1] t18 finish=stop err=None ct=552 pt=28905 ledger=$0.225 run=$0.225
+   exec 56.7s sims=4 used=6 flag=False out='G=100 b2=20 b1=0: sampled=1.0 greedy=1.0\nG=100 b2=20 b1=-2: sampled=1.0 greedy=1.0\nTraceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker.py", line 87, in <module>\n    exec(compile(r'
+[tools_flash_1] t19 finish=stop err=None ct=857 pt=29445 ledger=$0.227 run=$0.227
+   exec 27.5s sims=1 used=7 flag=False out='final sampled success: 1.0 red 0.0 timeout 0.0\n[saved edit: 165103 of 171664 weights differ from the shown network]\nsaved final\n'
+[tools_flash_1] t20 finish=stop err=None ct=667 pt=29826 ledger=$0.228 run=$0.228
+   exec 27.7s sims=1 used=8 flag=False out='confirm: 1.0 0.0 0.0\n[saved edit: 165103 of 171664 weights differ from the shown network]\nsaved\n'
+[tools_flash_1] t21 finish=stop err=None ct=370 pt=30466 ledger=$0.229 run=$0.229
+   SUBMISSION t21: search 256/256 changed=165103
+SUMMARY {"tag": "tools_flash_1", "status": "solved on search", "turns": 21, "run_cost": 0.2285, "best": {"turn": 21, "src": "save_edit", "search": 1.0, "search_successes": 256, "changed": 165103, "rep": null}, "best_test": {"episodes": 1024, "successes": 1024, "success": 1.0, "red": 0.0, "timeout": 0.0, "return": 1.3729746341705322}, "best_changed": {"changed": 165103, "entries": 171664, "frac": 0.9617799888153602}}

@@ -1,0 +1,7 @@
+start leak_perm_01 total 4.897
+done leak_perm_01 solved on search 1024 5 run_cost 0.0875 total 4.9845
+start leak_perm_02 total 4.9845
+done leak_perm_02 solved on search 1024 386 run_cost 0.0828 total 5.0673
+start leak_perm_03 total 5.0673
+done leak_perm_03 solved on search 1024 386 run_cost 0.1168 total 5.1841
+LEAK DONE total 5.1841

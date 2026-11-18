@@ -1,0 +1,9 @@
+{
+ "tag": "repair_qwenplus_1",
+ "model": "Qwen/Qwen3.7-Plus",
+ "status": "stopped after repeated 240s read timeouts and no visible python/edits; no submission",
+ "best": null,
+ "partial_calls": 3,
+ "interrupted_call_reserve": true,
+ "run_cost": 0.17212
+}

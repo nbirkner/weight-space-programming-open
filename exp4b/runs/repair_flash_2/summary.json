@@ -1,0 +1,21 @@
+{
+ "tag": "repair_flash_2",
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+ "status": "run cap $1.0",
+ "turns": 8,
+ "run_cost": 0.038151,
+ "submissions": [],
+ "best": null,
+ "args": {
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "tag": "repair_flash_2",
+  "max_turns": 30,
+  "passes": 30,
+  "max_tokens": 16384,
+  "feedback_rounds": 3,
+  "run_cap": 1.0,
+  "wall": 900,
+  "mock": null,
+  "max_changed": 8600
+ }
+}

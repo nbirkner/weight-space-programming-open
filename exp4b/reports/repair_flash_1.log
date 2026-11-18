@@ -1,0 +1,28 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repair_flash_1] t1 finish=stop err=None ct=3077 pt=6102 ledger=$0.234 run=$0.005
+   exec 9.7s sims=0 used=0 flag=False out='embed.W (679, 128) mean -0.0003893593519882179 std 0.06379939970702628 min -1.0 max 2.37\nembed.b (128,) mean -0.00450546875 std 0.00845206436131277 min -0.028800000000000003 max 0.013000000000000001\na'
+[repair_flash_1] t2 finish=stop err=None ct=5072 pt=8341 ledger=$0.256 run=$0.012
+   exec 3.6s sims=0 used=0 flag=False out='all1       T= 32 d_gb_end=1.170 d_rg_end=0.346 min_dgb=1.170 green_end=(1.40,0.67)\n1x16_0     T= 32 d_gb_end=1.453 d_rg_end=0.288 min_dgb=1.443 green_end=(1.68,0.68)\n1x32_0     T= 32 d_gb_end=1.170 d_'
+[repair_flash_1] t3 finish=stop err=None ct=1893 pt=9978 ledger=$0.259 run=$0.015
+   exec 0.3s sims=0 used=0 flag=False out='T= 73\nlast: green 0.63780224 0.61188954 blue 0.23251286 0.77250665 red 1.6225 0.40249997\ndgb last 0.43595567 drg last 1.0067142\nmin dgb 0.43595567 at 72 min drg 0.6748427 at 67\n68 g 0.969 0.607 dgb 0.'
+[repair_flash_1] t4 finish=stop err=None ct=1237 pt=10922 ledger=$0.261 run=$0.017
+   exec 0.3s sims=0 used=0 flag=False out='T= 73\nfinite last obs? True\n69 {27: 0.773, 29: 0.0, 52: 1.129, 53: 0.697, 54: -2.217, 55: -0.925, 59: -0.39, 64: 0.373, 65: 0.928, 234: 0.88, 235: 0.607, 236: -2.73, 237: 0.007, 241: 0.867, 246: -0.93'
+[repair_flash_1] t5 finish=stop err=None ct=2614 pt=12399 ledger=$0.265 run=$0.020
+   exec 12.8s sims=0 used=0 flag=False out="2x 4 then1: (43, 'END?', 1.1925829648971558, 0.6940867900848389)\n2x 6 then1: (52, 'END?', 1.0533980131149292, 0.646416962146759)\n2x 8 then1: (61, 'SUCCESS', 0.6548697352409363, 0.6138246655464172)\n2x1"
+[repair_flash_1] t6 finish=stop err=None ct=3544 pt=14351 ledger=$0.294 run=$0.050
+   exec 0.3s sims=0 used=0 flag=False out='T= 73\n0 green_x 2.537 body_x 2.8 sin 0.0 cos 1.0\n4 green_x 2.607 body_x 2.867 sin 0.181 cos 0.983\n8 green_x 2.836 body_x 3.099 sin 0.084 cos 0.996\n12 green_x 3.16 body_x 3.423 sin -0.012 cos 1.0\n16 gr'
+[repair_flash_1] t7 finish=stop err=None ct=3157 pt=15895 ledger=$0.298 run=$0.054
+   exec 0.3s sims=0 used=0 flag=False out='step body_x  a4[53]  a4[46]  a4[8]  a4[63]  a4[106]  a4[126]\n  0   2.80  -0.997  1.000 -1.000 -1.000  1.000 -0.924\n  4   2.87  -0.993  0.966 -0.798 -0.886  0.980 -0.987\n  8   3.10  -0.993  0.998 -0.42'
+[repair_flash_1] t8 finish=stop err=None ct=6548 pt=17753 ledger=$0.307 run=$0.063
+   exec 0.3s sims=0 used=0 flag=False out='blue (shape4) pos: 0.23249999 0.7625\nred  (shape7) pos: 1.6225 0.40249997\ngreen(shape12) pos: 2.5374997 0.73499995\nwheel(shape13) pos: 3.1074998 0.75\n\nTop threshold units for body_x>4.3:\nunit  29 sgn '
+[repair_flash_1] t9 finish=stop err=None ct=2504 pt=19440 ledger=$0.311 run=$0.067
+   exec 0.3s sims=0 used=0 flag=False out='step body_x  u29   u5   u106\n  0   2.80   0.984  0.995  1.000\n  3   2.83   0.942 -0.993  0.987\n  6   2.97   0.981 -0.808  1.000\n  9   3.17   0.703 -0.907  1.000\n 12   3.42   0.597 -0.581  1.000\n 15   '
+[repair_flash_1] t10 finish=stop err=None ct=13697 pt=20804 ledger=$0.359 run=$0.115
+   exec 37.3s sims=1 used=1 flag=False out="weights changed: 2957\n[saved edit: 2957 of 171664 weights differ from the shown network]\n{'episodes': 256, 'successes': 256, 'success': 1.0, 'red': 0.0, 'timeout': 0.0, 'return': 1.374786138534546, 't"
+[repair_flash_1] t11 finish=stop err=None ct=1377 pt=22801 ledger=$0.362 run=$0.118
+   exec 29.1s sims=2 used=3 flag=False out="{'episodes': 1, 'successes': 0, 'success': 0.0, 'red': 0.0, 'timeout': 1.0, 'return': 0.15196029841899872, 'trace_ep0': 'step | body x,y | green wheel x,y | wheel x,y | action0 | p(0/1/2)\\n   0 | 2.80"
+[repair_flash_1] t12 finish=stop err=None ct=875 pt=24177 ledger=$0.386 run=$0.119
+   exec 29.0s sims=2 used=5 flag=False out="[saved edit: 2957 of 171664 weights differ from the shown network]\n{'episodes': 1, 'successes': 1, 'success': 1.0, 'red': 0.0, 'timeout': 0.0, 'return': 1.3747859001159668, 'trace_ep0': 'step | body x"
+[repair_flash_1] t13 finish=stop err=None ct=429 pt=25849 ledger=$0.429 run=$0.120
+   SUBMISSION t13: search 256/256 changed=2957
+SUMMARY {"tag": "repair_flash_1", "status": "solved on search", "turns": 13, "run_cost": 0.1203, "best": {"turn": 13, "src": "save_edit", "search": 1.0, "search_successes": 256, "changed": 2957, "rep": null}, "best_test": {"episodes": 1024, "successes": 1024, "success": 1.0, "red": 0.0, "timeout": 0.0, "return": 1.3747727870941162}, "best_changed": {"changed": 2957, "entries": 171664, "frac": 0.017225510299189114}}

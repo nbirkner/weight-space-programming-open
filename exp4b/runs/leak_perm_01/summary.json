@@ -1,0 +1,53 @@
+{
+ "tag": "leak_perm_01",
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+ "status": "solved on search",
+ "turns": 19,
+ "run_cost": 0.0875,
+ "submissions": [
+  {
+   "turn": 19,
+   "src": "save_edit",
+   "search": 1.0,
+   "search_successes": 256,
+   "changed": 5,
+   "rep": null
+  }
+ ],
+ "best": {
+  "turn": 19,
+  "src": "save_edit",
+  "search": 1.0,
+  "search_successes": 256,
+  "changed": 5,
+  "rep": null
+ },
+ "args": {
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "tag": "leak_perm_01",
+  "max_turns": 30,
+  "passes": 30,
+  "max_tokens": 16384,
+  "feedback_rounds": 3,
+  "run_cap": 0.15,
+  "wall": 600,
+  "mock": null,
+  "max_changed": 8600,
+  "seed": 301
+ },
+ "best_file": "runs/leak_perm_01/submission_t19.npz",
+ "best_test": {
+  "episodes": 1024,
+  "successes": 1024,
+  "success": 1.0,
+  "red": 0.0,
+  "timeout": 0.0,
+  "return": 1.3694394826889038
+ },
+ "best_argmax": 1.0,
+ "best_changed": {
+  "changed": 5,
+  "entries": 171664,
+  "frac": 2.912666604529779e-05
+ }
+}

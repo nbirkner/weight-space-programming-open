@@ -1,0 +1,52 @@
+{
+ "tag": "repair_flash_1",
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+ "status": "solved on search",
+ "turns": 13,
+ "run_cost": 0.064059,
+ "submissions": [
+  {
+   "turn": 13,
+   "src": "save_edit",
+   "search": 1.0,
+   "search_successes": 256,
+   "changed": 2957,
+   "rep": null
+  }
+ ],
+ "best": {
+  "turn": 13,
+  "src": "save_edit",
+  "search": 1.0,
+  "search_successes": 256,
+  "changed": 2957,
+  "rep": null
+ },
+ "args": {
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "tag": "repair_flash_1",
+  "max_turns": 30,
+  "passes": 30,
+  "max_tokens": 16384,
+  "feedback_rounds": 3,
+  "run_cap": 1.5,
+  "wall": 900,
+  "mock": null,
+  "max_changed": 8600
+ },
+ "best_file": "runs/repair_flash_1/submission_t13.npz",
+ "best_test": {
+  "episodes": 1024,
+  "successes": 1024,
+  "success": 1.0,
+  "red": 0.0,
+  "timeout": 0.0,
+  "return": 1.3747727870941162
+ },
+ "best_argmax": 1.0,
+ "best_changed": {
+  "changed": 2957,
+  "entries": 171664,
+  "frac": 0.017225510299189114
+ }
+}

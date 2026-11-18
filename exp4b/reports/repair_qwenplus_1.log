@@ -1,0 +1,7 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repair_qwenplus_1] t1 finish=None err=ConnectionError: HTTPSConnectionPool(host='api.together.xyz', port=443): Read timed out. ct=4292 pt=6158 ledger=$3.208 run=$0.007
+   exec 17.1s sims=1 used=1 flag=False out='=== Rollout with current policy ===\nStep 0: car=(2.800, 0.725), angle=0.000, green_x=2.537, probs(off/+1/-1)=[1.0000000e+00 7.5726492e-10 1.8679602e-10]\nStep 32: car=(2.000, 0.921), angle=-0.266, gree'
+[repair_qwenplus_1] t2 finish=length err=None ct=19638 pt=12482 ledger=$3.306 run=$0.037
+   exec 17.0s sims=2 used=3 flag=False out='=== Observation features: moving vs stuck ===\nFeature | Moving (step 16) | Stuck (step 128)\nobs[ 52] | +2.3804 | +2.0048\nobs[ 53] | +0.7814 | +0.9205\nobs[ 54] | -1.8605 | +0.0008\nobs[ 55] | +0.6040 | '
+[repair_qwenplus_1] t3 finish=None err=ConnectionError: HTTPSConnectionPool(host='api.together.xyz', port=443): Read timed out. ct=8179 pt=28655 ledger=$3.347 run=$0.056
+   exec 95.0s sims=3 used=6 flag=False out='Position-based action selection: success=0.0/256\nNo success. Trying simpler approach...\nAction 2 boost by 200: success=0.0/256\nAlways action 2: success=0.0/256\n'

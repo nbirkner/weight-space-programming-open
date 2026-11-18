@@ -1,0 +1,51 @@
+{
+ "tag": "repeat_seq_10",
+ "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+ "status": "max turns",
+ "turns": 30,
+ "run_cost": 0.1475,
+ "submissions": [
+  {
+   "turn": 30,
+   "src": "save_edit (run ended)",
+   "search": 0.0,
+   "search_successes": 0,
+   "changed": 1
+  }
+ ],
+ "best": {
+  "turn": 30,
+  "src": "save_edit (run ended)",
+  "search": 0.0,
+  "search_successes": 0,
+  "changed": 1
+ },
+ "args": {
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "tag": "repeat_seq_10",
+  "max_turns": 30,
+  "passes": 30,
+  "max_tokens": 16384,
+  "feedback_rounds": 3,
+  "run_cap": 0.15,
+  "wall": 600,
+  "mock": null,
+  "max_changed": 8600,
+  "seed": 210
+ },
+ "best_file": "runs/repeat_seq_10/submission_last_saved.npz",
+ "best_test": {
+  "episodes": 1024,
+  "successes": 0,
+  "success": 0.0,
+  "red": 0.009765625,
+  "timeout": 0.990234375,
+  "return": 0.004334691911935806
+ },
+ "best_argmax": 0.0,
+ "best_changed": {
+  "changed": 1,
+  "entries": 171664,
+  "frac": 5.825333209059558e-06
+ }
+}

@@ -1,0 +1,60 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[leak_perm_03] t1 finish=stop err=None ct=5046 pt=6102 ledger=$5.073 run=$0.006
+   exec 11.5s sims=0 used=0 flag=False out="{'embed.W': (679, 128), 'embed.b': (128,), 'actor0.W': (128, 128), 'actor0.b': (128,), 'actor1.W': (128, 128), 'actor1.b': (128,), 'actor2.W': (128, 128), 'actor2.b': (128,), 'actor3.W': (128, 128), '"
+[leak_perm_03] t2 finish=stop err=None ct=917 pt=8628 ledger=$5.075 run=$0.008
+   exec 0.7s sims=0 used=0 flag=False out='=== action 0: T=64, min d=2.306 @ 0\n  t=  0 car=(2.800,0.725) ang=0.00 green=(2.537,0.735) w13=(3.107,0.750) d=2.306\n  t=  8 car=(2.875,0.606) ang=-0.03 green=(2.613,0.624) w13=(3.183,0.623) d=2.385\n '
+[leak_perm_03] t3 finish=stop err=None ct=4203 pt=10396 ledger=$5.081 run=$0.014
+   exec 2.0s sims=0 used=0 flag=False out='all1             T= 32 minD=1.170@t=31 green=(1.40,0.67) car=(1.61,0.82)\n2x8,1            T= 61 minD=0.448@t=60 green=(0.65,0.61) car=(0.92,0.62)\n2x4,1            T= 43 minD=0.963@t=42 green=(1.19,0.6'
+[leak_perm_03] t4 finish=stop err=None ct=438 pt=11231 ledger=$5.082 run=$0.015
+   exec 4.3s sims=0 used=0 flag=False out='2x6,1            T= 52 minD=0.829@t=51 green=(1.05,0.65) car=(1.29,0.76)\n2x7,1            T= 59 minD=0.450@t=58 green=(0.65,0.61) car=(0.92,0.61)\n2x8,1            T= 61 minD=0.448@t=60 green=(0.65,0.6'
+[leak_perm_03] t5 finish=stop err=None ct=2456 pt=12155 ledger=$5.085 run=$0.018
+   exec 1.9s sims=0 used=0 flag=False out='2x9,1            T= 64/99 EARLY minD=0.461@t=63 green=(0.66,0.60)\n2x10,1           T= 68/100 EARLY minD=0.425@t=67 green=(0.63,0.62)\n2x11,1           T= 72/101 EARLY minD=0.434@t=71 green=(0.64,0.61)\n'
+[leak_perm_03] t6 finish=stop err=None ct=7838 pt=13001 ledger=$5.095 run=$0.028
+   exec 0.3s sims=0 used=0 flag=False out='t  carx  cary  ang  gx  gy\n  0  2.800  0.725  0.000  2.537  0.735\n  1  2.801  0.716  0.057  2.538  0.711\n  2  2.802  0.695  0.124  2.540  0.673\n  3  2.827  0.682  0.144  2.565  0.654\n  4  2.867  0.664'
+[leak_perm_03] t7 finish=stop err=None ct=6046 pt=13980 ledger=$5.103 run=$0.035
+   exec 0.3s sims=0 used=0 flag=False out='2x10,1         T= 68 minDblue=0.425@ 67 minDred=0.315@ 63 greenR=0.22\n t=  0 car=(2.800,0.725) ang=+0.00 green=(2.537,0.735)\n t=  4 car=(2.867,0.664) ang=+0.18 green=(2.607,0.626)\n t=  8 car=(3.099,0.'
+[leak_perm_03] t8 finish=stop err=None ct=4844 pt=14931 ledger=$5.109 run=$0.041
+   exec 275.5s sims=None used=None flag=False out='[timed out after 240s; the python state was reset]'
+[leak_perm_03] t9 finish=stop err=None ct=6898 pt=15640 ledger=$5.117 run=$0.050
+   exec 14.6s sims=0 used=0 flag=False out='ang>=0->2              conv=True T= 32 EARLY minDb=2.306 minDr=0.524 lastg=(3.30,0.62)\nang>0&x>2.5->2         conv=True T= 32 EARLY minDb=1.170 minDr=0.213 lastg=(1.40,0.67)\ngx<2.9->2              con'
+[leak_perm_03] t10 finish=stop err=None ct=3916 pt=16709 ledger=$5.122 run=$0.055
+   exec 11.1s sims=0 used=0 flag=False out='vx>=0->2                 conv=True T= 68 timeout minDb=0.696 minDr=0.320 sw=1\nvx>0.05->2               conv=True T= 32 timeout minDb=1.170 minDr=0.213 sw=0\nx<3.2->2                 conv=True T= 68 tim'
+[leak_perm_03] t11 finish=stop err=None ct=6318 pt=17516 ledger=$5.130 run=$0.063
+   exec 0.4s sims=0 used=0 flag=False out='GOOD T=68 (len 256) minDb=0.425 minDr=0.315 greenR=0.22\nterminated early -> success\na3: best|x| unit 103 r=+0.618; best|vx| unit 35 r=-0.902; best|ang| unit 104 r=-0.713\na4: best|x| unit 41 r=+0.673; '
+[leak_perm_03] t12 finish=stop err=None ct=4569 pt=18301 ledger=$5.136 run=$0.069
+   exec 0.7s sims=0 used=0 flag=False out=' t   x     vx    u41    u55   u108   u35(a3)  u103(a3)\n  0  2.800  0.000  1.000 -1.000 -0.902 -0.963  0.838\n  4  2.867  1.269  0.966 -0.993 -0.994 -0.907  0.963\n  8  3.099  1.976  0.998 -1.000 -0.679 '
+[leak_perm_03] t13 finish=stop err=None ct=2471 pt=19680 ledger=$5.140 run=$0.073
+   exec 0.3s sims=0 used=0 flag=False out='target 2-region fraction: 0.14705882352941177\na3 [(78, np.float64(0.726)), (0, np.float64(0.69)), (90, np.float64(-0.66)), (111, np.float64(-0.608)), (69, np.float64(0.593)), (5, np.float64(-0.573)), '
+[leak_perm_03] t14 finish=stop err=None ct=5657 pt=20829 ledger=$5.147 run=$0.080
+   exec 3.0s sims=0 used=0 flag=False out='vx>=0->2             conv=True T= 68 -> timeout/invalid db=0.477 dr=0.320\nx<3.2&vx>=0->2       conv=True T= 68 -> BLUE d=0.193\nx<3.4&vx>=0->2       conv=True T= 68 -> timeout/invalid db=0.681 dr=0.478'
+[leak_perm_03] t15 finish=stop err=None ct=8729 pt=22065 ledger=$5.158 run=$0.091
+   exec 33.1s sims=0 used=0 flag=False out='best uX: [(0, np.float64(0.534)), (24, np.float64(-0.485)), (96, np.float64(-0.484)), (18, np.float64(0.457)), (22, np.float64(0.457))]\nbest uB: [(55, np.float64(-0.984)), (13, np.float64(0.974)), (8,'
+[leak_perm_03] t16 finish=stop err=None ct=2345 pt=23704 ledger=$5.162 run=$0.094
+   exec 46.3s sims=1 used=1 flag=False out="gate sign matches target: 1.0 gate range -2.9945747227870045 0.9158523707387247\n{'statements': 10, 'applied': 10, 'entries_written': 391, 'errors': []}\nsim256: {'episodes': 256, 'successes': 256, 'suc"
+[leak_perm_03] t17 finish=stop err=None ct=264 pt=24389 ledger=$5.162 run=$0.095
+   exec 139.3s sims=4 used=5 flag=False out="0 0.0\n1 0.0\n2 0.0\n3 0.0\nTOTAL {'successes': 0, 'red': 0.0, 'timeout': 4.0, 'episodes': 1024} rate 0.0\n"
+[leak_perm_03] t18 finish=stop err=None ct=417 pt=24595 ledger=$5.163 run=$0.096
+   exec 145.5s sims=4 used=9 flag=False out="{'statements': 10, 'applied': 10, 'entries_written': 391, 'errors': []}\n0 0.99609375\n1 0.9921875\n2 0.9921875\n3 1.0\nTOTAL {'successes': 1019, 'red': 0.0078125, 'timeout': 0.01171875, 'episodes': 1024} "
+[leak_perm_03] t19 finish=stop err=None ct=1925 pt=25030 ledger=$5.166 run=$0.098
+   exec 0.7s sims=0 used=9 flag=False out='55 -0.984\n13 0.974\n8 -0.947\n107 -0.946\n11 -0.93\n54 0.901\nbaseline fp: True 68 SUCCESS d=0.193\n'
+[leak_perm_03] t20 finish=stop err=None ct=3970 pt=25840 ledger=$5.171 run=$0.103
+   exec 0.8s sims=1 used=10 flag=False out="{'statements': 10, 'applied': 10, 'entries_written': 391, 'errors': []}\ngreedy: {'episodes': 1, 'successes': 1, 'success': 1.0, 'red': 0.0, 'timeout': 0.0, 'return': 1.3758121728897095, 'trace_ep0': '"
+[leak_perm_03] t21 finish=stop err=None ct=2549 pt=27523 ledger=$5.174 run=$0.107
+   exec 0.7s sims=0 used=10 flag=False out='best single-unit AND margin: (np.float64(0.5907756671036524), 55, -1)\nbest pair AND margin: (np.float64(1.8020270075213336), 11, -1, 55, -1)\n'
+[leak_perm_03] t22 finish=stop err=None ct=748 pt=28068 ledger=$5.176 run=$0.108
+   exec 1.9s sims=0 used=10 flag=False out='gate -a11-a55: True 68 timeout db=0.541 dr=0.340\nsign match: 0.7941176470588235\n'
+[leak_perm_03] t23 finish=stop err=None ct=539 pt=28711 ledger=$5.177 run=$0.109
+   exec 1.9s sims=0 used=10 flag=False out='best exact-match gate: (np.float64(0.24850704989548977), 0, 1, 55, -1, 1.0)\n'
+[leak_perm_03] t24 finish=stop err=None ct=789 pt=29101 ledger=$5.178 run=$0.111
+   exec 0.5s sims=0 used=10 flag=False out='cands [np.int64(105), np.int64(3), np.int64(55), np.int64(107), np.int64(11), np.int64(13), np.int64(73), np.int64(8), np.int64(94), np.int64(88), np.int64(54), np.int64(121), np.int64(53), np.int64(2'
+[leak_perm_03] t25 finish=stop err=None ct=2092 pt=29779 ledger=$5.181 run=$0.114
+   exec 71.4s sims=2 used=12 flag=False out="cur 391 3u 393\ncur sim: {'episodes': 256, 'successes': 256, 'success': 1.0, 'red': 0.0, 'timeout': 0.0, 'return': 1.3742399215698242}\n3u  sim: {'episodes': 256, 'successes': 256, 'success': 1.0, 'red'"
+[leak_perm_03] t26 finish=stop err=None ct=413 pt=30285 ledger=$5.182 run=$0.114
+   exec 139.2s sims=4 used=16 flag=False out='2u {\'successes\': 1020, \'red\': 0.0078125, \'timeout\': 0.0078125, \'episodes\': 1024} rate 0.99609375\nTraceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker_perm.py", line 90, in <module>'
+[leak_perm_03] t27 finish=stop err=None ct=343 pt=30828 ledger=$5.182 run=$0.115
+   exec 133.0s sims=4 used=20 flag=False out="3u {'successes': 1024, 'red': 0.0, 'timeout': 0.0, 'episodes': 1024} rate 1.0\n[saved edit: 386 of 171664 weights differ from the shown network]\n"
+[leak_perm_03] t28 finish=stop err=None ct=399 pt=31201 ledger=$5.183 run=$0.116
+   exec 134.7s sims=4 used=24 flag=False out="FINAL 3u: {'successes': 1024, 'red': 0.0, 'timeout': 0.0, 'invalid': 0, 'episodes': 1024} rate 1.0\n[saved edit: 386 of 171664 weights differ from the shown network]\n"
+[leak_perm_03] t29 finish=stop err=None ct=379 pt=31597 ledger=$5.184 run=$0.117
+   SUBMISSION t29: search 256/256 changed=386
+SUMMARY {"tag": "leak_perm_03", "status": "solved on search", "turns": 29, "run_cost": 0.1168, "best": {"turn": 29, "src": "save_edit", "search": 1.0, "search_successes": 256, "changed": 386, "rep": null}, "best_test": {"episodes": 1024, "successes": 1024, "success": 1.0, "red": 0.0, "timeout": 0.0, "return": 1.374617576599121}, "best_changed": {"changed": 386, "entries": 171664, "frac": 0.0022485786186969897}}

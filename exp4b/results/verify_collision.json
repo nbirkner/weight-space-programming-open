@@ -1,0 +1,6 @@
+{
+  "successes": 1024,
+  "episodes": 1024,
+  "seed": 87654,
+  "scoring": "environment collision-based info GoalR at first done, not reward threshold"
+}

@@ -1,0 +1,60 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repair_flash_5] t1 finish=stop err=None ct=9076 pt=6102 ledger=$3.219 run=$0.011
+   exec 11.7s sims=0 used=0 flag=False out='Fixed action 1: final green pos [1.3978152 0.6652699] blue pos [0.23251286 0.77250665]\nmin dist to blue: 1.1702262\nfinal car pos [1.6121391 0.8182641] angle 0.65814275\n\nFixed action 2: final green pos'
+[repair_flash_5] t2 finish=stop err=None ct=782 pt=6777 ledger=$3.220 run=$0.012
+   exec 0.1s sims=0 used=0 flag=False out='0 car [2.8  0.72] green [2.54 0.73] w13 [3.11 0.75] ang 0.0 vy 0.0\n16 car [2.31 0.82] green [2.11 0.99] w13 [2.57 0.66] ang -0.64 vy 1.21\nTraceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker.py'
+[repair_flash_5] t3 finish=stop err=None ct=332 pt=7220 ledger=$3.221 run=$0.013
+   exec 0.1s sims=0 used=0 flag=False out='T= 32\n0 car [2.8  0.72] green [2.54 0.73] w13 [3.11 0.75] ang 0.0 vy 0.0\n4 car [2.79 0.65] green [2.54 0.71] w13 [3.1  0.61] ang -0.2 vy -0.41\n8 car [2.7  0.67] green [2.45 0.74] w13 [3.   0.62] ang -'
+[repair_flash_5] t4 finish=stop err=None ct=326 pt=7729 ledger=$3.221 run=$0.013
+   exec 0.1s sims=0 used=0 flag=False out='T= 32\n0 car [2.8  0.72] green [2.54 0.73] w13 [3.11 0.75] ang 0.0 vy 0.0\n4 car [2.79 0.65] green [2.54 0.71] w13 [3.1  0.61] ang -0.2 vy -0.41\n8 car [2.7  0.67] green [2.45 0.74] w13 [3.   0.62] ang -'
+[repair_flash_5] t5 finish=stop err=None ct=710 pt=8238 ledger=$3.222 run=$0.014
+   exec 0.6s sims=0 used=0 flag=False out='16 -> T= 16 final car [2.36 0.78]\n32 -> T= 32 final car [1.61 0.82]\n64 -> T= 32 final car [1.61 0.82]\n128 -> T= 32 final car [1.61 0.82]\n256 -> T= 32 final car [1.61 0.82]\n'
+[repair_flash_5] t6 finish=stop err=None ct=694 pt=8428 ledger=$3.223 run=$0.015
+   exec 1.3s sims=0 used=0 flag=False out='1x16,0x16,1x64 min dist 1.443 at t 28 final car [1.87 0.87]\n2x8,1x64 min dist 0.451 at t 60 final car [0.92 0.62]\n1x24,2x8,1x64 min dist 1.272 at t 29 final car [1.7  0.82]\n2x16,1x64 min dist 0.436 at'
+[repair_flash_5] t7 finish=stop err=None ct=307 pt=8874 ledger=$3.224 run=$0.016
+   exec 3.5s sims=0 used=0 flag=False out='2x16,1x128 min dist 0.436 at t 72 final car [0.9  0.62] ang 0.07\n2x24,1x128 min dist 0.435 at t 76 final car [0.9  0.62] ang 0.07\n2x32,1x128 min dist 0.466 at t 85 final car [0.93 0.6 ] ang 0.03\n2x40,'
+[repair_flash_5] t8 finish=stop err=None ct=277 pt=9461 ledger=$3.225 run=$0.017
+   exec 0.3s sims=0 used=0 flag=False out='tmin 72 d 0.43595567\n64 car [1.45 0.99] green [1.19 0.96] blue [0.23 0.77] d 0.979 ang 0.16\n65 car [1.39 0.94] green [1.13 0.89] blue [0.23 0.77] d 0.909 ang 0.25\n66 car [1.33 0.88] green [1.08 0.8 ] '
+[repair_flash_5] t9 finish=stop err=None ct=3952 pt=10069 ledger=$3.230 run=$0.022
+   exec 1.9s sims=0 used=0 flag=False out='2x16,1x200 min dist 0.436 at t 72 T 73 final car [0.9  0.62]\n2x16,1x100,2x8,1x100 min dist 0.436 at t 72 T 73 final car [0.9  0.62]\n2x16,0x8,1x200 min dist 0.477 at t 71 T 72 final car [0.94 0.6 ]\n1x8'
+[repair_flash_5] t10 finish=stop err=None ct=4987 pt=10618 ledger=$3.236 run=$0.028
+   exec 0.3s sims=0 used=0 flag=False out='T= 73\nfinal t 72\ncar pos [0.90001965 0.62004846] ang 0.06916475\ngreen pos [0.63780224 0.61188954] vel [-2.3847344   0.04876355]\nblue pos [0.23251286 0.77250665] ang -3.364107e-05 vel [7.72439e-10 0.00'
+[repair_flash_5] t11 finish=stop err=None ct=12645 pt=11128 ledger=$3.251 run=$0.043
+   exec 16.0s sims=1 used=1 flag=False out="car_x=2.8: logits entry0 = [0.   0.   2.63]\ncar_x=2.6: logits entry0 = [0.   0.   0.98]\ncar_x=2.4: logits entry0 = [0.   0.98 0.  ]\ncar_x=2.0: logits entry0 = [0.   3.68 0.  ]\n{'episodes': 64, 'succes"
+[repair_flash_5] t12 finish=length err=None ct=16384 pt=12710 ledger=$3.271 run=$0.063
+[repair_flash_5] t13 finish=stop err=None ct=1299 pt=12746 ledger=$3.273 run=$0.065
+   exec 0.0s sims=0 used=1 flag=False out='car_x at t0: 2.8\nlogits: [0.       4.620384 0.      ]\nlogits t1: [0.        4.9373474 0.       ]\n'
+[repair_flash_5] t14 finish=stop err=None ct=1719 pt=13210 ledger=$3.275 run=$0.067
+   exec 0.0s sims=0 used=1 flag=False out='embed[0:3] [0.3 0.  0. ]\na4[0:3] [0.26287569 0.         0.86179734]\nhead col1 nonzero rows: [1]\nhead col2 nonzero rows: [0]\nlogits [0.         0.         2.62875689]\n'
+[repair_flash_5] t15 finish=stop err=None ct=957 pt=13786 ledger=$3.277 run=$0.069
+   exec 7.5s sims=1 used=2 flag=False out='logits t0: [0.        0.        2.6287565]\nlogits t1: [0.        0.        2.6287544]\n0.0 0.0 1.0\nstep | body x,y | green wheel x,y | wheel x,y | action0 | p(0/1/2)\n   0 | 2.80,0.72 | 2.54,0.71 | 3.11'
+[repair_flash_5] t16 finish=stop err=None ct=10191 pt=15120 ledger=$3.319 run=$0.082
+   exec 7.7s sims=1 used=3 flag=False out='logits t0: [0.  0.  0.1]\n0.71875 0.28125 0.0\nstep | body x,y | green wheel x,y | wheel x,y | action0 | p(0/1/2)\n   0 | 2.80,0.72 | 2.54,0.73 | 3.11,0.74 | 0 | 0.32/0.32/0.36\n  16 | 2.30,0.83 | 2.10,0.'
+[repair_flash_5] t17 finish=stop err=None ct=1204 pt=16410 ledger=$3.321 run=$0.083
+   exec 29.9s sims=4 used=7 flag=False out='thresh=0.0: success=0.734 red=0.266 timeout=0.000\nthresh=0.5: success=0.891 red=0.109 timeout=0.000\nthresh=1.0: success=0.844 red=0.094 timeout=0.062\nthresh=1.5: success=0.547 red=0.062 timeout=0.391\n'
+[repair_flash_5] t18 finish=stop err=None ct=1201 pt=17056 ledger=$3.322 run=$0.085
+   exec 66.2s sims=4 used=11 flag=False out='thresh=0.3: success=0.820 red=0.180 timeout=0.000\nthresh=0.4: success=0.867 red=0.133 timeout=0.000\nthresh=0.6: success=0.898 red=0.102 timeout=0.000\nthresh=0.7: success=0.883 red=0.117 timeout=0.000\n'
+[repair_flash_5] t19 finish=stop err=None ct=1427 pt=17535 ledger=$3.324 run=$0.087
+   exec 104.1s sims=4 used=15 flag=False out='stopx=0.6 stopw=10.0: success=0.883 red=0.117 timeout=0.000\nstopx=0.5 stopw=10.0: success=0.922 red=0.078 timeout=0.000\nstopx=0.7 stopw=10.0: success=0.875 red=0.125 timeout=0.000\nstopx=0.6 stopw=5.0:'
+[repair_flash_5] t20 finish=stop err=None ct=530 pt=18202 ledger=$3.325 run=$0.088
+   exec 59.0s sims=4 used=19 flag=False out='th=0.6 sx=0.4: success=0.875 red=0.125 timeout=0.000\nth=0.6 sx=0.45: success=0.922 red=0.070 timeout=0.008\nth=0.5 sx=0.5: success=0.867 red=0.133 timeout=0.000\nth=0.7 sx=0.5: success=0.898 red=0.102 t'
+[repair_flash_5] t21 finish=stop err=None ct=924 pt=18812 ledger=$3.327 run=$0.090
+   exec 57.1s sims=4 used=23 flag=False out='th=0.6 sx=0.45: success=0.938 red=0.062 timeout=0.000\nth=0.55 sx=0.47: success=0.945 red=0.055 timeout=0.000\nth=0.65 sx=0.48: success=0.906 red=0.094 timeout=0.000\nth=0.6 sx=0.42: success=0.930 red=0.'
+[repair_flash_5] t22 finish=stop err=None ct=551 pt=19423 ledger=$3.328 run=$0.091
+   exec 80.8s sims=4 used=27 flag=False out='[saved edit: 7751 of 171664 weights differ from the shown network]\nsaved 0.55/0.47: 0.890625 0.109375 0.0\nth=0.55 sx=0.45: success=0.914 red=0.086 timeout=0.000\nth=0.5 sx=0.47: success=0.891 red=0.109'
+[repair_flash_5] t23 finish=stop err=None ct=591 pt=20098 ledger=$3.348 run=$0.092
+   exec 84.7s sims=3 used=30 flag=False out='0.55/0.45: 0.87890625 0.12109375 0.0\n0.6/0.45: 0.91015625 0.08984375 0.0\n0.55/0.47: 0.84765625 0.15234375 0.0\n'
+[repair_flash_5] t24 finish=stop err=None ct=722 pt=20691 ledger=$3.350 run=$0.093
+   exec 0.0s sims=0 used=30 flag=False out='[saved edit: 7751 of 171664 weights differ from the shown network]\nfinal saved\n'
+[repair_flash_5] t25 finish=stop err=None ct=290 pt=21327 ledger=$3.350 run=$0.093
+   SUBMISSION t25: search 223/256 changed=7751
+[repair_flash_5] t26 finish=None err=ConnectionError: HTTPSConnectionPool(host='api.together.xyz', port=443): Read timed out. ct=785 pt=19265 ledger=$3.357 run=$0.100
+[repair_flash_5] t27 finish=stop err=None ct=5379 pt=22534 ledger=$3.364 run=$0.107
+   exec 0.1s sims=0 used=30 flag=False out='Traceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker.pybox_worker.py", line 90, in <module>\n    exec(compile(req["code"], "<model_code>", "exec"), NS)\n  File "<model_code>", line 30, in <module'
+[repair_flash_5] t28 finish=stop err=None ct=1128 pt=23250 ledger=$3.365 run=$0.109
+   exec 0.0s sims=0 used=30 flag=False out='[saved edit: 7751 of 171664 weights differ from the shown network]\nsaved with start bias bH[2]=1.5\n'
+[repair_flash_5] t29 finish=stop err=None ct=332 pt=23776 ledger=$3.366 run=$0.109
+   SUBMISSION t29: search 159/256 changed=7751
+[repair_flash_5] t30 finish=stop err=None ct=687 pt=24901 ledger=$3.367 run=$0.111
+   exec 0.0s sims=0 used=30 flag=False out='[saved edit: 7751 of 171664 weights differ from the shown network]\nreverted to 87.1% version\n'
+SUMMARY {"tag": "repair_flash_5", "status": "max turns", "turns": 30, "run_cost": 0.1106, "best": {"turn": 25, "src": "save_edit", "search": 0.87109375, "search_successes": 223, "changed": 7751, "rep": null}, "best_test": {"episodes": 1024, "successes": 913, "success": 0.8916015625, "red": 0.1083984375, "timeout": 0.0, "return": 1.1421165466308594}, "best_changed": {"changed": 7751, "entries": 171664, "frac": 0.04515215770342063}}

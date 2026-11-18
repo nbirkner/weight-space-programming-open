@@ -1,0 +1,13 @@
+start repeat_seq_02 total 3.6595
+done repeat_seq_02 run cap $0.15 None None run_cost 0.151 total 3.8105
+start repeat_seq_03 total 3.8105
+done repeat_seq_03 solved on search 1024 2932 run_cost 0.1179 total 3.9284
+start repeat_seq_04 total 3.9284
+done repeat_seq_04 run cap $0.15 None None run_cost 0.1608 total 4.0891
+start repeat_seq_05 total 4.0891
+done repeat_seq_05 solved on search 1024 2297 run_cost 0.0706 total 4.1598
+start repeat_seq_06 total 4.1598
+done repeat_seq_06 run cap $0.15 None None run_cost 0.1574 total 4.3171
+start repeat_seq_07 total 4.3171
+done repeat_seq_07 solved on search 1024 2312 run_cost 0.1496 total 4.4667
+start repeat_seq_08 total 4.4667

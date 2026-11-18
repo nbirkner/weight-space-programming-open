@@ -1,0 +1,3 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[raw1shot_flash_32k] r1 finish=stop err=None usage={'prompt_tokens': 351760, 'completion_tokens': 15283, 'total_tokens': 367043, 'prompt_tokens_details': {'cached_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 15020}} block=True cut=False rep={'statements': 2, 'applied': 2} errs=0 search=0/256 changed=386 ledger=$0.195
+SUMMARY {"tag": "raw1shot_flash_32k", "rounds_run": 1, "run_cost": 0.1239, "best": {"round": 1, "search": 0.0, "search_successes": 0, "changed": 386}, "best_test": {"episodes": 1024, "successes": 0, "success": 0.0, "red": 1.0, "timeout": 0.0, "return": -0.7675310969352722}}

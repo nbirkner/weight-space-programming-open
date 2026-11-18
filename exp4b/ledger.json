@@ -1,0 +1,7841 @@
+{
+ "budget": 10.0,
+ "hard_stop": 9.5,
+ "total": 5.184078,
+ "calls": [
+  {
+   "ts": "2026-11-16 20:01:43",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t1",
+   "usage": {
+    "prompt_tokens": 6015,
+    "completion_tokens": 2248,
+    "total_tokens": 8263,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1669
+    }
+   },
+   "cost": 0.004502,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:01:54",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t2",
+   "usage": {
+    "prompt_tokens": 7157,
+    "completion_tokens": 1614,
+    "total_tokens": 8771,
+    "prompt_tokens_details": {
+     "cached_tokens": 5888
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 177
+    }
+   },
+   "cost": 0.002353,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:02:00",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t3",
+   "usage": {
+    "prompt_tokens": 9553,
+    "completion_tokens": 2018,
+    "total_tokens": 11571,
+    "prompt_tokens_details": {
+     "cached_tokens": 7040
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1507
+    }
+   },
+   "cost": 0.003218,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:02:12",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t4",
+   "usage": {
+    "prompt_tokens": 10668,
+    "completion_tokens": 3960,
+    "total_tokens": 14628,
+    "prompt_tokens_details": {
+     "cached_tokens": 9472
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3055
+    }
+   },
+   "cost": 0.005168,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:02:29",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t5",
+   "usage": {
+    "prompt_tokens": 12152,
+    "completion_tokens": 2994,
+    "total_tokens": 15146,
+    "prompt_tokens_details": {
+     "cached_tokens": 10624
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1937
+    }
+   },
+   "cost": 0.004115,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:05:16",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t6",
+   "usage": {
+    "prompt_tokens": 13453,
+    "completion_tokens": 6051,
+    "total_tokens": 19504,
+    "prompt_tokens_details": {
+     "cached_tokens": 12032
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5608
+    }
+   },
+   "cost": 0.00776,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:05:51",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t7",
+   "usage": {
+    "prompt_tokens": 15641,
+    "completion_tokens": 1073,
+    "total_tokens": 16714,
+    "prompt_tokens_details": {
+     "cached_tokens": 13440
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 448
+    }
+   },
+   "cost": 0.002029,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:06:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t8",
+   "usage": {
+    "prompt_tokens": 17189,
+    "completion_tokens": 2015,
+    "total_tokens": 19204,
+    "prompt_tokens_details": {
+     "cached_tokens": 15616
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1757
+    }
+   },
+   "cost": 0.002984,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:06:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t9",
+   "usage": {
+    "prompt_tokens": 19136,
+    "completion_tokens": 7647,
+    "total_tokens": 26783,
+    "prompt_tokens_details": {
+     "cached_tokens": 17152
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 7110
+    }
+   },
+   "cost": 0.009875,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:06:50",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t10",
+   "usage": {
+    "prompt_tokens": 20698,
+    "completion_tokens": 2058,
+    "total_tokens": 22756,
+    "prompt_tokens_details": {
+     "cached_tokens": 19072
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1753
+    }
+   },
+   "cost": 0.003072,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:07:20",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t11",
+   "usage": {
+    "prompt_tokens": 23533,
+    "completion_tokens": 9812,
+    "total_tokens": 33345,
+    "prompt_tokens_details": {
+     "cached_tokens": 20608
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9454
+    }
+   },
+   "cost": 0.012776,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:07:31",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t12",
+   "usage": {
+    "prompt_tokens": 24917,
+    "completion_tokens": 3975,
+    "total_tokens": 28892,
+    "prompt_tokens_details": {
+     "cached_tokens": 23424
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3045
+    }
+   },
+   "cost": 0.005358,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:12:11",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "raw1shot_flash_32k/r1",
+   "usage": {
+    "prompt_tokens": 351760,
+    "completion_tokens": 15283,
+    "total_tokens": 367043,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15020
+    }
+   },
+   "cost": 0.123868,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:12:15",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t13",
+   "usage": {
+    "prompt_tokens": 25885,
+    "completion_tokens": 6077,
+    "total_tokens": 31962,
+    "prompt_tokens_details": {
+     "cached_tokens": 24832
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5772
+    }
+   },
+   "cost": 0.007757,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:13:10",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t14",
+   "usage": {
+    "prompt_tokens": 26704,
+    "completion_tokens": 14284,
+    "total_tokens": 40988,
+    "prompt_tokens_details": {
+     "cached_tokens": 25856
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 13802
+    }
+   },
+   "cost": 0.01755,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:13:43",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t15",
+   "usage": {
+    "prompt_tokens": 27265,
+    "completion_tokens": 6228,
+    "total_tokens": 33493,
+    "prompt_tokens_details": {
+     "cached_tokens": 26624
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5718
+    }
+   },
+   "cost": 0.007826,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:13:46",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t16",
+   "usage": {
+    "prompt_tokens": 28178,
+    "completion_tokens": 872,
+    "total_tokens": 29050,
+    "prompt_tokens_details": {
+     "cached_tokens": 27264
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 582
+    }
+   },
+   "cost": 0.001484,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:14:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t17",
+   "usage": {
+    "prompt_tokens": 28516,
+    "completion_tokens": 1895,
+    "total_tokens": 30411,
+    "prompt_tokens_details": {
+     "cached_tokens": 28160
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1572
+    }
+   },
+   "cost": 0.00255,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:14:58",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t18",
+   "usage": {
+    "prompt_tokens": 28905,
+    "completion_tokens": 552,
+    "total_tokens": 29457,
+    "prompt_tokens_details": {
+     "cached_tokens": 28416
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 211
+    }
+   },
+   "cost": 0.00098,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:15:56",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t19",
+   "usage": {
+    "prompt_tokens": 29445,
+    "completion_tokens": 857,
+    "total_tokens": 30302,
+    "prompt_tokens_details": {
+     "cached_tokens": 28800
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 542
+    }
+   },
+   "cost": 0.001395,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:16:27",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t20",
+   "usage": {
+    "prompt_tokens": 29826,
+    "completion_tokens": 667,
+    "total_tokens": 30493,
+    "prompt_tokens_details": {
+     "cached_tokens": 29440
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 88
+    }
+   },
+   "cost": 0.001093,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:16:56",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "tools_flash_1/t21",
+   "usage": {
+    "prompt_tokens": 30466,
+    "completion_tokens": 370,
+    "total_tokens": 30836,
+    "prompt_tokens_details": {
+     "cached_tokens": 29824
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 25
+    }
+   },
+   "cost": 0.000816,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:21:19",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 3077,
+    "total_tokens": 9179,
+    "prompt_tokens_details": {
+     "cached_tokens": 896
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1867
+    }
+   },
+   "cost": 0.00526,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:21:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "rawfb_flash_32k/r1",
+   "usage": {
+    "prompt_tokens": 351760,
+    "completion_tokens": 11249,
+    "total_tokens": 363009,
+    "prompt_tokens_details": {
+     "cached_tokens": 351744
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 10973
+    }
+   },
+   "cost": 0.015614,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:21:44",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t2",
+   "usage": {
+    "prompt_tokens": 8341,
+    "completion_tokens": 5072,
+    "total_tokens": 13413,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4024
+    }
+   },
+   "cost": 0.00682,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:21:53",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t3",
+   "usage": {
+    "prompt_tokens": 9978,
+    "completion_tokens": 1893,
+    "total_tokens": 11871,
+    "prompt_tokens_details": {
+     "cached_tokens": 8320
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1179
+    }
+   },
+   "cost": 0.002819,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:21:57",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t4",
+   "usage": {
+    "prompt_tokens": 10922,
+    "completion_tokens": 1237,
+    "total_tokens": 12159,
+    "prompt_tokens_details": {
+     "cached_tokens": 9856
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 616
+    }
+   },
+   "cost": 0.001863,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:22:04",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t5",
+   "usage": {
+    "prompt_tokens": 12399,
+    "completion_tokens": 2614,
+    "total_tokens": 15013,
+    "prompt_tokens_details": {
+     "cached_tokens": 10880
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1529
+    }
+   },
+   "cost": 0.003658,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:22:27",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "comp_fb_flash_32k/r1",
+   "usage": {
+    "prompt_tokens": 32059,
+    "completion_tokens": 12515,
+    "total_tokens": 44574,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 12215
+    }
+   },
+   "cost": 0.024636,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:22:34",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t6",
+   "usage": {
+    "prompt_tokens": 14351,
+    "completion_tokens": 3544,
+    "total_tokens": 17895,
+    "prompt_tokens_details": {
+     "cached_tokens": 12288
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2684
+    }
+   },
+   "cost": 0.004945,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:22:44",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t7",
+   "usage": {
+    "prompt_tokens": 15895,
+    "completion_tokens": 3157,
+    "total_tokens": 19052,
+    "prompt_tokens_details": {
+     "cached_tokens": 14336
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2295
+    }
+   },
+   "cost": 0.004342,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:23:05",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t8",
+   "usage": {
+    "prompt_tokens": 17753,
+    "completion_tokens": 6548,
+    "total_tokens": 24301,
+    "prompt_tokens_details": {
+     "cached_tokens": 15872
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5263
+    }
+   },
+   "cost": 0.008517,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:23:13",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t9",
+   "usage": {
+    "prompt_tokens": 19440,
+    "completion_tokens": 2504,
+    "total_tokens": 21944,
+    "prompt_tokens_details": {
+     "cached_tokens": 17664
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1725
+    }
+   },
+   "cost": 0.003644,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:23:14",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "rawfb_flash_32k/r2",
+   "usage": {
+    "prompt_tokens": 352947,
+    "completion_tokens": 13135,
+    "total_tokens": 366082,
+    "prompt_tokens_details": {
+     "cached_tokens": 351744
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 12796
+    }
+   },
+   "cost": 0.018233,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:23:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "comp_fb_flash_32k/r2",
+   "usage": {
+    "prompt_tokens": 33270,
+    "completion_tokens": 10689,
+    "total_tokens": 43959,
+    "prompt_tokens_details": {
+     "cached_tokens": 32000
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 10139
+    }
+   },
+   "cost": 0.0134,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:24:06",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t10",
+   "usage": {
+    "prompt_tokens": 20804,
+    "completion_tokens": 13697,
+    "total_tokens": 34501,
+    "prompt_tokens_details": {
+     "cached_tokens": 19328
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 12618
+    }
+   },
+   "cost": 0.016995,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:24:53",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t11",
+   "usage": {
+    "prompt_tokens": 22801,
+    "completion_tokens": 1377,
+    "total_tokens": 24178,
+    "prompt_tokens_details": {
+     "cached_tokens": 20736
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1219
+    }
+   },
+   "cost": 0.002396,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:25:22",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "comp_fb_flash_32k/r3",
+   "usage": {
+    "prompt_tokens": 34731,
+    "completion_tokens": 18024,
+    "total_tokens": 52755,
+    "prompt_tokens_details": {
+     "cached_tokens": 33152
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 17750
+    }
+   },
+   "cost": 0.022301,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:25:25",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t12",
+   "usage": {
+    "prompt_tokens": 24177,
+    "completion_tokens": 875,
+    "total_tokens": 25052,
+    "prompt_tokens_details": {
+     "cached_tokens": 22784
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 165
+    }
+   },
+   "cost": 0.001605,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:25:47",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "rawfb_flash_32k/r3",
+   "usage": {
+    "prompt_tokens": 354197,
+    "completion_tokens": 32768,
+    "total_tokens": 386965,
+    "prompt_tokens_details": {
+     "cached_tokens": 352896
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 32768
+    }
+   },
+   "cost": 0.041829,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:25:55",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_1/t13",
+   "usage": {
+    "prompt_tokens": 25849,
+    "completion_tokens": 429,
+    "total_tokens": 26278,
+    "prompt_tokens_details": {
+     "cached_tokens": 24064
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 83
+    }
+   },
+   "cost": 0.001195,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:28:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "rawfb_flash_32k/r4",
+   "usage": {
+    "prompt_tokens": 354274,
+    "completion_tokens": 32768,
+    "total_tokens": 387042,
+    "prompt_tokens_details": {
+     "cached_tokens": 354176
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 32768
+    }
+   },
+   "cost": 0.041476,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:31:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_2/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 2828,
+    "total_tokens": 8930,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1774
+    }
+   },
+   "cost": 0.003455,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:31:43",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_2/t2",
+   "usage": {
+    "prompt_tokens": 7285,
+    "completion_tokens": 1872,
+    "total_tokens": 9157,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 795
+    }
+   },
+   "cost": 0.002663,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:31:50",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_2/t3",
+   "usage": {
+    "prompt_tokens": 8990,
+    "completion_tokens": 1091,
+    "total_tokens": 10081,
+    "prompt_tokens_details": {
+     "cached_tokens": 7168
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 895
+    }
+   },
+   "cost": 0.001899,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:31:59",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_2/t4",
+   "usage": {
+    "prompt_tokens": 9242,
+    "completion_tokens": 3288,
+    "total_tokens": 12530,
+    "prompt_tokens_details": {
+     "cached_tokens": 8960
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2356
+    }
+   },
+   "cost": 0.004084,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:32:17",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_2/t5",
+   "usage": {
+    "prompt_tokens": 12041,
+    "completion_tokens": 5849,
+    "total_tokens": 17890,
+    "prompt_tokens_details": {
+     "cached_tokens": 9216
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5599
+    }
+   },
+   "cost": 0.007922,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:33:03",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_2/t6",
+   "usage": {
+    "prompt_tokens": 12493,
+    "completion_tokens": 4845,
+    "total_tokens": 17338,
+    "prompt_tokens_details": {
+     "cached_tokens": 12032
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4666
+    }
+   },
+   "cost": 0.006024,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:33:07",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_2/t7",
+   "usage": {
+    "prompt_tokens": 12801,
+    "completion_tokens": 144,
+    "total_tokens": 12945,
+    "prompt_tokens_details": {
+     "cached_tokens": 12416
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9
+    }
+   },
+   "cost": 0.000363,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:33:26",
+   "model": "Qwen/Qwen3.7-Max",
+   "tag": "raw1shot_qwenmax_32k/r1",
+   "usage": {
+    "total_tokens": 501145,
+    "completion_tokens": 13020,
+    "prompt_tokens": 488125,
+    "completion_tokens_details": {
+     "reasoning_tokens": 12486
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "cost": 1.317962,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:33:35",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_2/t8",
+   "usage": {
+    "prompt_tokens": 14602,
+    "completion_tokens": 9270,
+    "total_tokens": 23872,
+    "prompt_tokens_details": {
+     "cached_tokens": 12800
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 8977
+    }
+   },
+   "cost": 0.011741,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:34:06",
+   "model": "moonshotai/Kimi-K3",
+   "tag": "raw1shot_kimik3_32k/r1",
+   "usage": {
+    "prompt_tokens": 351817,
+    "completion_tokens": 18989,
+    "total_tokens": 370806,
+    "prompt_tokens_details": {
+     "cached_tokens": 64
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 18405
+    }
+   },
+   "cost": 1.340113,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:37:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_3/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 2372,
+    "total_tokens": 8474,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2161
+    }
+   },
+   "cost": 0.002908,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:37:53",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_3/t2",
+   "usage": {
+    "prompt_tokens": 6422,
+    "completion_tokens": 672,
+    "total_tokens": 7094,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 317
+    }
+   },
+   "cost": 0.000964,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:37:54",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_3/t3",
+   "usage": {
+    "prompt_tokens": 6981,
+    "completion_tokens": 500,
+    "total_tokens": 7481,
+    "prompt_tokens_details": {
+     "cached_tokens": 6400
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 212
+    }
+   },
+   "cost": 0.000813,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:38:01",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_3/t4",
+   "usage": {
+    "prompt_tokens": 8581,
+    "completion_tokens": 1734,
+    "total_tokens": 10315,
+    "prompt_tokens_details": {
+     "cached_tokens": 6912
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1640
+    }
+   },
+   "cost": 0.002623,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:38:05",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_3/t5",
+   "usage": {
+    "prompt_tokens": 8700,
+    "completion_tokens": 1122,
+    "total_tokens": 9822,
+    "prompt_tokens_details": {
+     "cached_tokens": 8576
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1039
+    }
+   },
+   "cost": 0.001435,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:38:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_3/t6",
+   "usage": {
+    "prompt_tokens": 8808,
+    "completion_tokens": 1022,
+    "total_tokens": 9830,
+    "prompt_tokens_details": {
+     "cached_tokens": 8576
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 899
+    }
+   },
+   "cost": 0.001347,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:38:13",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_3/t7",
+   "usage": {
+    "prompt_tokens": 8956,
+    "completion_tokens": 908,
+    "total_tokens": 9864,
+    "prompt_tokens_details": {
+     "cached_tokens": 8704
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 642
+    }
+   },
+   "cost": 0.001217,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:42:41",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_4/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 4487,
+    "total_tokens": 10589,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3991
+    }
+   },
+   "cost": 0.005446,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:42:51",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_4/t2",
+   "usage": {
+    "prompt_tokens": 7034,
+    "completion_tokens": 599,
+    "total_tokens": 7633,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 128
+    }
+   },
+   "cost": 0.00106,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:43:13",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_4/t3",
+   "usage": {
+    "prompt_tokens": 7780,
+    "completion_tokens": 765,
+    "total_tokens": 8545,
+    "prompt_tokens_details": {
+     "cached_tokens": 6912
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 288
+    }
+   },
+   "cost": 0.00122,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:43:35",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_4/t4",
+   "usage": {
+    "prompt_tokens": 9355,
+    "completion_tokens": 4358,
+    "total_tokens": 13713,
+    "prompt_tokens_details": {
+     "cached_tokens": 7680
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3379
+    }
+   },
+   "cost": 0.005778,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:43:41",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_4/t5",
+   "usage": {
+    "prompt_tokens": 10469,
+    "completion_tokens": 1864,
+    "total_tokens": 12333,
+    "prompt_tokens_details": {
+     "cached_tokens": 9344
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 971
+    }
+   },
+   "cost": 0.00263,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:43:56",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_4/t6",
+   "usage": {
+    "prompt_tokens": 11719,
+    "completion_tokens": 976,
+    "total_tokens": 12695,
+    "prompt_tokens_details": {
+     "cached_tokens": 10368
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 605
+    }
+   },
+   "cost": 0.001639,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:44:01",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_4/t7",
+   "usage": {
+    "prompt_tokens": 13220,
+    "completion_tokens": 1332,
+    "total_tokens": 14552,
+    "prompt_tokens_details": {
+     "cached_tokens": 11648
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 795
+    }
+   },
+   "cost": 0.00214,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:44:04",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_4/t8",
+   "usage": {
+    "prompt_tokens": 13783,
+    "completion_tokens": 1149,
+    "total_tokens": 14932,
+    "prompt_tokens_details": {
+     "cached_tokens": 13184
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 732
+    }
+   },
+   "cost": 0.001638,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:44:05",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_4/t9",
+   "usage": {
+    "prompt_tokens": 14226,
+    "completion_tokens": 468,
+    "total_tokens": 14694,
+    "prompt_tokens_details": {
+     "cached_tokens": 13696
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 70
+    }
+   },
+   "cost": 0.000803,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:44:07",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_4/t10",
+   "usage": {
+    "prompt_tokens": 14649,
+    "completion_tokens": 282,
+    "total_tokens": 14931,
+    "prompt_tokens_details": {
+     "cached_tokens": 14208
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 204
+    }
+   },
+   "cost": 0.000556,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:45:13",
+   "model": "Qwen/Qwen3.7-Plus",
+   "tag": "repair_qwenplus_1/t1",
+   "usage": {
+    "prompt_tokens": 6158,
+    "completion_tokens": 4292
+   },
+   "cost": 0.007464,
+   "estimated": true
+  },
+  {
+   "ts": "2026-11-16 20:48:07",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 9076,
+    "total_tokens": 15178,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 8640
+    }
+   },
+   "cost": 0.010953,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:48:20",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t2",
+   "usage": {
+    "prompt_tokens": 6777,
+    "completion_tokens": 782,
+    "total_tokens": 7559,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 532
+    }
+   },
+   "cost": 0.001203,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:48:21",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t3",
+   "usage": {
+    "prompt_tokens": 7220,
+    "completion_tokens": 332,
+    "total_tokens": 7552,
+    "prompt_tokens_details": {
+     "cached_tokens": 6656
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 196
+    }
+   },
+   "cost": 0.000608,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:48:22",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t4",
+   "usage": {
+    "prompt_tokens": 7729,
+    "completion_tokens": 326,
+    "total_tokens": 8055,
+    "prompt_tokens_details": {
+     "cached_tokens": 7168
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 190
+    }
+   },
+   "cost": 0.000603,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:48:24",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t5",
+   "usage": {
+    "prompt_tokens": 8238,
+    "completion_tokens": 710,
+    "total_tokens": 8948,
+    "prompt_tokens_details": {
+     "cached_tokens": 7680
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 630
+    }
+   },
+   "cost": 0.001065,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:48:26",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t6",
+   "usage": {
+    "prompt_tokens": 8428,
+    "completion_tokens": 694,
+    "total_tokens": 9122,
+    "prompt_tokens_details": {
+     "cached_tokens": 8192
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 449
+    }
+   },
+   "cost": 0.000953,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:48:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t7",
+   "usage": {
+    "prompt_tokens": 8874,
+    "completion_tokens": 307,
+    "total_tokens": 9181,
+    "prompt_tokens_details": {
+     "cached_tokens": 8320
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 17
+    }
+   },
+   "cost": 0.000585,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:48:36",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t8",
+   "usage": {
+    "prompt_tokens": 9461,
+    "completion_tokens": 277,
+    "total_tokens": 9738,
+    "prompt_tokens_details": {
+     "cached_tokens": 8832
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 84
+    }
+   },
+   "cost": 0.000574,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:48:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t9",
+   "usage": {
+    "prompt_tokens": 10069,
+    "completion_tokens": 3952,
+    "total_tokens": 14021,
+    "prompt_tokens_details": {
+     "cached_tokens": 9344
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3646
+    }
+   },
+   "cost": 0.005016,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:49:05",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t10",
+   "usage": {
+    "prompt_tokens": 10618,
+    "completion_tokens": 4987,
+    "total_tokens": 15605,
+    "prompt_tokens_details": {
+     "cached_tokens": 9984
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4639
+    }
+   },
+   "cost": 0.006235,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:49:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t11",
+   "usage": {
+    "prompt_tokens": 11128,
+    "completion_tokens": 12645,
+    "total_tokens": 23773,
+    "prompt_tokens_details": {
+     "cached_tokens": 10496
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 12053
+    }
+   },
+   "cost": 0.015427,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:50:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t12",
+   "usage": {
+    "prompt_tokens": 12710,
+    "completion_tokens": 16384,
+    "total_tokens": 29094,
+    "prompt_tokens_details": {
+     "cached_tokens": 11008
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16384
+    }
+   },
+   "cost": 0.020237,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:50:35",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t13",
+   "usage": {
+    "prompt_tokens": 12746,
+    "completion_tokens": 1299,
+    "total_tokens": 14045,
+    "prompt_tokens_details": {
+     "cached_tokens": 12672
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 906
+    }
+   },
+   "cost": 0.001657,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:50:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t14",
+   "usage": {
+    "prompt_tokens": 13210,
+    "completion_tokens": 1719,
+    "total_tokens": 14929,
+    "prompt_tokens_details": {
+     "cached_tokens": 12672
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1241
+    }
+   },
+   "cost": 0.0023,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:50:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t15",
+   "usage": {
+    "prompt_tokens": 13786,
+    "completion_tokens": 957,
+    "total_tokens": 14743,
+    "prompt_tokens_details": {
+     "cached_tokens": 13184
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 504
+    }
+   },
+   "cost": 0.001408,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:50:46",
+   "model": "Qwen/Qwen3.7-Plus",
+   "tag": "repair_qwenplus_1/t2",
+   "usage": {
+    "prompt_tokens": 12482,
+    "total_tokens": 32120,
+    "completion_tokens": 19638,
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "text_tokens": 12482
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3252,
+     "text_tokens": 19638
+    }
+   },
+   "cost": 0.029131,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:51:08",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t16",
+   "usage": {
+    "prompt_tokens": 15120,
+    "completion_tokens": 10191,
+    "total_tokens": 25311,
+    "prompt_tokens_details": {
+     "cached_tokens": 13696
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9764
+    }
+   },
+   "cost": 0.012739,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:51:19",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t17",
+   "usage": {
+    "prompt_tokens": 16410,
+    "completion_tokens": 1204,
+    "total_tokens": 17614,
+    "prompt_tokens_details": {
+     "cached_tokens": 15104
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 803
+    }
+   },
+   "cost": 0.001927,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:51:52",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t18",
+   "usage": {
+    "prompt_tokens": 17056,
+    "completion_tokens": 1201,
+    "total_tokens": 18257,
+    "prompt_tokens_details": {
+     "cached_tokens": 16384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 839
+    }
+   },
+   "cost": 0.001741,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:53:02",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t19",
+   "usage": {
+    "prompt_tokens": 17535,
+    "completion_tokens": 1427,
+    "total_tokens": 18962,
+    "prompt_tokens_details": {
+     "cached_tokens": 17024
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 901
+    }
+   },
+   "cost": 0.001968,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:54:47",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t20",
+   "usage": {
+    "prompt_tokens": 18202,
+    "completion_tokens": 530,
+    "total_tokens": 18732,
+    "prompt_tokens_details": {
+     "cached_tokens": 17408
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 53
+    }
+   },
+   "cost": 0.000979,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:55:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t21",
+   "usage": {
+    "prompt_tokens": 18812,
+    "completion_tokens": 924,
+    "total_tokens": 19736,
+    "prompt_tokens_details": {
+     "cached_tokens": 18176
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 446
+    }
+   },
+   "cost": 0.001409,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:56:47",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t22",
+   "usage": {
+    "prompt_tokens": 19423,
+    "completion_tokens": 551,
+    "total_tokens": 19974,
+    "prompt_tokens_details": {
+     "cached_tokens": 18688
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 26
+    }
+   },
+   "cost": 0.000994,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:57:57",
+   "model": "Qwen/Qwen3.7-Plus",
+   "tag": "repair_qwenplus_1/t3",
+   "usage": {
+    "prompt_tokens": 28655,
+    "completion_tokens": 8179
+   },
+   "cost": 0.019639,
+   "estimated": true
+  },
+  {
+   "ts": "2026-11-16 20:58:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t23",
+   "usage": {
+    "prompt_tokens": 20098,
+    "completion_tokens": 591,
+    "total_tokens": 20689,
+    "prompt_tokens_details": {
+     "cached_tokens": 19328
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 97
+    }
+   },
+   "cost": 0.001056,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:59:36",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t24",
+   "usage": {
+    "prompt_tokens": 20691,
+    "completion_tokens": 722,
+    "total_tokens": 21413,
+    "prompt_tokens_details": {
+     "cached_tokens": 20096
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 132
+    }
+   },
+   "cost": 0.001165,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 20:59:37",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t25",
+   "usage": {
+    "prompt_tokens": 21327,
+    "completion_tokens": 290,
+    "total_tokens": 21617,
+    "prompt_tokens_details": {
+     "cached_tokens": 20608
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 17
+    }
+   },
+   "cost": 0.000687,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 21:05:04",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t26",
+   "usage": {
+    "prompt_tokens": 19265,
+    "completion_tokens": 785
+   },
+   "cost": 0.006722,
+   "estimated": true
+  },
+  {
+   "ts": "2026-11-16 21:05:20",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t27",
+   "usage": {
+    "prompt_tokens": 22534,
+    "completion_tokens": 5379,
+    "total_tokens": 27913,
+    "prompt_tokens_details": {
+     "cached_tokens": 22400
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4832
+    }
+   },
+   "cost": 0.006629,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 21:05:23",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t28",
+   "usage": {
+    "prompt_tokens": 23250,
+    "completion_tokens": 1128,
+    "total_tokens": 24378,
+    "prompt_tokens_details": {
+     "cached_tokens": 22528
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 659
+    }
+   },
+   "cost": 0.001705,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 21:05:24",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t29",
+   "usage": {
+    "prompt_tokens": 23776,
+    "completion_tokens": 332,
+    "total_tokens": 24108,
+    "prompt_tokens_details": {
+     "cached_tokens": 23168
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 105
+    }
+   },
+   "cost": 0.00072,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 21:05:54",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repair_flash_5/t30",
+   "usage": {
+    "prompt_tokens": 24901,
+    "completion_tokens": 687,
+    "total_tokens": 25588,
+    "prompt_tokens_details": {
+     "cached_tokens": 23680
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 280
+    }
+   },
+   "cost": 0.001333,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 21:06:58",
+   "model": "Qwen/Qwen3.7-Plus",
+   "tag": "repair_qwenplus_1/interrupted_t4_reserve",
+   "usage": {
+    "prompt_tokens": 100000,
+    "completion_tokens": 65536
+   },
+   "cost": 0.115886,
+   "estimated": true
+  },
+  {
+   "ts": "2026-11-16 22:04:15",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 2395,
+    "total_tokens": 8497,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1890
+    }
+   },
+   "cost": 0.004705,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:04:27",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t2",
+   "usage": {
+    "prompt_tokens": 6873,
+    "completion_tokens": 836,
+    "total_tokens": 7709,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 453
+    }
+   },
+   "cost": 0.003065,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:04:31",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t3",
+   "usage": {
+    "prompt_tokens": 7707,
+    "completion_tokens": 1450,
+    "total_tokens": 9157,
+    "prompt_tokens_details": {
+     "cached_tokens": 6784
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1151
+    }
+   },
+   "cost": 0.002058,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:04:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t4",
+   "usage": {
+    "prompt_tokens": 8261,
+    "completion_tokens": 332,
+    "total_tokens": 8593,
+    "prompt_tokens_details": {
+     "cached_tokens": 7680
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 184
+    }
+   },
+   "cost": 0.000619,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:04:35",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t5",
+   "usage": {
+    "prompt_tokens": 8737,
+    "completion_tokens": 1290,
+    "total_tokens": 10027,
+    "prompt_tokens_details": {
+     "cached_tokens": 8192
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1237
+    }
+   },
+   "cost": 0.001761,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:04:46",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t6",
+   "usage": {
+    "prompt_tokens": 9753,
+    "completion_tokens": 2817,
+    "total_tokens": 12570,
+    "prompt_tokens_details": {
+     "cached_tokens": 8704
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2465
+    }
+   },
+   "cost": 0.003747,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:09:21",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t7",
+   "usage": {
+    "prompt_tokens": 10145,
+    "completion_tokens": 2434,
+    "total_tokens": 12579,
+    "prompt_tokens_details": {
+     "cached_tokens": 9728
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2340
+    }
+   },
+   "cost": 0.003104,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:09:41",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t8",
+   "usage": {
+    "prompt_tokens": 10336,
+    "completion_tokens": 4044,
+    "total_tokens": 14380,
+    "prompt_tokens_details": {
+     "cached_tokens": 10112
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3593
+    }
+   },
+   "cost": 0.004981,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:09:57",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t9",
+   "usage": {
+    "prompt_tokens": 11002,
+    "completion_tokens": 2446,
+    "total_tokens": 13448,
+    "prompt_tokens_details": {
+     "cached_tokens": 10240
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2296
+    }
+   },
+   "cost": 0.003225,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:10:14",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t10",
+   "usage": {
+    "prompt_tokens": 11229,
+    "completion_tokens": 402,
+    "total_tokens": 11631,
+    "prompt_tokens_details": {
+     "cached_tokens": 10880
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 296
+    }
+   },
+   "cost": 0.000652,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:10:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t11",
+   "usage": {
+    "prompt_tokens": 12168,
+    "completion_tokens": 3705,
+    "total_tokens": 15873,
+    "prompt_tokens_details": {
+     "cached_tokens": 11136
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3491
+    }
+   },
+   "cost": 0.004822,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:10:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t12",
+   "usage": {
+    "prompt_tokens": 13087,
+    "completion_tokens": 1158,
+    "total_tokens": 14245,
+    "prompt_tokens_details": {
+     "cached_tokens": 12160
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 977
+    }
+   },
+   "cost": 0.001741,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:10:51",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t13",
+   "usage": {
+    "prompt_tokens": 14076,
+    "completion_tokens": 5405,
+    "total_tokens": 19481,
+    "prompt_tokens_details": {
+     "cached_tokens": 13056
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5025
+    }
+   },
+   "cost": 0.00687,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:11:31",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t14",
+   "usage": {
+    "prompt_tokens": 15253,
+    "completion_tokens": 2059,
+    "total_tokens": 17312,
+    "prompt_tokens_details": {
+     "cached_tokens": 13952
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1749
+    }
+   },
+   "cost": 0.002945,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:13:44",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t15",
+   "usage": {
+    "prompt_tokens": 15992,
+    "completion_tokens": 14002,
+    "total_tokens": 29994,
+    "prompt_tokens_details": {
+     "cached_tokens": 15232
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 13559
+    }
+   },
+   "cost": 0.017122,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:14:22",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t16",
+   "usage": {
+    "prompt_tokens": 16538,
+    "completion_tokens": 5618,
+    "total_tokens": 22156,
+    "prompt_tokens_details": {
+     "cached_tokens": 15872
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5208
+    }
+   },
+   "cost": 0.007037,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:15:06",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t17",
+   "usage": {
+    "prompt_tokens": 17233,
+    "completion_tokens": 4581,
+    "total_tokens": 21814,
+    "prompt_tokens_details": {
+     "cached_tokens": 16512
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4150
+    }
+   },
+   "cost": 0.005813,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:15:46",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t18",
+   "usage": {
+    "prompt_tokens": 18593,
+    "completion_tokens": 8194,
+    "total_tokens": 26787,
+    "prompt_tokens_details": {
+     "cached_tokens": 17152
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 7637
+    }
+   },
+   "cost": 0.010368,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:16:22",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t19",
+   "usage": {
+    "prompt_tokens": 19423,
+    "completion_tokens": 3193,
+    "total_tokens": 22616,
+    "prompt_tokens_details": {
+     "cached_tokens": 18560
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2839
+    }
+   },
+   "cost": 0.004202,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:17:12",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t20",
+   "usage": {
+    "prompt_tokens": 19906,
+    "completion_tokens": 6025,
+    "total_tokens": 25931,
+    "prompt_tokens_details": {
+     "cached_tokens": 19328
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5740
+    }
+   },
+   "cost": 0.007519,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:17:27",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t21",
+   "usage": {
+    "prompt_tokens": 20992,
+    "completion_tokens": 1684,
+    "total_tokens": 22676,
+    "prompt_tokens_details": {
+     "cached_tokens": 19840
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1375
+    }
+   },
+   "cost": 0.002485,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:17:39",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_01/t22",
+   "usage": {
+    "prompt_tokens": 22134,
+    "completion_tokens": 5088,
+    "total_tokens": 27222,
+    "prompt_tokens_details": {
+     "cached_tokens": 20864
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4734
+    }
+   },
+   "cost": 0.006612,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:19:15",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 2546,
+    "total_tokens": 8648,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1191
+    }
+   },
+   "cost": 0.003117,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:19:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t2",
+   "usage": {
+    "prompt_tokens": 7697,
+    "completion_tokens": 1424,
+    "total_tokens": 9121,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1048
+    }
+   },
+   "cost": 0.002249,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:19:43",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t3",
+   "usage": {
+    "prompt_tokens": 8204,
+    "completion_tokens": 1379,
+    "total_tokens": 9583,
+    "prompt_tokens_details": {
+     "cached_tokens": 7680
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 889
+    }
+   },
+   "cost": 0.001858,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:19:45",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t4",
+   "usage": {
+    "prompt_tokens": 8865,
+    "completion_tokens": 409,
+    "total_tokens": 9274,
+    "prompt_tokens_details": {
+     "cached_tokens": 8192
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 233
+    }
+   },
+   "cost": 0.000742,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:19:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t5",
+   "usage": {
+    "prompt_tokens": 9095,
+    "completion_tokens": 862,
+    "total_tokens": 9957,
+    "prompt_tokens_details": {
+     "cached_tokens": 8832
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 477
+    }
+   },
+   "cost": 0.001166,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:20:04",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t6",
+   "usage": {
+    "prompt_tokens": 10312,
+    "completion_tokens": 2795,
+    "total_tokens": 13107,
+    "prompt_tokens_details": {
+     "cached_tokens": 9088
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2665
+    }
+   },
+   "cost": 0.003776,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:21:07",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t7",
+   "usage": {
+    "prompt_tokens": 11319,
+    "completion_tokens": 9838,
+    "total_tokens": 21157,
+    "prompt_tokens_details": {
+     "cached_tokens": 10240
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 8950
+    }
+   },
+   "cost": 0.012191,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:21:16",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t8",
+   "usage": {
+    "prompt_tokens": 12583,
+    "completion_tokens": 2456,
+    "total_tokens": 15039,
+    "prompt_tokens_details": {
+     "cached_tokens": 11264
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1998
+    }
+   },
+   "cost": 0.00341,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:21:43",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t9",
+   "usage": {
+    "prompt_tokens": 14420,
+    "completion_tokens": 4969,
+    "total_tokens": 19389,
+    "prompt_tokens_details": {
+     "cached_tokens": 12544
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4968
+    }
+   },
+   "cost": 0.006601,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:26:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t10",
+   "usage": {
+    "prompt_tokens": 12955,
+    "completion_tokens": 1215
+   },
+   "cost": 0.005345,
+   "estimated": true
+  },
+  {
+   "ts": "2026-11-16 22:26:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t11",
+   "usage": {
+    "prompt_tokens": 14492,
+    "completion_tokens": 5622,
+    "total_tokens": 20114,
+    "prompt_tokens_details": {
+     "cached_tokens": 14336
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4917
+    }
+   },
+   "cost": 0.006879,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:30:17",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t12",
+   "usage": {
+    "prompt_tokens": 15691,
+    "completion_tokens": 7191,
+    "total_tokens": 22882,
+    "prompt_tokens_details": {
+     "cached_tokens": 14464
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6891
+    }
+   },
+   "cost": 0.009084,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:30:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t13",
+   "usage": {
+    "prompt_tokens": 17444,
+    "completion_tokens": 4310,
+    "total_tokens": 21754,
+    "prompt_tokens_details": {
+     "cached_tokens": 15616
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3920
+    }
+   },
+   "cost": 0.005814,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:31:59",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t14",
+   "usage": {
+    "prompt_tokens": 17862,
+    "completion_tokens": 1667,
+    "total_tokens": 19529,
+    "prompt_tokens_details": {
+     "cached_tokens": 17408
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1498
+    }
+   },
+   "cost": 0.002241,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:32:35",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_flash_02/t15",
+   "usage": {
+    "prompt_tokens": 18377,
+    "completion_tokens": 5033,
+    "total_tokens": 23410,
+    "prompt_tokens_details": {
+     "cached_tokens": 17792
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4598
+    }
+   },
+   "cost": 0.006322,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:55:24",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 4408,
+    "total_tokens": 10510,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2699
+    }
+   },
+   "cost": 0.005351,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:55:54",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t2",
+   "usage": {
+    "prompt_tokens": 8524,
+    "completion_tokens": 2324,
+    "total_tokens": 10848,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1985
+    }
+   },
+   "cost": 0.003577,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:56:31",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t3",
+   "usage": {
+    "prompt_tokens": 9805,
+    "completion_tokens": 5412,
+    "total_tokens": 15217,
+    "prompt_tokens_details": {
+     "cached_tokens": 8448
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5076
+    }
+   },
+   "cost": 0.006952,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:56:50",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t4",
+   "usage": {
+    "prompt_tokens": 12488,
+    "completion_tokens": 6881,
+    "total_tokens": 19369,
+    "prompt_tokens_details": {
+     "cached_tokens": 9728
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6484
+    }
+   },
+   "cost": 0.009144,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:57:19",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t5",
+   "usage": {
+    "prompt_tokens": 13542,
+    "completion_tokens": 6879,
+    "total_tokens": 20421,
+    "prompt_tokens_details": {
+     "cached_tokens": 12416
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6286
+    }
+   },
+   "cost": 0.008667,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:57:26",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t6",
+   "usage": {
+    "prompt_tokens": 15001,
+    "completion_tokens": 600,
+    "total_tokens": 15601,
+    "prompt_tokens_details": {
+     "cached_tokens": 13440
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 403
+    }
+   },
+   "cost": 0.001269,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 22:58:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t7",
+   "usage": {
+    "prompt_tokens": 17097,
+    "completion_tokens": 13802,
+    "total_tokens": 30899,
+    "prompt_tokens_details": {
+     "cached_tokens": 14976
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 13801
+    }
+   },
+   "cost": 0.017289,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:09:01",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t8",
+   "usage": {
+    "prompt_tokens": 15029,
+    "completion_tokens": 9059
+   },
+   "cost": 0.01538,
+   "estimated": true
+  },
+  {
+   "ts": "2026-11-16 23:09:15",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t9",
+   "usage": {
+    "prompt_tokens": 17169,
+    "completion_tokens": 1121,
+    "total_tokens": 18290,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 822
+    }
+   },
+   "cost": 0.006496,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:09:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t10",
+   "usage": {
+    "prompt_tokens": 17908,
+    "completion_tokens": 3048,
+    "total_tokens": 20956,
+    "prompt_tokens_details": {
+     "cached_tokens": 17152
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2611
+    }
+   },
+   "cost": 0.003987,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:10:15",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t11",
+   "usage": {
+    "prompt_tokens": 18699,
+    "completion_tokens": 6203,
+    "total_tokens": 24902,
+    "prompt_tokens_details": {
+     "cached_tokens": 17792
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5846
+    }
+   },
+   "cost": 0.007822,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:11:30",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t12",
+   "usage": {
+    "prompt_tokens": 19467,
+    "completion_tokens": 16384,
+    "total_tokens": 35851,
+    "prompt_tokens_details": {
+     "cached_tokens": 18688
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16384
+    }
+   },
+   "cost": 0.020007,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:12:36",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t13",
+   "usage": {
+    "prompt_tokens": 19503,
+    "completion_tokens": 15992,
+    "total_tokens": 35495,
+    "prompt_tokens_details": {
+     "cached_tokens": 19456
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15335
+    }
+   },
+   "cost": 0.019321,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:24:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t14",
+   "usage": {
+    "prompt_tokens": 18066,
+    "completion_tokens": 15767
+   },
+   "cost": 0.02434,
+   "estimated": true
+  },
+  {
+   "ts": "2026-11-16 23:25:13",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_02/t15",
+   "usage": {
+    "prompt_tokens": 20689,
+    "completion_tokens": 1039,
+    "total_tokens": 21728,
+    "prompt_tokens_details": {
+     "cached_tokens": 20608
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 460
+    }
+   },
+   "cost": 0.001395,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:26:08",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 1512,
+    "total_tokens": 7614,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1129
+    }
+   },
+   "cost": 0.003645,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:26:21",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t2",
+   "usage": {
+    "prompt_tokens": 7576,
+    "completion_tokens": 990,
+    "total_tokens": 8566,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 109
+    }
+   },
+   "cost": 0.001692,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:26:27",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t3",
+   "usage": {
+    "prompt_tokens": 9691,
+    "completion_tokens": 1309,
+    "total_tokens": 11000,
+    "prompt_tokens_details": {
+     "cached_tokens": 7552
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1192
+    }
+   },
+   "cost": 0.002258,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:26:37",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t4",
+   "usage": {
+    "prompt_tokens": 10862,
+    "completion_tokens": 3207,
+    "total_tokens": 14069,
+    "prompt_tokens_details": {
+     "cached_tokens": 9600
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2518
+    }
+   },
+   "cost": 0.004285,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:26:49",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t5",
+   "usage": {
+    "prompt_tokens": 12434,
+    "completion_tokens": 3183,
+    "total_tokens": 15617,
+    "prompt_tokens_details": {
+     "cached_tokens": 10752
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2881
+    }
+   },
+   "cost": 0.004389,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-16 23:27:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t6",
+   "usage": {
+    "prompt_tokens": 13591,
+    "completion_tokens": 1872,
+    "total_tokens": 15463,
+    "prompt_tokens_details": {
+     "cached_tokens": 12416
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1477
+    }
+   },
+   "cost": 0.002673,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 06:54:12",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t7",
+   "usage": {
+    "prompt_tokens": 19039,
+    "completion_tokens": 5318,
+    "total_tokens": 24357,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5131
+    }
+   },
+   "cost": 0.012093,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 06:54:14",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t8",
+   "usage": {
+    "prompt_tokens": 20516,
+    "completion_tokens": 930,
+    "total_tokens": 21446,
+    "prompt_tokens_details": {
+     "cached_tokens": 18944
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 674
+    }
+   },
+   "cost": 0.001701,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 06:54:24",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t9",
+   "usage": {
+    "prompt_tokens": 21058,
+    "completion_tokens": 4312,
+    "total_tokens": 25370,
+    "prompt_tokens_details": {
+     "cached_tokens": 20480
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3500
+    }
+   },
+   "cost": 0.005471,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 06:54:35",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t10",
+   "usage": {
+    "prompt_tokens": 22150,
+    "completion_tokens": 2890,
+    "total_tokens": 25040,
+    "prompt_tokens_details": {
+     "cached_tokens": 20992
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2214
+    }
+   },
+   "cost": 0.003941,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 06:54:57",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t11",
+   "usage": {
+    "prompt_tokens": 22959,
+    "completion_tokens": 2829,
+    "total_tokens": 25788,
+    "prompt_tokens_details": {
+     "cached_tokens": 22144
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2279
+    }
+   },
+   "cost": 0.003772,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 06:55:17",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t12",
+   "usage": {
+    "prompt_tokens": 24175,
+    "completion_tokens": 5893,
+    "total_tokens": 30068,
+    "prompt_tokens_details": {
+     "cached_tokens": 22912
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5230
+    }
+   },
+   "cost": 0.007588,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 06:59:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t13",
+   "usage": {
+    "prompt_tokens": 24878,
+    "completion_tokens": 552,
+    "total_tokens": 25430,
+    "prompt_tokens_details": {
+     "cached_tokens": 24064
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 179
+    }
+   },
+   "cost": 0.001051,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:15:22",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t14",
+   "usage": {
+    "prompt_tokens": 25390,
+    "completion_tokens": 4844,
+    "total_tokens": 30234,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4507
+    }
+   },
+   "cost": 0.01343,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:16:33",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t15",
+   "usage": {
+    "prompt_tokens": 25848,
+    "completion_tokens": 16384,
+    "total_tokens": 42232,
+    "prompt_tokens_details": {
+     "cached_tokens": 25344
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16384
+    }
+   },
+   "cost": 0.019964,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:16:39",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t16",
+   "usage": {
+    "prompt_tokens": 25884,
+    "completion_tokens": 1717,
+    "total_tokens": 27601,
+    "prompt_tokens_details": {
+     "cached_tokens": 25728
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1339
+    }
+   },
+   "cost": 0.002262,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:16:53",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t17",
+   "usage": {
+    "prompt_tokens": 26472,
+    "completion_tokens": 1179,
+    "total_tokens": 27651,
+    "prompt_tokens_details": {
+     "cached_tokens": 25856
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 797
+    }
+   },
+   "cost": 0.001755,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:21:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t18",
+   "usage": {
+    "prompt_tokens": 26894,
+    "completion_tokens": 2329,
+    "total_tokens": 29223,
+    "prompt_tokens_details": {
+     "cached_tokens": 26368
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2014
+    }
+   },
+   "cost": 0.003111,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:22:34",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t19",
+   "usage": {
+    "prompt_tokens": 27296,
+    "completion_tokens": 10684,
+    "total_tokens": 37980,
+    "prompt_tokens_details": {
+     "cached_tokens": 26880
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9977
+    }
+   },
+   "cost": 0.013107,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:22:36",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t20",
+   "usage": {
+    "prompt_tokens": 28067,
+    "completion_tokens": 1300,
+    "total_tokens": 29367,
+    "prompt_tokens_details": {
+     "cached_tokens": 27264
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 558
+    }
+   },
+   "cost": 0.001964,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:22:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t21",
+   "usage": {
+    "prompt_tokens": 28896,
+    "completion_tokens": 1292,
+    "total_tokens": 30188,
+    "prompt_tokens_details": {
+     "cached_tokens": 28032
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 820
+    }
+   },
+   "cost": 0.001978,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:23:33",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t22",
+   "usage": {
+    "prompt_tokens": 30280,
+    "completion_tokens": 3009,
+    "total_tokens": 33289,
+    "prompt_tokens_details": {
+     "cached_tokens": 28800
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2313
+    }
+   },
+   "cost": 0.004228,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:24:04",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_03/t23",
+   "usage": {
+    "prompt_tokens": 31994,
+    "completion_tokens": 676,
+    "total_tokens": 32670,
+    "prompt_tokens_details": {
+     "cached_tokens": 30208
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 290
+    }
+   },
+   "cost": 0.001528,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:27:45",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 3776,
+    "total_tokens": 9878,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2785
+    }
+   },
+   "cost": 0.006362,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:28:00",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t2",
+   "usage": {
+    "prompt_tokens": 7549,
+    "completion_tokens": 2016,
+    "total_tokens": 9565,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1610
+    }
+   },
+   "cost": 0.002915,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:28:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t3",
+   "usage": {
+    "prompt_tokens": 8384,
+    "completion_tokens": 2318,
+    "total_tokens": 10702,
+    "prompt_tokens_details": {
+     "cached_tokens": 7424
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1972
+    }
+   },
+   "cost": 0.003114,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:28:23",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t4",
+   "usage": {
+    "prompt_tokens": 9516,
+    "completion_tokens": 6289,
+    "total_tokens": 15805,
+    "prompt_tokens_details": {
+     "cached_tokens": 8320
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5935
+    }
+   },
+   "cost": 0.007956,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:28:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t5",
+   "usage": {
+    "prompt_tokens": 10158,
+    "completion_tokens": 7906,
+    "total_tokens": 18064,
+    "prompt_tokens_details": {
+     "cached_tokens": 9472
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 7212
+    }
+   },
+   "cost": 0.00975,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:29:21",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t6",
+   "usage": {
+    "prompt_tokens": 11245,
+    "completion_tokens": 16384,
+    "total_tokens": 27629,
+    "prompt_tokens_details": {
+     "cached_tokens": 10112
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16384
+    }
+   },
+   "cost": 0.020061,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:29:33",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t7",
+   "usage": {
+    "prompt_tokens": 11281,
+    "completion_tokens": 4548,
+    "total_tokens": 15829,
+    "prompt_tokens_details": {
+     "cached_tokens": 11136
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3693
+    }
+   },
+   "cost": 0.005568,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:34:10",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t8",
+   "usage": {
+    "prompt_tokens": 12174,
+    "completion_tokens": 3868,
+    "total_tokens": 16042,
+    "prompt_tokens_details": {
+     "cached_tokens": 11264
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2998
+    }
+   },
+   "cost": 0.004982,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:35:25",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t9",
+   "usage": {
+    "prompt_tokens": 14149,
+    "completion_tokens": 5668,
+    "total_tokens": 19817,
+    "prompt_tokens_details": {
+     "cached_tokens": 12160
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5667
+    }
+   },
+   "cost": 0.007471,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:35:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t10",
+   "usage": {
+    "prompt_tokens": 14185,
+    "completion_tokens": 1103,
+    "total_tokens": 15288,
+    "prompt_tokens_details": {
+     "cached_tokens": 14080
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 638
+    }
+   },
+   "cost": 0.00144,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:35:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t11",
+   "usage": {
+    "prompt_tokens": 14883,
+    "completion_tokens": 1131,
+    "total_tokens": 16014,
+    "prompt_tokens_details": {
+     "cached_tokens": 14080
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 629
+    }
+   },
+   "cost": 0.001683,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:39:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t12",
+   "usage": {
+    "prompt_tokens": 15631,
+    "completion_tokens": 16384,
+    "total_tokens": 32015,
+    "prompt_tokens_details": {
+     "cached_tokens": 14848
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16384
+    }
+   },
+   "cost": 0.019985,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:39:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t13",
+   "usage": {
+    "prompt_tokens": 15667,
+    "completion_tokens": 1488,
+    "total_tokens": 17155,
+    "prompt_tokens_details": {
+     "cached_tokens": 15616
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1262
+    }
+   },
+   "cost": 0.001895,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:39:35",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t14",
+   "usage": {
+    "prompt_tokens": 16373,
+    "completion_tokens": 1329,
+    "total_tokens": 17702,
+    "prompt_tokens_details": {
+     "cached_tokens": 15616
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1094
+    }
+   },
+   "cost": 0.001916,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:39:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t15",
+   "usage": {
+    "prompt_tokens": 17402,
+    "completion_tokens": 5442,
+    "total_tokens": 22844,
+    "prompt_tokens_details": {
+     "cached_tokens": 16256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4972
+    }
+   },
+   "cost": 0.006972,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:41:34",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t16",
+   "usage": {
+    "prompt_tokens": 18258,
+    "completion_tokens": 1807,
+    "total_tokens": 20065,
+    "prompt_tokens_details": {
+     "cached_tokens": 17280
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1397
+    }
+   },
+   "cost": 0.002565,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:42:03",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t17",
+   "usage": {
+    "prompt_tokens": 18721,
+    "completion_tokens": 9345,
+    "total_tokens": 28066,
+    "prompt_tokens_details": {
+     "cached_tokens": 18176
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 8950
+    }
+   },
+   "cost": 0.011487,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:42:04",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t18",
+   "usage": {
+    "prompt_tokens": 19222,
+    "completion_tokens": 370,
+    "total_tokens": 19592,
+    "prompt_tokens_details": {
+     "cached_tokens": 18688
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5
+    }
+   },
+   "cost": 0.000716,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:42:05",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t19",
+   "usage": {
+    "prompt_tokens": 19692,
+    "completion_tokens": 403,
+    "total_tokens": 20095,
+    "prompt_tokens_details": {
+     "cached_tokens": 19200
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 40
+    }
+   },
+   "cost": 0.000746,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:42:06",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t20",
+   "usage": {
+    "prompt_tokens": 20161,
+    "completion_tokens": 477,
+    "total_tokens": 20638,
+    "prompt_tokens_details": {
+     "cached_tokens": 19584
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 102
+    }
+   },
+   "cost": 0.000863,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:43:29",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t21",
+   "usage": {
+    "prompt_tokens": 20806,
+    "completion_tokens": 403,
+    "total_tokens": 21209,
+    "prompt_tokens_details": {
+     "cached_tokens": 20096
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 234
+    }
+   },
+   "cost": 0.000817,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:43:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t22",
+   "usage": {
+    "prompt_tokens": 23167,
+    "completion_tokens": 4737,
+    "total_tokens": 27904,
+    "prompt_tokens_details": {
+     "cached_tokens": 20736
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4540
+    }
+   },
+   "cost": 0.006538,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:44:13",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t23",
+   "usage": {
+    "prompt_tokens": 25721,
+    "completion_tokens": 15123,
+    "total_tokens": 40844,
+    "prompt_tokens_details": {
+     "cached_tokens": 23040
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 14712
+    }
+   },
+   "cost": 0.01909,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:44:14",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t24",
+   "usage": {
+    "prompt_tokens": 26283,
+    "completion_tokens": 513,
+    "total_tokens": 26796,
+    "prompt_tokens_details": {
+     "cached_tokens": 25600
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 146
+    }
+   },
+   "cost": 0.000974,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:46:10",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_04/t25",
+   "usage": {
+    "prompt_tokens": 29828,
+    "completion_tokens": 11400,
+    "total_tokens": 41228,
+    "prompt_tokens_details": {
+     "cached_tokens": 26240
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 10958
+    }
+   },
+   "cost": 0.014914,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:47:37",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 1972,
+    "total_tokens": 8074,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1197
+    }
+   },
+   "cost": 0.002428,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:47:39",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t2",
+   "usage": {
+    "prompt_tokens": 6900,
+    "completion_tokens": 735,
+    "total_tokens": 7635,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 391
+    }
+   },
+   "cost": 0.001183,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:47:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t3",
+   "usage": {
+    "prompt_tokens": 7352,
+    "completion_tokens": 345,
+    "total_tokens": 7697,
+    "prompt_tokens_details": {
+     "cached_tokens": 6784
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15
+    }
+   },
+   "cost": 0.000625,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:47:49",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t4",
+   "usage": {
+    "prompt_tokens": 8534,
+    "completion_tokens": 457,
+    "total_tokens": 8991,
+    "prompt_tokens_details": {
+     "cached_tokens": 7296
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 223
+    }
+   },
+   "cost": 0.000964,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:47:59",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t5",
+   "usage": {
+    "prompt_tokens": 8913,
+    "completion_tokens": 2383,
+    "total_tokens": 11296,
+    "prompt_tokens_details": {
+     "cached_tokens": 8448
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2212
+    }
+   },
+   "cost": 0.00305,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:48:05",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t6",
+   "usage": {
+    "prompt_tokens": 10105,
+    "completion_tokens": 1800,
+    "total_tokens": 11905,
+    "prompt_tokens_details": {
+     "cached_tokens": 8832
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1585
+    }
+   },
+   "cost": 0.002595,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:48:14",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t7",
+   "usage": {
+    "prompt_tokens": 10747,
+    "completion_tokens": 2474,
+    "total_tokens": 13221,
+    "prompt_tokens_details": {
+     "cached_tokens": 9984
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2149
+    }
+   },
+   "cost": 0.003258,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:48:41",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t8",
+   "usage": {
+    "prompt_tokens": 12780,
+    "completion_tokens": 1799,
+    "total_tokens": 14579,
+    "prompt_tokens_details": {
+     "cached_tokens": 10624
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1500
+    }
+   },
+   "cost": 0.002869,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:53:19",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t9",
+   "usage": {
+    "prompt_tokens": 13119,
+    "completion_tokens": 3571,
+    "total_tokens": 16690,
+    "prompt_tokens_details": {
+     "cached_tokens": 12672
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3277
+    }
+   },
+   "cost": 0.004495,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:53:45",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t10",
+   "usage": {
+    "prompt_tokens": 14910,
+    "completion_tokens": 6576,
+    "total_tokens": 21486,
+    "prompt_tokens_details": {
+     "cached_tokens": 13056
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6069
+    }
+   },
+   "cost": 0.008526,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:53:54",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t11",
+   "usage": {
+    "prompt_tokens": 15513,
+    "completion_tokens": 929,
+    "total_tokens": 16442,
+    "prompt_tokens_details": {
+     "cached_tokens": 14848
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 788
+    }
+   },
+   "cost": 0.001403,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:53:56",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t12",
+   "usage": {
+    "prompt_tokens": 15862,
+    "completion_tokens": 775,
+    "total_tokens": 16637,
+    "prompt_tokens_details": {
+     "cached_tokens": 15488
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 431
+    }
+   },
+   "cost": 0.001135,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:54:12",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t13",
+   "usage": {
+    "prompt_tokens": 16347,
+    "completion_tokens": 5822,
+    "total_tokens": 22169,
+    "prompt_tokens_details": {
+     "cached_tokens": 15744
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5245
+    }
+   },
+   "cost": 0.007262,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:54:39",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t14",
+   "usage": {
+    "prompt_tokens": 17575,
+    "completion_tokens": 5205,
+    "total_tokens": 22780,
+    "prompt_tokens_details": {
+     "cached_tokens": 16256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4451
+    }
+   },
+   "cost": 0.006739,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:54:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t15",
+   "usage": {
+    "prompt_tokens": 18447,
+    "completion_tokens": 178,
+    "total_tokens": 18625,
+    "prompt_tokens_details": {
+     "cached_tokens": 17536
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 86
+    }
+   },
+   "cost": 0.000592,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:54:41",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t16",
+   "usage": {
+    "prompt_tokens": 18647,
+    "completion_tokens": 622,
+    "total_tokens": 19269,
+    "prompt_tokens_details": {
+     "cached_tokens": 18432
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 188
+    }
+   },
+   "cost": 0.000921,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:55:00",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t17",
+   "usage": {
+    "prompt_tokens": 19181,
+    "completion_tokens": 1804,
+    "total_tokens": 20985,
+    "prompt_tokens_details": {
+     "cached_tokens": 18560
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1231
+    }
+   },
+   "cost": 0.002462,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:55:11",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t18",
+   "usage": {
+    "prompt_tokens": 19873,
+    "completion_tokens": 1801,
+    "total_tokens": 21674,
+    "prompt_tokens_details": {
+     "cached_tokens": 19072
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1205
+    }
+   },
+   "cost": 0.002516,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:55:16",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t19",
+   "usage": {
+    "prompt_tokens": 21075,
+    "completion_tokens": 1966,
+    "total_tokens": 23041,
+    "prompt_tokens_details": {
+     "cached_tokens": 19840
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1254
+    }
+   },
+   "cost": 0.002849,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:57:17",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t20",
+   "usage": {
+    "prompt_tokens": 21971,
+    "completion_tokens": 2439,
+    "total_tokens": 24410,
+    "prompt_tokens_details": {
+     "cached_tokens": 20992
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1658
+    }
+   },
+   "cost": 0.003346,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:58:18",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t21",
+   "usage": {
+    "prompt_tokens": 22925,
+    "completion_tokens": 906,
+    "total_tokens": 23831,
+    "prompt_tokens_details": {
+     "cached_tokens": 21888
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 388
+    }
+   },
+   "cost": 0.00153,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:58:44",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t22",
+   "usage": {
+    "prompt_tokens": 23522,
+    "completion_tokens": 929,
+    "total_tokens": 24451,
+    "prompt_tokens_details": {
+     "cached_tokens": 22912
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 363
+    }
+   },
+   "cost": 0.001435,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:58:44",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t23",
+   "usage": {
+    "prompt_tokens": 24201,
+    "completion_tokens": 556,
+    "total_tokens": 24757,
+    "prompt_tokens_details": {
+     "cached_tokens": 23424
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 11
+    }
+   },
+   "cost": 0.001041,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 07:59:16",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t24",
+   "usage": {
+    "prompt_tokens": 24887,
+    "completion_tokens": 658,
+    "total_tokens": 25545,
+    "prompt_tokens_details": {
+     "cached_tokens": 24192
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 60
+    }
+   },
+   "cost": 0.001143,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:00:18",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t25",
+   "usage": {
+    "prompt_tokens": 25753,
+    "completion_tokens": 598,
+    "total_tokens": 26351,
+    "prompt_tokens_details": {
+     "cached_tokens": 24832
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 26
+    }
+   },
+   "cost": 0.001143,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:00:59",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t26",
+   "usage": {
+    "prompt_tokens": 26423,
+    "completion_tokens": 713,
+    "total_tokens": 27136,
+    "prompt_tokens_details": {
+     "cached_tokens": 25728
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 123
+    }
+   },
+   "cost": 0.001218,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:02:58",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t27",
+   "usage": {
+    "prompt_tokens": 27289,
+    "completion_tokens": 1114,
+    "total_tokens": 28403,
+    "prompt_tokens_details": {
+     "cached_tokens": 26368
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 481
+    }
+   },
+   "cost": 0.001771,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:04:26",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t28",
+   "usage": {
+    "prompt_tokens": 28139,
+    "completion_tokens": 709,
+    "total_tokens": 28848,
+    "prompt_tokens_details": {
+     "cached_tokens": 27264
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 103
+    }
+   },
+   "cost": 0.001277,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:05:24",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_05/t29",
+   "usage": {
+    "prompt_tokens": 28895,
+    "completion_tokens": 358,
+    "total_tokens": 29253,
+    "prompt_tokens_details": {
+     "cached_tokens": 28032
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15
+    }
+   },
+   "cost": 0.000857,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:08:57",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 2464,
+    "total_tokens": 8566,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1473
+    }
+   },
+   "cost": 0.004787,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:09:08",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t2",
+   "usage": {
+    "prompt_tokens": 7422,
+    "completion_tokens": 577,
+    "total_tokens": 7999,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 277
+    }
+   },
+   "cost": 0.00115,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:09:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t3",
+   "usage": {
+    "prompt_tokens": 8038,
+    "completion_tokens": 556,
+    "total_tokens": 8594,
+    "prompt_tokens_details": {
+     "cached_tokens": 7296
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 275
+    }
+   },
+   "cost": 0.000934,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:09:18",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t4",
+   "usage": {
+    "prompt_tokens": 8428,
+    "completion_tokens": 4878,
+    "total_tokens": 13306,
+    "prompt_tokens_details": {
+     "cached_tokens": 7936
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4479
+    }
+   },
+   "cost": 0.006049,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:09:56",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t5",
+   "usage": {
+    "prompt_tokens": 9595,
+    "completion_tokens": 865,
+    "total_tokens": 10460,
+    "prompt_tokens_details": {
+     "cached_tokens": 8320
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 580
+    }
+   },
+   "cost": 0.00147,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:10:17",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t6",
+   "usage": {
+    "prompt_tokens": 12996,
+    "completion_tokens": 10547,
+    "total_tokens": 23543,
+    "prompt_tokens_details": {
+     "cached_tokens": 9472
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 10364
+    }
+   },
+   "cost": 0.01377,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:10:39",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t7",
+   "usage": {
+    "prompt_tokens": 17081,
+    "completion_tokens": 10340,
+    "total_tokens": 27421,
+    "prompt_tokens_details": {
+     "cached_tokens": 12928
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9886
+    }
+   },
+   "cost": 0.013731,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:15:25",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t8",
+   "usage": {
+    "prompt_tokens": 17575,
+    "completion_tokens": 6411,
+    "total_tokens": 23986,
+    "prompt_tokens_details": {
+     "cached_tokens": 17024
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6042
+    }
+   },
+   "cost": 0.007961,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:17:15",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t9",
+   "usage": {
+    "prompt_tokens": 18669,
+    "completion_tokens": 5194,
+    "total_tokens": 23863,
+    "prompt_tokens_details": {
+     "cached_tokens": 17536
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4998
+    }
+   },
+   "cost": 0.006678,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:17:46",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t10",
+   "usage": {
+    "prompt_tokens": 22298,
+    "completion_tokens": 16384,
+    "total_tokens": 38682,
+    "prompt_tokens_details": {
+     "cached_tokens": 18560
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16384
+    }
+   },
+   "cost": 0.020894,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:17:57",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t11",
+   "usage": {
+    "prompt_tokens": 22334,
+    "completion_tokens": 5742,
+    "total_tokens": 28076,
+    "prompt_tokens_details": {
+     "cached_tokens": 22272
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5127
+    }
+   },
+   "cost": 0.007043,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:22:36",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t12",
+   "usage": {
+    "prompt_tokens": 22989,
+    "completion_tokens": 5878,
+    "total_tokens": 28867,
+    "prompt_tokens_details": {
+     "cached_tokens": 22272
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5163
+    }
+   },
+   "cost": 0.007402,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:23:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t13",
+   "usage": {
+    "prompt_tokens": 24002,
+    "completion_tokens": 3845,
+    "total_tokens": 27847,
+    "prompt_tokens_details": {
+     "cached_tokens": 22912
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2962
+    }
+   },
+   "cost": 0.005078,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:27:44",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t14",
+   "usage": {
+    "prompt_tokens": 24925,
+    "completion_tokens": 2835,
+    "total_tokens": 27760,
+    "prompt_tokens_details": {
+     "cached_tokens": 23936
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1764
+    }
+   },
+   "cost": 0.003842,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:28:03",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t15",
+   "usage": {
+    "prompt_tokens": 30148,
+    "completion_tokens": 5222,
+    "total_tokens": 35370,
+    "prompt_tokens_details": {
+     "cached_tokens": 24832
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4488
+    }
+   },
+   "cost": 0.00801,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:29:18",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t16",
+   "usage": {
+    "prompt_tokens": 32002,
+    "completion_tokens": 3407,
+    "total_tokens": 35409,
+    "prompt_tokens_details": {
+     "cached_tokens": 30080
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3124
+    }
+   },
+   "cost": 0.004845,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:29:19",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t17",
+   "usage": {
+    "prompt_tokens": 32393,
+    "completion_tokens": 215,
+    "total_tokens": 32608,
+    "prompt_tokens_details": {
+     "cached_tokens": 32000
+    }
+   },
+   "cost": 0.000568,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:29:20",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t18",
+   "usage": {
+    "prompt_tokens": 32715,
+    "completion_tokens": 360,
+    "total_tokens": 33075,
+    "prompt_tokens_details": {
+     "cached_tokens": 32384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 141
+    }
+   },
+   "cost": 0.000726,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:29:41",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t19",
+   "usage": {
+    "prompt_tokens": 34576,
+    "completion_tokens": 10617,
+    "total_tokens": 45193,
+    "prompt_tokens_details": {
+     "cached_tokens": 32640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9762
+    }
+   },
+   "cost": 0.013517,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:30:03",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t20",
+   "usage": {
+    "prompt_tokens": 35564,
+    "completion_tokens": 4489,
+    "total_tokens": 40053,
+    "prompt_tokens_details": {
+     "cached_tokens": 34560
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3510
+    }
+   },
+   "cost": 0.005895,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:30:31",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t21",
+   "usage": {
+    "prompt_tokens": 36922,
+    "completion_tokens": 7346,
+    "total_tokens": 44268,
+    "prompt_tokens_details": {
+     "cached_tokens": 35456
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6938
+    }
+   },
+   "cost": 0.009468,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:30:51",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_06/t22",
+   "usage": {
+    "prompt_tokens": 39100,
+    "completion_tokens": 1515,
+    "total_tokens": 40615,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1130
+    }
+   },
+   "cost": 0.013548,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:31:45",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 2994,
+    "total_tokens": 9096,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1675
+    }
+   },
+   "cost": 0.003655,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:32:10",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t2",
+   "usage": {
+    "prompt_tokens": 8052,
+    "completion_tokens": 3705,
+    "total_tokens": 11757,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3143
+    }
+   },
+   "cost": 0.005093,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:32:18",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t3",
+   "usage": {
+    "prompt_tokens": 8945,
+    "completion_tokens": 1069,
+    "total_tokens": 10014,
+    "prompt_tokens_details": {
+     "cached_tokens": 7936
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 722
+    }
+   },
+   "cost": 0.001633,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:32:19",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t4",
+   "usage": {
+    "prompt_tokens": 9799,
+    "completion_tokens": 612,
+    "total_tokens": 10411,
+    "prompt_tokens_details": {
+     "cached_tokens": 8832
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 426
+    }
+   },
+   "cost": 0.001077,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:32:34",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t5",
+   "usage": {
+    "prompt_tokens": 10077,
+    "completion_tokens": 6096,
+    "total_tokens": 16173,
+    "prompt_tokens_details": {
+     "cached_tokens": 9728
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5146
+    }
+   },
+   "cost": 0.007478,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:32:58",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t6",
+   "usage": {
+    "prompt_tokens": 11444,
+    "completion_tokens": 6366,
+    "total_tokens": 17810,
+    "prompt_tokens_details": {
+     "cached_tokens": 9984
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5730
+    }
+   },
+   "cost": 0.008137,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:33:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t7",
+   "usage": {
+    "prompt_tokens": 12268,
+    "completion_tokens": 1713,
+    "total_tokens": 13981,
+    "prompt_tokens_details": {
+     "cached_tokens": 11392
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1070
+    }
+   },
+   "cost": 0.002387,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:33:29",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t8",
+   "usage": {
+    "prompt_tokens": 13263,
+    "completion_tokens": 3880,
+    "total_tokens": 17143,
+    "prompt_tokens_details": {
+     "cached_tokens": 12160
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3237
+    }
+   },
+   "cost": 0.00506,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:34:07",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t9",
+   "usage": {
+    "prompt_tokens": 15435,
+    "completion_tokens": 8121,
+    "total_tokens": 23556,
+    "prompt_tokens_details": {
+     "cached_tokens": 13184
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 7678
+    }
+   },
+   "cost": 0.0105,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:38:44",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t10",
+   "usage": {
+    "prompt_tokens": 15918,
+    "completion_tokens": 2099,
+    "total_tokens": 18017,
+    "prompt_tokens_details": {
+     "cached_tokens": 15360
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1944
+    }
+   },
+   "cost": 0.002778,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:39:50",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t11",
+   "usage": {
+    "prompt_tokens": 17218,
+    "completion_tokens": 16384,
+    "total_tokens": 33602,
+    "prompt_tokens_details": {
+     "cached_tokens": 15872
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16384
+    }
+   },
+   "cost": 0.02016,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:40:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t12",
+   "usage": {
+    "prompt_tokens": 17254,
+    "completion_tokens": 8845,
+    "total_tokens": 26099,
+    "prompt_tokens_details": {
+     "cached_tokens": 17152
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 8574
+    }
+   },
+   "cost": 0.010748,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:41:07",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t13",
+   "usage": {
+    "prompt_tokens": 17681,
+    "completion_tokens": 7135,
+    "total_tokens": 24816,
+    "prompt_tokens_details": {
+     "cached_tokens": 17152
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6810
+    }
+   },
+   "cost": 0.008824,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:41:25",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t14",
+   "usage": {
+    "prompt_tokens": 18879,
+    "completion_tokens": 1309,
+    "total_tokens": 20188,
+    "prompt_tokens_details": {
+     "cached_tokens": 17664
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1135
+    }
+   },
+   "cost": 0.002041,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:41:58",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t15",
+   "usage": {
+    "prompt_tokens": 20771,
+    "completion_tokens": 7499,
+    "total_tokens": 28270,
+    "prompt_tokens_details": {
+     "cached_tokens": 18816
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 7251
+    }
+   },
+   "cost": 0.009698,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:42:24",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t16",
+   "usage": {
+    "prompt_tokens": 21354,
+    "completion_tokens": 1114,
+    "total_tokens": 22468,
+    "prompt_tokens_details": {
+     "cached_tokens": 20736
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 616
+    }
+   },
+   "cost": 0.001647,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:42:29",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t17",
+   "usage": {
+    "prompt_tokens": 21980,
+    "completion_tokens": 1263,
+    "total_tokens": 23243,
+    "prompt_tokens_details": {
+     "cached_tokens": 21248
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 990
+    }
+   },
+   "cost": 0.001863,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:42:35",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t18",
+   "usage": {
+    "prompt_tokens": 22675,
+    "completion_tokens": 1990,
+    "total_tokens": 24665,
+    "prompt_tokens_details": {
+     "cached_tokens": 21888
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1618
+    }
+   },
+   "cost": 0.002755,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:42:56",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t19",
+   "usage": {
+    "prompt_tokens": 23397,
+    "completion_tokens": 4374,
+    "total_tokens": 27771,
+    "prompt_tokens_details": {
+     "cached_tokens": 22656
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3988
+    }
+   },
+   "cost": 0.005607,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:43:04",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t20",
+   "usage": {
+    "prompt_tokens": 24106,
+    "completion_tokens": 3023,
+    "total_tokens": 27129,
+    "prompt_tokens_details": {
+     "cached_tokens": 23296
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2629
+    }
+   },
+   "cost": 0.00401,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:43:21",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t21",
+   "usage": {
+    "prompt_tokens": 25391,
+    "completion_tokens": 7009,
+    "total_tokens": 32400,
+    "prompt_tokens_details": {
+     "cached_tokens": 24064
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6777
+    }
+   },
+   "cost": 0.008953,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:43:55",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t22",
+   "usage": {
+    "prompt_tokens": 26492,
+    "completion_tokens": 10736,
+    "total_tokens": 37228,
+    "prompt_tokens_details": {
+     "cached_tokens": 25344
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 10155
+    }
+   },
+   "cost": 0.01338,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:44:27",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t23",
+   "usage": {
+    "prompt_tokens": 28000,
+    "completion_tokens": 3681,
+    "total_tokens": 31681,
+    "prompt_tokens_details": {
+     "cached_tokens": 26368
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3217
+    }
+   },
+   "cost": 0.005065,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:44:43",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t24",
+   "usage": {
+    "prompt_tokens": 29389,
+    "completion_tokens": 1876,
+    "total_tokens": 31265,
+    "prompt_tokens_details": {
+     "cached_tokens": 27904
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1701
+    }
+   },
+   "cost": 0.002864,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:44:50",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t25",
+   "usage": {
+    "prompt_tokens": 30447,
+    "completion_tokens": 2145,
+    "total_tokens": 32592,
+    "prompt_tokens_details": {
+     "cached_tokens": 29312
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1726
+    }
+   },
+   "cost": 0.00309,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:45:16",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_07/t26",
+   "usage": {
+    "prompt_tokens": 31791,
+    "completion_tokens": 379,
+    "total_tokens": 32170,
+    "prompt_tokens_details": {
+     "cached_tokens": 30336
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 23
+    }
+   },
+   "cost": 0.001073,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:50:50",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 16384,
+    "total_tokens": 22486,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1911
+    }
+   },
+   "cost": 0.019723,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:51:17",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t2",
+   "usage": {
+    "prompt_tokens": 21198,
+    "completion_tokens": 2208,
+    "total_tokens": 23406,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1342
+    }
+   },
+   "cost": 0.00724,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:52:03",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t3",
+   "usage": {
+    "prompt_tokens": 22373,
+    "completion_tokens": 4546,
+    "total_tokens": 26919,
+    "prompt_tokens_details": {
+     "cached_tokens": 21120
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4305
+    }
+   },
+   "cost": 0.005958,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:52:36",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t4",
+   "usage": {
+    "prompt_tokens": 23335,
+    "completion_tokens": 6394,
+    "total_tokens": 29729,
+    "prompt_tokens_details": {
+     "cached_tokens": 22272
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5782
+    }
+   },
+   "cost": 0.008125,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:52:47",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t5",
+   "usage": {
+    "prompt_tokens": 24283,
+    "completion_tokens": 2612,
+    "total_tokens": 26895,
+    "prompt_tokens_details": {
+     "cached_tokens": 23296
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1928
+    }
+   },
+   "cost": 0.00357,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:53:18",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t6",
+   "usage": {
+    "prompt_tokens": 26302,
+    "completion_tokens": 4832,
+    "total_tokens": 31134,
+    "prompt_tokens_details": {
+     "cached_tokens": 24192
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4333
+    }
+   },
+   "cost": 0.006577,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:54:51",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t7",
+   "usage": {
+    "prompt_tokens": 27759,
+    "completion_tokens": 2019,
+    "total_tokens": 29778,
+    "prompt_tokens_details": {
+     "cached_tokens": 26240
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1571
+    }
+   },
+   "cost": 0.003036,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:55:24",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t8",
+   "usage": {
+    "prompt_tokens": 29264,
+    "completion_tokens": 5760,
+    "total_tokens": 35024,
+    "prompt_tokens_details": {
+     "cached_tokens": 27648
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5401
+    }
+   },
+   "cost": 0.007563,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 08:55:49",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t9",
+   "usage": {
+    "prompt_tokens": 30325,
+    "completion_tokens": 4345,
+    "total_tokens": 34670,
+    "prompt_tokens_details": {
+     "cached_tokens": 29184
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3899
+    }
+   },
+   "cost": 0.005731,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:09:37",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 1418,
+    "total_tokens": 7520,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 987
+    }
+   },
+   "cost": 0.003532,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:09:39",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t2",
+   "usage": {
+    "prompt_tokens": 6558,
+    "completion_tokens": 472,
+    "total_tokens": 7030,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 205
+    }
+   },
+   "cost": 0.000765,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:09:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t3",
+   "usage": {
+    "prompt_tokens": 6851,
+    "completion_tokens": 259,
+    "total_tokens": 7110,
+    "prompt_tokens_details": {
+     "cached_tokens": 6528
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 237
+    }
+   },
+   "cost": 0.000447,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:09:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t4",
+   "usage": {
+    "prompt_tokens": 6901,
+    "completion_tokens": 212,
+    "total_tokens": 7113,
+    "prompt_tokens_details": {
+     "cached_tokens": 6784
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16
+    }
+   },
+   "cost": 0.00033,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:09:58",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t5",
+   "usage": {
+    "prompt_tokens": 7544,
+    "completion_tokens": 1000,
+    "total_tokens": 8544,
+    "prompt_tokens_details": {
+     "cached_tokens": 6784
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 978
+    }
+   },
+   "cost": 0.001469,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:00",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t6",
+   "usage": {
+    "prompt_tokens": 7594,
+    "completion_tokens": 393,
+    "total_tokens": 7987,
+    "prompt_tokens_details": {
+     "cached_tokens": 7424
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 371
+    }
+   },
+   "cost": 0.000567,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:05",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t7",
+   "usage": {
+    "prompt_tokens": 7644,
+    "completion_tokens": 1606,
+    "total_tokens": 9250,
+    "prompt_tokens_details": {
+     "cached_tokens": 7552
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1584
+    }
+   },
+   "cost": 0.002,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:08",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t8",
+   "usage": {
+    "prompt_tokens": 7694,
+    "completion_tokens": 933,
+    "total_tokens": 8627,
+    "prompt_tokens_details": {
+     "cached_tokens": 7552
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 797
+    }
+   },
+   "cost": 0.001208,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t9",
+   "usage": {
+    "prompt_tokens": 8054,
+    "completion_tokens": 194,
+    "total_tokens": 8248,
+    "prompt_tokens_details": {
+     "cached_tokens": 7680
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 134
+    }
+   },
+   "cost": 0.000391,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t10",
+   "usage": {
+    "prompt_tokens": 8155,
+    "completion_tokens": 156,
+    "total_tokens": 8311,
+    "prompt_tokens_details": {
+     "cached_tokens": 7936
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 134
+    }
+   },
+   "cost": 0.000301,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:10",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t11",
+   "usage": {
+    "prompt_tokens": 8205,
+    "completion_tokens": 225,
+    "total_tokens": 8430,
+    "prompt_tokens_details": {
+     "cached_tokens": 8064
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 110
+    }
+   },
+   "cost": 0.000361,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:19",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t12",
+   "usage": {
+    "prompt_tokens": 9272,
+    "completion_tokens": 1955,
+    "total_tokens": 11227,
+    "prompt_tokens_details": {
+     "cached_tokens": 8192
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1933
+    }
+   },
+   "cost": 0.002719,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:22",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t13",
+   "usage": {
+    "prompt_tokens": 9322,
+    "completion_tokens": 1005,
+    "total_tokens": 10327,
+    "prompt_tokens_details": {
+     "cached_tokens": 9216
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 983
+    }
+   },
+   "cost": 0.001293,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:26",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t14",
+   "usage": {
+    "prompt_tokens": 9372,
+    "completion_tokens": 542,
+    "total_tokens": 9914,
+    "prompt_tokens_details": {
+     "cached_tokens": 9216
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 520
+    }
+   },
+   "cost": 0.000752,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:30",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t15",
+   "usage": {
+    "prompt_tokens": 9422,
+    "completion_tokens": 1174,
+    "total_tokens": 10596,
+    "prompt_tokens_details": {
+     "cached_tokens": 9344
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 876
+    }
+   },
+   "cost": 0.001488,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:36",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t16",
+   "usage": {
+    "prompt_tokens": 9787,
+    "completion_tokens": 399,
+    "total_tokens": 10186,
+    "prompt_tokens_details": {
+     "cached_tokens": 9344
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 242
+    }
+   },
+   "cost": 0.000668,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:46",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t17",
+   "usage": {
+    "prompt_tokens": 10044,
+    "completion_tokens": 2572,
+    "total_tokens": 12616,
+    "prompt_tokens_details": {
+     "cached_tokens": 9728
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2167
+    }
+   },
+   "cost": 0.00324,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:10:54",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t18",
+   "usage": {
+    "prompt_tokens": 11174,
+    "completion_tokens": 664,
+    "total_tokens": 11838,
+    "prompt_tokens_details": {
+     "cached_tokens": 9984
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 180
+    }
+   },
+   "cost": 0.001214,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:11:03",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t19",
+   "usage": {
+    "prompt_tokens": 12408,
+    "completion_tokens": 999,
+    "total_tokens": 13407,
+    "prompt_tokens_details": {
+     "cached_tokens": 11136
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 754
+    }
+   },
+   "cost": 0.001647,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:11:07",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t20",
+   "usage": {
+    "prompt_tokens": 13480,
+    "completion_tokens": 1035,
+    "total_tokens": 14515,
+    "prompt_tokens_details": {
+     "cached_tokens": 12288
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 788
+    }
+   },
+   "cost": 0.001673,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:11:18",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t21",
+   "usage": {
+    "prompt_tokens": 13776,
+    "completion_tokens": 2832,
+    "total_tokens": 16608,
+    "prompt_tokens_details": {
+     "cached_tokens": 13440
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2337
+    }
+   },
+   "cost": 0.00358,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:11:33",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t22",
+   "usage": {
+    "prompt_tokens": 14496,
+    "completion_tokens": 1207,
+    "total_tokens": 15703,
+    "prompt_tokens_details": {
+     "cached_tokens": 13696
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 824
+    }
+   },
+   "cost": 0.001771,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:12:39",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t23",
+   "usage": {
+    "prompt_tokens": 15090,
+    "completion_tokens": 15760,
+    "total_tokens": 30850,
+    "prompt_tokens_details": {
+     "cached_tokens": 14464
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15104
+    }
+   },
+   "cost": 0.019187,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:13:30",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t24",
+   "usage": {
+    "prompt_tokens": 16348,
+    "completion_tokens": 1340,
+    "total_tokens": 17688,
+    "prompt_tokens_details": {
+     "cached_tokens": 14976
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1184
+    }
+   },
+   "cost": 0.002109,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:13:37",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t25",
+   "usage": {
+    "prompt_tokens": 17313,
+    "completion_tokens": 632,
+    "total_tokens": 17945,
+    "prompt_tokens_details": {
+     "cached_tokens": 16256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 126
+    }
+   },
+   "cost": 0.001173,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:13:55",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t26",
+   "usage": {
+    "prompt_tokens": 18628,
+    "completion_tokens": 4934,
+    "total_tokens": 23562,
+    "prompt_tokens_details": {
+     "cached_tokens": 17280
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4367
+    }
+   },
+   "cost": 0.006429,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:14:08",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t27",
+   "usage": {
+    "prompt_tokens": 19330,
+    "completion_tokens": 2535,
+    "total_tokens": 21865,
+    "prompt_tokens_details": {
+     "cached_tokens": 18560
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1939
+    }
+   },
+   "cost": 0.003384,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:14:21",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t28",
+   "usage": {
+    "prompt_tokens": 20351,
+    "completion_tokens": 1651,
+    "total_tokens": 22002,
+    "prompt_tokens_details": {
+     "cached_tokens": 19328
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1058
+    }
+   },
+   "cost": 0.002404,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:14:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t29",
+   "usage": {
+    "prompt_tokens": 21125,
+    "completion_tokens": 1794,
+    "total_tokens": 22919,
+    "prompt_tokens_details": {
+     "cached_tokens": 20224
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1200
+    }
+   },
+   "cost": 0.002544,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:15:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_08/t30",
+   "usage": {
+    "prompt_tokens": 22547,
+    "completion_tokens": 6887,
+    "total_tokens": 29434,
+    "prompt_tokens_details": {
+     "cached_tokens": 21120
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6158
+    }
+   },
+   "cost": 0.008819,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:17:08",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 7964,
+    "total_tokens": 14066,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1820
+    }
+   },
+   "cost": 0.009619,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:17:59",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t2",
+   "usage": {
+    "prompt_tokens": 13259,
+    "completion_tokens": 10325,
+    "total_tokens": 23584,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9733
+    }
+   },
+   "cost": 0.014599,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:18:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t3",
+   "usage": {
+    "prompt_tokens": 14387,
+    "completion_tokens": 10154,
+    "total_tokens": 24541,
+    "prompt_tokens_details": {
+     "cached_tokens": 13184
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9484
+    }
+   },
+   "cost": 0.012625,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:18:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t4",
+   "usage": {
+    "prompt_tokens": 16526,
+    "completion_tokens": 828,
+    "total_tokens": 17354,
+    "prompt_tokens_details": {
+     "cached_tokens": 14336
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 435
+    }
+   },
+   "cost": 0.001737,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:19:57",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t5",
+   "usage": {
+    "prompt_tokens": 17518,
+    "completion_tokens": 7492,
+    "total_tokens": 25010,
+    "prompt_tokens_details": {
+     "cached_tokens": 16512
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6893
+    }
+   },
+   "cost": 0.009391,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:20:44",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t6",
+   "usage": {
+    "prompt_tokens": 20063,
+    "completion_tokens": 2047,
+    "total_tokens": 22110,
+    "prompt_tokens_details": {
+     "cached_tokens": 17408
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1392
+    }
+   },
+   "cost": 0.003357,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:26:17",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t7",
+   "usage": {
+    "prompt_tokens": 20758,
+    "completion_tokens": 6511,
+    "total_tokens": 27269,
+    "prompt_tokens_details": {
+     "cached_tokens": 19968
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6036
+    }
+   },
+   "cost": 0.00817,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:27:21",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t8",
+   "usage": {
+    "prompt_tokens": 21391,
+    "completion_tokens": 2292,
+    "total_tokens": 23683,
+    "prompt_tokens_details": {
+     "cached_tokens": 20736
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1798
+    }
+   },
+   "cost": 0.003071,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:29:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t9",
+   "usage": {
+    "prompt_tokens": 22955,
+    "completion_tokens": 10771,
+    "total_tokens": 33726,
+    "prompt_tokens_details": {
+     "cached_tokens": 21376
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 10101
+    }
+   },
+   "cost": 0.013527,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:29:31",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t10",
+   "usage": {
+    "prompt_tokens": 23936,
+    "completion_tokens": 1600,
+    "total_tokens": 25536,
+    "prompt_tokens_details": {
+     "cached_tokens": 22912
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 773
+    }
+   },
+   "cost": 0.002365,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:30:08",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t11",
+   "usage": {
+    "prompt_tokens": 25563,
+    "completion_tokens": 4520,
+    "total_tokens": 30083,
+    "prompt_tokens_details": {
+     "cached_tokens": 23808
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3848
+    }
+   },
+   "cost": 0.006093,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:30:18",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t12",
+   "usage": {
+    "prompt_tokens": 26710,
+    "completion_tokens": 2597,
+    "total_tokens": 29307,
+    "prompt_tokens_details": {
+     "cached_tokens": 25472
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1631
+    }
+   },
+   "cost": 0.003641,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:30:34",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t13",
+   "usage": {
+    "prompt_tokens": 27769,
+    "completion_tokens": 1786,
+    "total_tokens": 29555,
+    "prompt_tokens_details": {
+     "cached_tokens": 26624
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 979
+    }
+   },
+   "cost": 0.002646,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:30:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t14",
+   "usage": {
+    "prompt_tokens": 28740,
+    "completion_tokens": 1574,
+    "total_tokens": 30314,
+    "prompt_tokens_details": {
+     "cached_tokens": 27648
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 720
+    }
+   },
+   "cost": 0.002382,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:30:57",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t15",
+   "usage": {
+    "prompt_tokens": 29850,
+    "completion_tokens": 1846,
+    "total_tokens": 31696,
+    "prompt_tokens_details": {
+     "cached_tokens": 28672
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1164
+    }
+   },
+   "cost": 0.002741,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:31:10",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t16",
+   "usage": {
+    "prompt_tokens": 30564,
+    "completion_tokens": 2405,
+    "total_tokens": 32969,
+    "prompt_tokens_details": {
+     "cached_tokens": 29824
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1661
+    }
+   },
+   "cost": 0.003287,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:31:37",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t17",
+   "usage": {
+    "prompt_tokens": 31601,
+    "completion_tokens": 9436,
+    "total_tokens": 41037,
+    "prompt_tokens_details": {
+     "cached_tokens": 30464
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 8797
+    }
+   },
+   "cost": 0.011847,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:33:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t18",
+   "usage": {
+    "prompt_tokens": 32607,
+    "completion_tokens": 967,
+    "total_tokens": 33574,
+    "prompt_tokens_details": {
+     "cached_tokens": 31488
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 243
+    }
+   },
+   "cost": 0.001685,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:33:37",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t19",
+   "usage": {
+    "prompt_tokens": 33872,
+    "completion_tokens": 1524,
+    "total_tokens": 35396,
+    "prompt_tokens_details": {
+     "cached_tokens": 32512
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 400
+    }
+   },
+   "cost": 0.002432,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:33:46",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t20",
+   "usage": {
+    "prompt_tokens": 35135,
+    "completion_tokens": 577,
+    "total_tokens": 35712,
+    "prompt_tokens_details": {
+     "cached_tokens": 33792
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 90
+    }
+   },
+   "cost": 0.001298,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:34:41",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t21",
+   "usage": {
+    "prompt_tokens": 35708,
+    "completion_tokens": 1126,
+    "total_tokens": 36834,
+    "prompt_tokens_details": {
+     "cached_tokens": 35072
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 606
+    }
+   },
+   "cost": 0.001752,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:37:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t22",
+   "usage": {
+    "prompt_tokens": 36354,
+    "completion_tokens": 3611,
+    "total_tokens": 39965,
+    "prompt_tokens_details": {
+     "cached_tokens": 35584
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3059
+    }
+   },
+   "cost": 0.004778,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:39:30",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t23",
+   "usage": {
+    "prompt_tokens": 37010,
+    "completion_tokens": 1821,
+    "total_tokens": 38831,
+    "prompt_tokens_details": {
+     "cached_tokens": 36352
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1166
+    }
+   },
+   "cost": 0.002601,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:39:54",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t24",
+   "usage": {
+    "prompt_tokens": 37959,
+    "completion_tokens": 6973,
+    "total_tokens": 44932,
+    "prompt_tokens_details": {
+     "cached_tokens": 36992
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6432
+    }
+   },
+   "cost": 0.00888,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:41:47",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t25",
+   "usage": {
+    "prompt_tokens": 38665,
+    "completion_tokens": 541,
+    "total_tokens": 39206,
+    "prompt_tokens_details": {
+     "cached_tokens": 37888
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 80
+    }
+   },
+   "cost": 0.00111,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:42:25",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t26",
+   "usage": {
+    "prompt_tokens": 39222,
+    "completion_tokens": 620,
+    "total_tokens": 39842,
+    "prompt_tokens_details": {
+     "cached_tokens": 38656
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 87
+    }
+   },
+   "cost": 0.001146,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:43:39",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_09/t27",
+   "usage": {
+    "prompt_tokens": 39814,
+    "completion_tokens": 499,
+    "total_tokens": 40313,
+    "prompt_tokens_details": {
+     "cached_tokens": 39168
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 204
+    }
+   },
+   "cost": 0.001028,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:47:57",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 1530,
+    "total_tokens": 7632,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1276
+    }
+   },
+   "cost": 0.003667,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:47:58",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t2",
+   "usage": {
+    "prompt_tokens": 6942,
+    "completion_tokens": 234,
+    "total_tokens": 7176,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 71
+    }
+   },
+   "cost": 0.000595,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:48:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t3",
+   "usage": {
+    "prompt_tokens": 7465,
+    "completion_tokens": 398,
+    "total_tokens": 7863,
+    "prompt_tokens_details": {
+     "cached_tokens": 6912
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 250
+    }
+   },
+   "cost": 0.000685,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:48:11",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t4",
+   "usage": {
+    "prompt_tokens": 7921,
+    "completion_tokens": 1165,
+    "total_tokens": 9086,
+    "prompt_tokens_details": {
+     "cached_tokens": 7424
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 868
+    }
+   },
+   "cost": 0.001592,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:48:12",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t5",
+   "usage": {
+    "prompt_tokens": 8342,
+    "completion_tokens": 517,
+    "total_tokens": 8859,
+    "prompt_tokens_details": {
+     "cached_tokens": 7808
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 471
+    }
+   },
+   "cost": 0.000827,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:48:36",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t6",
+   "usage": {
+    "prompt_tokens": 9351,
+    "completion_tokens": 1733,
+    "total_tokens": 11084,
+    "prompt_tokens_details": {
+     "cached_tokens": 8320
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1566
+    }
+   },
+   "cost": 0.002439,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:48:44",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t7",
+   "usage": {
+    "prompt_tokens": 10748,
+    "completion_tokens": 3312,
+    "total_tokens": 14060,
+    "prompt_tokens_details": {
+     "cached_tokens": 9344
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2918
+    }
+   },
+   "cost": 0.004452,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:49:04",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t8",
+   "usage": {
+    "prompt_tokens": 12274,
+    "completion_tokens": 10464,
+    "total_tokens": 22738,
+    "prompt_tokens_details": {
+     "cached_tokens": 10624
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 9978
+    }
+   },
+   "cost": 0.013116,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:49:34",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t9",
+   "usage": {
+    "prompt_tokens": 14178,
+    "completion_tokens": 16384,
+    "total_tokens": 30562,
+    "prompt_tokens_details": {
+     "cached_tokens": 12160
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16384
+    }
+   },
+   "cost": 0.020339,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:49:39",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t10",
+   "usage": {
+    "prompt_tokens": 14214,
+    "completion_tokens": 1721,
+    "total_tokens": 15935,
+    "prompt_tokens_details": {
+     "cached_tokens": 14080
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1228
+    }
+   },
+   "cost": 0.00219,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:49:47",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t11",
+   "usage": {
+    "prompt_tokens": 15119,
+    "completion_tokens": 1666,
+    "total_tokens": 16785,
+    "prompt_tokens_details": {
+     "cached_tokens": 14208
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1180
+    }
+   },
+   "cost": 0.002358,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:50:04",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t12",
+   "usage": {
+    "prompt_tokens": 15929,
+    "completion_tokens": 5221,
+    "total_tokens": 21150,
+    "prompt_tokens_details": {
+     "cached_tokens": 15104
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4822
+    }
+   },
+   "cost": 0.006603,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:50:14",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t13",
+   "usage": {
+    "prompt_tokens": 17091,
+    "completion_tokens": 3760,
+    "total_tokens": 20851,
+    "prompt_tokens_details": {
+     "cached_tokens": 15872
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3355
+    }
+   },
+   "cost": 0.004973,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:50:21",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t14",
+   "usage": {
+    "prompt_tokens": 18751,
+    "completion_tokens": 850,
+    "total_tokens": 19601,
+    "prompt_tokens_details": {
+     "cached_tokens": 17024
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 503
+    }
+   },
+   "cost": 0.00164,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:51:03",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t15",
+   "usage": {
+    "prompt_tokens": 19663,
+    "completion_tokens": 7254,
+    "total_tokens": 26917,
+    "prompt_tokens_details": {
+     "cached_tokens": 18688
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6973
+    }
+   },
+   "cost": 0.009109,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:51:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t16",
+   "usage": {
+    "prompt_tokens": 21100,
+    "completion_tokens": 2916,
+    "total_tokens": 24016,
+    "prompt_tokens_details": {
+     "cached_tokens": 19584
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2459
+    }
+   },
+   "cost": 0.004072,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:51:21",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t17",
+   "usage": {
+    "prompt_tokens": 22614,
+    "completion_tokens": 5048,
+    "total_tokens": 27662,
+    "prompt_tokens_details": {
+     "cached_tokens": 20992
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4762
+    }
+   },
+   "cost": 0.00667,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:51:23",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t18",
+   "usage": {
+    "prompt_tokens": 23012,
+    "completion_tokens": 794,
+    "total_tokens": 23806,
+    "prompt_tokens_details": {
+     "cached_tokens": 22528
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 505
+    }
+   },
+   "cost": 0.001233,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:51:29",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t19",
+   "usage": {
+    "prompt_tokens": 24177,
+    "completion_tokens": 1956,
+    "total_tokens": 26133,
+    "prompt_tokens_details": {
+     "cached_tokens": 22912
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1552
+    }
+   },
+   "cost": 0.002864,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:56:18",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t20",
+   "usage": {
+    "prompt_tokens": 24621,
+    "completion_tokens": 3914,
+    "total_tokens": 28535,
+    "prompt_tokens_details": {
+     "cached_tokens": 24064
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3138
+    }
+   },
+   "cost": 0.005008,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:56:36",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t21",
+   "usage": {
+    "prompt_tokens": 26212,
+    "completion_tokens": 1055,
+    "total_tokens": 27267,
+    "prompt_tokens_details": {
+     "cached_tokens": 24576
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 568
+    }
+   },
+   "cost": 0.001904,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:56:46",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t22",
+   "usage": {
+    "prompt_tokens": 27198,
+    "completion_tokens": 587,
+    "total_tokens": 27785,
+    "prompt_tokens_details": {
+     "cached_tokens": 26112
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 139
+    }
+   },
+   "cost": 0.001187,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:57:11",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t23",
+   "usage": {
+    "prompt_tokens": 28482,
+    "completion_tokens": 9092,
+    "total_tokens": 37574,
+    "prompt_tokens_details": {
+     "cached_tokens": 27136
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 8778
+    }
+   },
+   "cost": 0.011477,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:58:30",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t24",
+   "usage": {
+    "prompt_tokens": 31164,
+    "completion_tokens": 16384,
+    "total_tokens": 47548,
+    "prompt_tokens_details": {
+     "cached_tokens": 28416
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16384
+    }
+   },
+   "cost": 0.020656,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:58:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t25",
+   "usage": {
+    "prompt_tokens": 31200,
+    "completion_tokens": 4773,
+    "total_tokens": 35973,
+    "prompt_tokens_details": {
+     "cached_tokens": 31104
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4451
+    }
+   },
+   "cost": 0.005943,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:58:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t26",
+   "usage": {
+    "prompt_tokens": 32415,
+    "completion_tokens": 698,
+    "total_tokens": 33113,
+    "prompt_tokens_details": {
+     "cached_tokens": 31104
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 348
+    }
+   },
+   "cost": 0.001418,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:59:29",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t27",
+   "usage": {
+    "prompt_tokens": 33035,
+    "completion_tokens": 1646,
+    "total_tokens": 34681,
+    "prompt_tokens_details": {
+     "cached_tokens": 32384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1114
+    }
+   },
+   "cost": 0.002365,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 09:59:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t28",
+   "usage": {
+    "prompt_tokens": 33851,
+    "completion_tokens": 1430,
+    "total_tokens": 35281,
+    "prompt_tokens_details": {
+     "cached_tokens": 33024
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1326
+    }
+   },
+   "cost": 0.002162,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:00:17",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t29",
+   "usage": {
+    "prompt_tokens": 34079,
+    "completion_tokens": 616,
+    "total_tokens": 34695,
+    "prompt_tokens_details": {
+     "cached_tokens": 33792
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 513
+    }
+   },
+   "cost": 0.001028,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:02:12",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "repeat_seq_10/t30",
+   "usage": {
+    "prompt_tokens": 34307,
+    "completion_tokens": 3869,
+    "total_tokens": 38176,
+    "prompt_tokens_details": {
+     "cached_tokens": 34048
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3647
+    }
+   },
+   "cost": 0.004925,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:08:17",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 2465,
+    "total_tokens": 8567,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1442
+    }
+   },
+   "cost": 0.004789,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:08:38",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t2",
+   "usage": {
+    "prompt_tokens": 7495,
+    "completion_tokens": 2335,
+    "total_tokens": 9830,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1508
+    }
+   },
+   "cost": 0.003282,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:08:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t3",
+   "usage": {
+    "prompt_tokens": 8565,
+    "completion_tokens": 549,
+    "total_tokens": 9114,
+    "prompt_tokens_details": {
+     "cached_tokens": 7424
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 64
+    }
+   },
+   "cost": 0.001046,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:08:53",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t4",
+   "usage": {
+    "prompt_tokens": 9814,
+    "completion_tokens": 4149,
+    "total_tokens": 13963,
+    "prompt_tokens_details": {
+     "cached_tokens": 8448
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3713
+    }
+   },
+   "cost": 0.005439,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:09:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t5",
+   "usage": {
+    "prompt_tokens": 11834,
+    "completion_tokens": 3913,
+    "total_tokens": 15747,
+    "prompt_tokens_details": {
+     "cached_tokens": 9728
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3344
+    }
+   },
+   "cost": 0.005386,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:14:24",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t6",
+   "usage": {
+    "prompt_tokens": 12443,
+    "completion_tokens": 5509,
+    "total_tokens": 17952,
+    "prompt_tokens_details": {
+     "cached_tokens": 11776
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5203
+    }
+   },
+   "cost": 0.006882,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:14:51",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t7",
+   "usage": {
+    "prompt_tokens": 14061,
+    "completion_tokens": 5474,
+    "total_tokens": 19535,
+    "prompt_tokens_details": {
+     "cached_tokens": 12416
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5130
+    }
+   },
+   "cost": 0.007137,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:16:46",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t8",
+   "usage": {
+    "prompt_tokens": 15225,
+    "completion_tokens": 1240,
+    "total_tokens": 16465,
+    "prompt_tokens_details": {
+     "cached_tokens": 13952
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 861
+    }
+   },
+   "cost": 0.001954,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:17:24",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t9",
+   "usage": {
+    "prompt_tokens": 19571,
+    "completion_tokens": 14498,
+    "total_tokens": 34069,
+    "prompt_tokens_details": {
+     "cached_tokens": 15104
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 14034
+    }
+   },
+   "cost": 0.018828,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:17:49",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t10",
+   "usage": {
+    "prompt_tokens": 20528,
+    "completion_tokens": 8238,
+    "total_tokens": 28766,
+    "prompt_tokens_details": {
+     "cached_tokens": 19456
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 7705
+    }
+   },
+   "cost": 0.010324,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:18:03",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t11",
+   "usage": {
+    "prompt_tokens": 21625,
+    "completion_tokens": 4398,
+    "total_tokens": 26023,
+    "prompt_tokens_details": {
+     "cached_tokens": 20480
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3982
+    }
+   },
+   "cost": 0.005744,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:18:10",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t12",
+   "usage": {
+    "prompt_tokens": 22594,
+    "completion_tokens": 1990,
+    "total_tokens": 24584,
+    "prompt_tokens_details": {
+     "cached_tokens": 21504
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1479
+    }
+   },
+   "cost": 0.002844,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:18:28",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t13",
+   "usage": {
+    "prompt_tokens": 23270,
+    "completion_tokens": 1989,
+    "total_tokens": 25259,
+    "prompt_tokens_details": {
+     "cached_tokens": 22528
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1427
+    }
+   },
+   "cost": 0.002745,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:18:53",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t14",
+   "usage": {
+    "prompt_tokens": 24008,
+    "completion_tokens": 1650,
+    "total_tokens": 25658,
+    "prompt_tokens_details": {
+     "cached_tokens": 23168
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 994
+    }
+   },
+   "cost": 0.002371,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:19:05",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t15",
+   "usage": {
+    "prompt_tokens": 25051,
+    "completion_tokens": 1551,
+    "total_tokens": 26602,
+    "prompt_tokens_details": {
+     "cached_tokens": 23936
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1122
+    }
+   },
+   "cost": 0.002339,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:19:20",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t16",
+   "usage": {
+    "prompt_tokens": 25637,
+    "completion_tokens": 519,
+    "total_tokens": 26156,
+    "prompt_tokens_details": {
+     "cached_tokens": 24960
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 179
+    }
+   },
+   "cost": 0.000976,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:19:27",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t17",
+   "usage": {
+    "prompt_tokens": 26493,
+    "completion_tokens": 2377,
+    "total_tokens": 28870,
+    "prompt_tokens_details": {
+     "cached_tokens": 25600
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1913
+    }
+   },
+   "cost": 0.003274,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:20:24",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t18",
+   "usage": {
+    "prompt_tokens": 28082,
+    "completion_tokens": 505,
+    "total_tokens": 28587,
+    "prompt_tokens_details": {
+     "cached_tokens": 26368
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 306
+    }
+   },
+   "cost": 0.001278,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:21:07",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_01/t19",
+   "usage": {
+    "prompt_tokens": 28390,
+    "completion_tokens": 459,
+    "total_tokens": 28849,
+    "prompt_tokens_details": {
+     "cached_tokens": 28032
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 158
+    }
+   },
+   "cost": 0.000826,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:25:48",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 2170,
+    "total_tokens": 8272,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1146
+    }
+   },
+   "cost": 0.002666,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:26:22",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t2",
+   "usage": {
+    "prompt_tokens": 7557,
+    "completion_tokens": 7031,
+    "total_tokens": 14588,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6583
+    }
+   },
+   "cost": 0.008936,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:26:31",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t3",
+   "usage": {
+    "prompt_tokens": 8449,
+    "completion_tokens": 1768,
+    "total_tokens": 10217,
+    "prompt_tokens_details": {
+     "cached_tokens": 7552
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1155
+    }
+   },
+   "cost": 0.002436,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:26:46",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t4",
+   "usage": {
+    "prompt_tokens": 9497,
+    "completion_tokens": 1438,
+    "total_tokens": 10935,
+    "prompt_tokens_details": {
+     "cached_tokens": 8448
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1002
+    }
+   },
+   "cost": 0.002091,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:27:26",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t5",
+   "usage": {
+    "prompt_tokens": 10721,
+    "completion_tokens": 3552,
+    "total_tokens": 14273,
+    "prompt_tokens_details": {
+     "cached_tokens": 9472
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3205
+    }
+   },
+   "cost": 0.004694,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:27:37",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t6",
+   "usage": {
+    "prompt_tokens": 11426,
+    "completion_tokens": 3381,
+    "total_tokens": 14807,
+    "prompt_tokens_details": {
+     "cached_tokens": 10624
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3035
+    }
+   },
+   "cost": 0.004362,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:28:07",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t7",
+   "usage": {
+    "prompt_tokens": 13914,
+    "completion_tokens": 15767,
+    "total_tokens": 29681,
+    "prompt_tokens_details": {
+     "cached_tokens": 11392
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 15463
+    }
+   },
+   "cost": 0.019745,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:28:46",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t8",
+   "usage": {
+    "prompt_tokens": 14911,
+    "completion_tokens": 16384,
+    "total_tokens": 31295,
+    "prompt_tokens_details": {
+     "cached_tokens": 13824
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 16384
+    }
+   },
+   "cost": 0.02007,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:28:52",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t9",
+   "usage": {
+    "prompt_tokens": 14947,
+    "completion_tokens": 2500,
+    "total_tokens": 17447,
+    "prompt_tokens_details": {
+     "cached_tokens": 14848
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2215
+    }
+   },
+   "cost": 0.003119,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:30:06",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t10",
+   "usage": {
+    "prompt_tokens": 16159,
+    "completion_tokens": 9317,
+    "total_tokens": 25476,
+    "prompt_tokens_details": {
+     "cached_tokens": 14848
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 8736
+    }
+   },
+   "cost": 0.011663,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:32:01",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t11",
+   "usage": {
+    "prompt_tokens": 16833,
+    "completion_tokens": 424,
+    "total_tokens": 17257,
+    "prompt_tokens_details": {
+     "cached_tokens": 16128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 40
+    }
+   },
+   "cost": 0.000817,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:32:37",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t12",
+   "usage": {
+    "prompt_tokens": 17307,
+    "completion_tokens": 656,
+    "total_tokens": 17963,
+    "prompt_tokens_details": {
+     "cached_tokens": 16768
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 293
+    }
+   },
+   "cost": 0.00105,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:35:03",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t13",
+   "usage": {
+    "prompt_tokens": 17915,
+    "completion_tokens": 193,
+    "total_tokens": 18108,
+    "prompt_tokens_details": {
+     "cached_tokens": 17280
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 111
+    }
+   },
+   "cost": 0.000526,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:35:05",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_02/t14",
+   "usage": {
+    "prompt_tokens": 18163,
+    "completion_tokens": 359,
+    "total_tokens": 18522,
+    "prompt_tokens_details": {
+     "cached_tokens": 17792
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 56
+    }
+   },
+   "cost": 0.000649,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:39:55",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t1",
+   "usage": {
+    "prompt_tokens": 6102,
+    "completion_tokens": 5046,
+    "total_tokens": 11148,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3092
+    }
+   },
+   "cost": 0.006117,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:40:09",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t2",
+   "usage": {
+    "prompt_tokens": 8628,
+    "completion_tokens": 917,
+    "total_tokens": 9545,
+    "prompt_tokens_details": {
+     "cached_tokens": 6016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 262
+    }
+   },
+   "cost": 0.00192,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:40:23",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t3",
+   "usage": {
+    "prompt_tokens": 10396,
+    "completion_tokens": 4203,
+    "total_tokens": 14599,
+    "prompt_tokens_details": {
+     "cached_tokens": 8576
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3794
+    }
+   },
+   "cost": 0.005641,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:40:25",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t4",
+   "usage": {
+    "prompt_tokens": 11231,
+    "completion_tokens": 438,
+    "total_tokens": 11669,
+    "prompt_tokens_details": {
+     "cached_tokens": 10368
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 79
+    }
+   },
+   "cost": 0.000847,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:40:35",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t5",
+   "usage": {
+    "prompt_tokens": 12155,
+    "completion_tokens": 2456,
+    "total_tokens": 14611,
+    "prompt_tokens_details": {
+     "cached_tokens": 11136
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2058
+    }
+   },
+   "cost": 0.00332,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:41:00",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t6",
+   "usage": {
+    "prompt_tokens": 13001,
+    "completion_tokens": 7838,
+    "total_tokens": 20839,
+    "prompt_tokens_details": {
+     "cached_tokens": 12032
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 7613
+    }
+   },
+   "cost": 0.009768,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:41:18",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t7",
+   "usage": {
+    "prompt_tokens": 13980,
+    "completion_tokens": 6046,
+    "total_tokens": 20026,
+    "prompt_tokens_details": {
+     "cached_tokens": 12928
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5655
+    }
+   },
+   "cost": 0.007648,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:41:33",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t8",
+   "usage": {
+    "prompt_tokens": 14931,
+    "completion_tokens": 4844,
+    "total_tokens": 19775,
+    "prompt_tokens_details": {
+     "cached_tokens": 13952
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4175
+    }
+   },
+   "cost": 0.00619,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:46:27",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t9",
+   "usage": {
+    "prompt_tokens": 15640,
+    "completion_tokens": 6898,
+    "total_tokens": 22538,
+    "prompt_tokens_details": {
+     "cached_tokens": 14848
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 6188
+    }
+   },
+   "cost": 0.008604,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:46:53",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t10",
+   "usage": {
+    "prompt_tokens": 16709,
+    "completion_tokens": 3916,
+    "total_tokens": 20625,
+    "prompt_tokens_details": {
+     "cached_tokens": 15616
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3324
+    }
+   },
+   "cost": 0.005121,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:47:20",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t11",
+   "usage": {
+    "prompt_tokens": 17516,
+    "completion_tokens": 6318,
+    "total_tokens": 23834,
+    "prompt_tokens_details": {
+     "cached_tokens": 16640
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 5679
+    }
+   },
+   "cost": 0.007944,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:47:32",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t12",
+   "usage": {
+    "prompt_tokens": 18301,
+    "completion_tokens": 4569,
+    "total_tokens": 22870,
+    "prompt_tokens_details": {
+     "cached_tokens": 17408
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4074
+    }
+   },
+   "cost": 0.005855,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:47:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t13",
+   "usage": {
+    "prompt_tokens": 19680,
+    "completion_tokens": 2471,
+    "total_tokens": 22151,
+    "prompt_tokens_details": {
+     "cached_tokens": 18176
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2031
+    }
+   },
+   "cost": 0.003525,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:47:55",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t14",
+   "usage": {
+    "prompt_tokens": 20829,
+    "completion_tokens": 5657,
+    "total_tokens": 26486,
+    "prompt_tokens_details": {
+     "cached_tokens": 19584
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4901
+    }
+   },
+   "cost": 0.007279,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:48:23",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t15",
+   "usage": {
+    "prompt_tokens": 22065,
+    "completion_tokens": 8729,
+    "total_tokens": 30794,
+    "prompt_tokens_details": {
+     "cached_tokens": 20736
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 7837
+    }
+   },
+   "cost": 0.010998,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:49:02",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t16",
+   "usage": {
+    "prompt_tokens": 23704,
+    "completion_tokens": 2345,
+    "total_tokens": 26049,
+    "prompt_tokens_details": {
+     "cached_tokens": 22016
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1814
+    }
+   },
+   "cost": 0.003452,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:49:49",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t17",
+   "usage": {
+    "prompt_tokens": 24389,
+    "completion_tokens": 264,
+    "total_tokens": 24653,
+    "prompt_tokens_details": {
+     "cached_tokens": 23680
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 147
+    }
+   },
+   "cost": 0.000672,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:52:10",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t18",
+   "usage": {
+    "prompt_tokens": 24595,
+    "completion_tokens": 417,
+    "total_tokens": 25012,
+    "prompt_tokens_details": {
+     "cached_tokens": 24320
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 129
+    }
+   },
+   "cost": 0.000729,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:54:40",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t19",
+   "usage": {
+    "prompt_tokens": 25030,
+    "completion_tokens": 1925,
+    "total_tokens": 26955,
+    "prompt_tokens_details": {
+     "cached_tokens": 24576
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1191
+    }
+   },
+   "cost": 0.002594,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:54:53",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t20",
+   "usage": {
+    "prompt_tokens": 25840,
+    "completion_tokens": 3970,
+    "total_tokens": 29810,
+    "prompt_tokens_details": {
+     "cached_tokens": 24960
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3552
+    }
+   },
+   "cost": 0.005178,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:55:02",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t21",
+   "usage": {
+    "prompt_tokens": 27523,
+    "completion_tokens": 2549,
+    "total_tokens": 30072,
+    "prompt_tokens_details": {
+     "cached_tokens": 25728
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2086
+    }
+   },
+   "cost": 0.003752,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:55:04",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t22",
+   "usage": {
+    "prompt_tokens": 28068,
+    "completion_tokens": 748,
+    "total_tokens": 28816,
+    "prompt_tokens_details": {
+     "cached_tokens": 27520
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 165
+    }
+   },
+   "cost": 0.001227,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:55:08",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t23",
+   "usage": {
+    "prompt_tokens": 28711,
+    "completion_tokens": 539,
+    "total_tokens": 29250,
+    "prompt_tokens_details": {
+     "cached_tokens": 28032
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 210
+    }
+   },
+   "cost": 0.001019,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:55:12",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t24",
+   "usage": {
+    "prompt_tokens": 29101,
+    "completion_tokens": 789,
+    "total_tokens": 29890,
+    "prompt_tokens_details": {
+     "cached_tokens": 28672
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 352
+    }
+   },
+   "cost": 0.001248,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:55:19",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t25",
+   "usage": {
+    "prompt_tokens": 29779,
+    "completion_tokens": 2092,
+    "total_tokens": 31871,
+    "prompt_tokens_details": {
+     "cached_tokens": 29056
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 1731
+    }
+   },
+   "cost": 0.002902,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:56:31",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t26",
+   "usage": {
+    "prompt_tokens": 30285,
+    "completion_tokens": 413,
+    "total_tokens": 30698,
+    "prompt_tokens_details": {
+     "cached_tokens": 29696
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 74
+    }
+   },
+   "cost": 0.00085,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 10:58:51",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t27",
+   "usage": {
+    "prompt_tokens": 30828,
+    "completion_tokens": 343,
+    "total_tokens": 31171,
+    "prompt_tokens_details": {
+     "cached_tokens": 30208
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 53
+    }
+   },
+   "cost": 0.000779,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 11:01:05",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t28",
+   "usage": {
+    "prompt_tokens": 31201,
+    "completion_tokens": 399,
+    "total_tokens": 31600,
+    "prompt_tokens_details": {
+     "cached_tokens": 30720
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 96
+    }
+   },
+   "cost": 0.000807,
+   "estimated": false
+  },
+  {
+   "ts": "2026-11-17 11:03:21",
+   "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "leak_perm_03/t29",
+   "usage": {
+    "prompt_tokens": 31597,
+    "completion_tokens": 379,
+    "total_tokens": 31976,
+    "prompt_tokens_details": {
+     "cached_tokens": 31104
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 11
+    }
+   },
+   "cost": 0.000789,
+   "estimated": false
+  }
+ ]
+}

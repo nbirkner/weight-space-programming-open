@@ -1,0 +1,18 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repair_flash_2] t1 finish=stop err=None ct=2828 pt=6102 ledger=$0.474 run=$0.003
+   exec 10.0s sims=0 used=0 flag=False out='always 1: min_dist=1.170, final_dist=1.170, success=False\nalways 2: min_dist=2.305, final_dist=4.511, success=False\nalways 0: min_dist=2.305, final_dist=3.476, success=False\n1 then 2: min_dist=1.170, '
+[repair_flash_2] t2 finish=stop err=None ct=1872 pt=7285 ledger=$0.476 run=$0.006
+   exec 3.1s sims=0 used=0 flag=False out='1x20,2x20,1: min_dist=1.365, final_dist=1.365, final car x=1.81 y=0.85 ang=0.64 green x=1.59 y=0.70\n1,2 alternating: min_dist=2.305, final_dist=2.935, final car x=3.43 y=0.61 ang=-0.05 green x=3.16 y='
+[repair_flash_2] t3 finish=stop err=None ct=1091 pt=8990 ledger=$0.478 run=$0.008
+   exec 0.2s sims=0 used=0 flag=False out='obs shape with n_steps=256: (32, 679)\nobs2 shape with n_steps=64: (32, 679)\n'
+[repair_flash_2] t4 finish=stop err=None ct=3288 pt=9242 ledger=$0.482 run=$0.012
+   exec 2.5s sims=0 used=0 flag=False out='all1                 min_green_x=1.398 end_green=(1.398,0.665) dist=1.170\nall2                 min_green_x=2.537 end_green=(4.311,0.610) dist=4.082\nall0                 min_green_x=2.537 end_green=(3.'
+[repair_flash_2] t5 finish=stop err=None ct=5849 pt=12041 ledger=$0.490 run=$0.020
+   exec 30.8s sims=3 used=3 flag=False out="fixed action 0: {'episodes': 64, 'successes': 0, 'success': 0.0, 'red': 0.109375, 'timeout': 0.890625, 'return': 0.015054553747177124}\nfixed action 1: {'episodes': 64, 'successes': 0, 'success': 0.0, "
+[repair_flash_2] t6 finish=stop err=None ct=4845 pt=12493 ledger=$0.496 run=$0.026
+   exec 4.2s sims=1 used=4 flag=False out='--- action 1 --- keys: [\'episodes\', \'successes\', \'success\', \'red\', \'timeout\', \'return\', \'trace_ep0\']\nTraceback (most recent call last):\n  File "/exp4b/scripts/sandbox_worker.py", line 90, in <module>\n'
+[repair_flash_2] t7 finish=stop err=None ct=144 pt=12801 ledger=$0.496 run=$0.026
+   exec 0.6s sims=2 used=6 flag=False out="--- action 1 --- trace type: <class 'str'>\nstep | body x,y | green wheel x,y | wheel x,y | action0 | p(0/1/2)\n   0 | 2.80,0.72 | 2.54,0.74 | 3.11,0.73 | 1 | 0.00/1.00/0.00\n  16 | 2.26,0.86 | 2.05,1.02"
+[repair_flash_2] t8 finish=stop err=None ct=9270 pt=14602 ledger=$1.826 run=$1.356
+   exec 0.4s sims=0 used=6 flag=False out='start logits: [13.07 -7.93 -9.33  0.25  0.42 -0.22 -0.09  0.37  0.21  0.46  0.08 -0.21\n  1.09 -1.1  -1.78  1.79]\nstart entry0 logits: [13.07 -7.93 -9.33]\nactor_head.b: [ 0.031  0.052 -0.194  0.002 -0.'
+SUMMARY {"tag": "repair_flash_2", "status": "run cap $1.0", "turns": 8, "run_cost": 1.3561, "best": null, "best_test": null, "best_changed": null}

@@ -1,0 +1,28 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repeat_seq_02] t1 finish=stop err=None ct=4408 pt=6102 ledger=$3.665 run=$0.005
+   exec 8.4s sims=0 used=0 flag=False out='Keys and shapes:\nembed.W (679, 128)\nembed.b (128,)\nactor0.W (128, 128)\nactor0.b (128,)\nactor1.W (128, 128)\nactor1.b (128,)\nactor2.W (128, 128)\nactor2.b (128,)\nactor3.W (128, 128)\nactor3.b (128,)\nactor'
+[repeat_seq_02] t2 finish=stop err=None ct=2324 pt=8524 ledger=$3.668 run=$0.009
+   exec 1.9s sims=0 used=0 flag=False out='\nConstant action 0: length 256\nmin dist green-blue: 2.305 at step 0\nmin dist green-red:  0.956 at step 3\nt=  0 car=(2.80,0.73) green=(2.54,0.73)\nt= 16 car=(3.06,0.60) green=(2.80,0.62)\nt= 32 car=(3.42'
+[repeat_seq_02] t3 finish=stop err=None ct=5412 pt=9805 ledger=$3.675 run=$0.016
+   exec 0.3s sims=0 used=0 flag=False out='Action 1 trace, length 32\nt=  0 car=(2.800,0.725) green=(2.537,0.735) w13=(3.107,0.750) blue=(0.232,0.762) red=(1.622,0.402)\nt=  1 car=(2.799,0.718) green=(2.538,0.743) w13=(3.108,0.726) blue=(0.233,0'
+[repeat_seq_02] t4 finish=stop err=None ct=6881 pt=12488 ledger=$3.685 run=$0.025
+   exec 2.9s sims=0 used=0 flag=False out='=== [1]*k then 0 ===\n1x  5: T= 32 minD_blue=1.170@ 31 minD_red=0.346@ 31\n1x 10: T= 32 minD_blue=1.170@ 31 minD_red=0.346@ 31\n1x 15: T= 32 minD_blue=1.170@ 31 minD_red=0.346@ 31\n1x 20: T= 32 minD_blue='
+[repeat_seq_02] t5 finish=stop err=None ct=6879 pt=13542 ledger=$3.693 run=$0.034
+   exec 5.7s sims=0 used=0 flag=False out='=== alternating patterns ===\n1,0         : T= 33 minD_blue=1.241@ 32 minD_red=0.285@ 32\n1,1,0       : T= 32 minD_blue=1.262@ 31 minD_red=0.299@ 31\n1,0,0       : T= 39 minD_blue=1.433@ 35 minD_red=0.29'
+[repeat_seq_02] t6 finish=stop err=None ct=600 pt=15001 ledger=$3.694 run=$0.035
+   exec 0.2s sims=0 used=0 flag=False out='Length 68\nt=  0 car=(2.800,0.725) green=(2.537,0.735) w13=(3.107,0.750) blue=(0.232,0.762) red=(1.622,0.402)\nt=  2 car=(2.802,0.695) green=(2.540,0.673) w13=(3.104,0.758) blue=(0.233,0.768) red=(1.622'
+[repeat_seq_02] t7 finish=stop err=None ct=13802 pt=17097 ledger=$3.712 run=$0.052
+[repeat_seq_02] t8 finish=None err=ConnectionError: HTTPSConnectionPool(host='api.together.xyz', port=443): Read timed out. ct=9059 pt=15029 ledger=$3.727 run=$0.068
+[repeat_seq_02] t9 finish=stop err=None ct=1121 pt=17169 ledger=$3.734 run=$0.074
+   exec 6.6s sims=0 used=0 flag=False out='=== right run-up then left, finer ===\n2x 10+1: T= 68 minD_blue=0.428@ 67 minD_red=0.712@ 62\n2x 12+1: T= 74 minD_blue=0.489@ 73 minD_red=0.719@ 69\n2x 14+1: T= 79 minD_blue=0.443@ 78 minD_red=0.696@ 73\n'
+[repeat_seq_02] t10 finish=stop err=None ct=3048 pt=17908 ledger=$3.738 run=$0.078
+   exec 1.5s sims=0 used=0 flag=False out='2x10+1: T=68\nLast 5 steps:\nt=63 car=(1.197,0.772) green=(0.954,0.672) blue=(0.233,0.773) red=(1.622,0.402)\nt=64 car=(1.127,0.712) green=(0.883,0.619) blue=(0.233,0.773) red=(1.622,0.402)\nt=65 car=(1.0'
+[repeat_seq_02] t11 finish=stop err=None ct=6203 pt=18699 ledger=$3.745 run=$0.086
+   exec 0.1s sims=0 used=0 flag=False out='car_x at obs_at_35: 3.521\nTop units with largest change:\nunit 22: init=-0.988, at35=0.997, diff=1.985\nunit 88: init=-0.993, at35=0.989, diff=1.982\nunit 17: init=0.951, at35=-0.968, diff=-1.919\nunit 25'
+[repeat_seq_02] t12 finish=length err=None ct=16384 pt=19467 ledger=$3.765 run=$0.106
+[repeat_seq_02] t13 finish=stop err=None ct=15992 pt=19503 ledger=$3.785 run=$0.125
+   exec 14.0s sims=0 used=0 flag=False out='Policy A: T=68, iters=1, minD_blue=0.428@67, minD_red=0.712@62\n  actions[:15]=[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1]\n  last: green=(0.632,0.619) blue=(0.233,0.773) red=(1.622,0.402)\nPolicy B: T'
+[repeat_seq_02] t14 finish=None err=ConnectionError: HTTPSConnectionPool(host='api.together.xyz', port=443): Read timed out. ct=15767 pt=18066 ledger=$3.809 run=$0.150
+[repeat_seq_02] t15 finish=stop err=None ct=1039 pt=20689 ledger=$3.810 run=$0.151
+   exec 12.8s sims=0 used=0 flag=False out='T=68, iters=1\nlast green=(0.632,0.619) blue=(0.233,0.773)\nblue vel=(-0.000,0.000)\ngreen vel=(-2.355,0.013)\n\nPolicy B: T=256, iters=12\nlast green=(2.917,0.611) blue=(0.233,0.773)\n'
+SUMMARY {"tag": "repeat_seq_02", "status": "run cap $0.15", "turns": 15, "run_cost": 0.151, "best": null, "best_test": null, "best_changed": null}

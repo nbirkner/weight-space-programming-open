@@ -1,0 +1,258 @@
+[
+ {
+  "file": "exp1c/prompts/heatmap/breakout_a9f535cc.txt",
+  "game": "breakout",
+  "net": "a9f535cc",
+  "cond": "heatmap",
+  "truth": "breakout",
+  "chars": 21131
+ },
+ {
+  "file": "exp1c/prompts/w1_only/breakout_a9f535cc.txt",
+  "game": "breakout",
+  "net": "a9f535cc",
+  "cond": "w1_only",
+  "truth": "breakout",
+  "chars": 12848
+ },
+ {
+  "file": "exp1c/prompts/ascii/breakout_a9f535cc.txt",
+  "game": "breakout",
+  "net": "a9f535cc",
+  "cond": "ascii",
+  "truth": "breakout",
+  "chars": 7506
+ },
+ {
+  "file": "exp1c/prompts/glyphs/breakout_a9f535cc.txt",
+  "game": "breakout",
+  "net": "a9f535cc",
+  "cond": "glyphs",
+  "truth": "breakout",
+  "chars": 5296
+ },
+ {
+  "file": "exp1c/prompts/topk8/breakout_a9f535cc.txt",
+  "game": "breakout",
+  "net": "a9f535cc",
+  "cond": "topk8",
+  "truth": "breakout",
+  "chars": 8490
+ },
+ {
+  "file": "exp1c/prompts/heatmap_anon/breakout_a9f535cc.txt",
+  "game": "breakout",
+  "net": "a9f535cc",
+  "cond": "heatmap_anon",
+  "truth": "breakout",
+  "chars": 20782
+ },
+ {
+  "file": "exp1c/prompts/heatmap_shuffled/breakout_a9f535cc_shuf101.txt",
+  "game": "breakout",
+  "net": "a9f535cc",
+  "cond": "heatmap_shuffled",
+  "truth": "decoy",
+  "chars": 21134
+ },
+ {
+  "file": "exp1c/prompts/heatmap_shuffled/breakout_a9f535cc_shuf102.txt",
+  "game": "breakout",
+  "net": "a9f535cc",
+  "cond": "heatmap_shuffled",
+  "truth": "decoy",
+  "chars": 21134
+ },
+ {
+  "file": "exp1c/prompts/heatmap/pong_dfc6cb65.txt",
+  "game": "pong",
+  "net": "dfc6cb65",
+  "cond": "heatmap",
+  "truth": "pong",
+  "chars": 21056
+ },
+ {
+  "file": "exp1c/prompts/w1_only/pong_dfc6cb65.txt",
+  "game": "pong",
+  "net": "dfc6cb65",
+  "cond": "w1_only",
+  "truth": "pong",
+  "chars": 12779
+ },
+ {
+  "file": "exp1c/prompts/ascii/pong_dfc6cb65.txt",
+  "game": "pong",
+  "net": "dfc6cb65",
+  "cond": "ascii",
+  "truth": "pong",
+  "chars": 7451
+ },
+ {
+  "file": "exp1c/prompts/glyphs/pong_dfc6cb65.txt",
+  "game": "pong",
+  "net": "dfc6cb65",
+  "cond": "glyphs",
+  "truth": "pong",
+  "chars": 5291
+ },
+ {
+  "file": "exp1c/prompts/topk8/pong_dfc6cb65.txt",
+  "game": "pong",
+  "net": "dfc6cb65",
+  "cond": "topk8",
+  "truth": "pong",
+  "chars": 8476
+ },
+ {
+  "file": "exp1c/prompts/heatmap_anon/pong_dfc6cb65.txt",
+  "game": "pong",
+  "net": "dfc6cb65",
+  "cond": "heatmap_anon",
+  "truth": "pong",
+  "chars": 20707
+ },
+ {
+  "file": "exp1c/prompts/heatmap_shuffled/pong_dfc6cb65_shuf101.txt",
+  "game": "pong",
+  "net": "dfc6cb65",
+  "cond": "heatmap_shuffled",
+  "truth": "decoy",
+  "chars": 21058
+ },
+ {
+  "file": "exp1c/prompts/heatmap_shuffled/pong_dfc6cb65_shuf102.txt",
+  "game": "pong",
+  "net": "dfc6cb65",
+  "cond": "heatmap_shuffled",
+  "truth": "decoy",
+  "chars": 21059
+ },
+ {
+  "file": "exp1c/prompts/heatmap/pacman_bdf99279.txt",
+  "game": "pacman",
+  "net": "bdf99279",
+  "cond": "heatmap",
+  "truth": "pacman",
+  "chars": 21093
+ },
+ {
+  "file": "exp1c/prompts/w1_only/pacman_bdf99279.txt",
+  "game": "pacman",
+  "net": "bdf99279",
+  "cond": "w1_only",
+  "truth": "pacman",
+  "chars": 12820
+ },
+ {
+  "file": "exp1c/prompts/ascii/pacman_bdf99279.txt",
+  "game": "pacman",
+  "net": "bdf99279",
+  "cond": "ascii",
+  "truth": "pacman",
+  "chars": 7478
+ },
+ {
+  "file": "exp1c/prompts/glyphs/pacman_bdf99279.txt",
+  "game": "pacman",
+  "net": "bdf99279",
+  "cond": "glyphs",
+  "truth": "pacman",
+  "chars": 5290
+ },
+ {
+  "file": "exp1c/prompts/topk8/pacman_bdf99279.txt",
+  "game": "pacman",
+  "net": "bdf99279",
+  "cond": "topk8",
+  "truth": "pacman",
+  "chars": 8490
+ },
+ {
+  "file": "exp1c/prompts/heatmap_anon/pacman_bdf99279.txt",
+  "game": "pacman",
+  "net": "bdf99279",
+  "cond": "heatmap_anon",
+  "truth": "pacman",
+  "chars": 20744
+ },
+ {
+  "file": "exp1c/prompts/heatmap_shuffled/pacman_bdf99279_shuf101.txt",
+  "game": "pacman",
+  "net": "bdf99279",
+  "cond": "heatmap_shuffled",
+  "truth": "decoy",
+  "chars": 21096
+ },
+ {
+  "file": "exp1c/prompts/heatmap_shuffled/pacman_bdf99279_shuf102.txt",
+  "game": "pacman",
+  "net": "bdf99279",
+  "cond": "heatmap_shuffled",
+  "truth": "decoy",
+  "chars": 21097
+ },
+ {
+  "file": "exp1c/prompts/heatmap/freeway_0bbcc3ea.txt",
+  "game": "freeway",
+  "net": "0bbcc3ea",
+  "cond": "heatmap",
+  "truth": "freeway",
+  "chars": 21076
+ },
+ {
+  "file": "exp1c/prompts/w1_only/freeway_0bbcc3ea.txt",
+  "game": "freeway",
+  "net": "0bbcc3ea",
+  "cond": "w1_only",
+  "truth": "freeway",
+  "chars": 12802
+ },
+ {
+  "file": "exp1c/prompts/ascii/freeway_0bbcc3ea.txt",
+  "game": "freeway",
+  "net": "0bbcc3ea",
+  "cond": "ascii",
+  "truth": "freeway",
+  "chars": 7466
+ },
+ {
+  "file": "exp1c/prompts/glyphs/freeway_0bbcc3ea.txt",
+  "game": "freeway",
+  "net": "0bbcc3ea",
+  "cond": "glyphs",
+  "truth": "freeway",
+  "chars": 5290
+ },
+ {
+  "file": "exp1c/prompts/topk8/freeway_0bbcc3ea.txt",
+  "game": "freeway",
+  "net": "0bbcc3ea",
+  "cond": "topk8",
+  "truth": "freeway",
+  "chars": 8484
+ },
+ {
+  "file": "exp1c/prompts/heatmap_anon/freeway_0bbcc3ea.txt",
+  "game": "freeway",
+  "net": "0bbcc3ea",
+  "cond": "heatmap_anon",
+  "truth": "freeway",
+  "chars": 20727
+ },
+ {
+  "file": "exp1c/prompts/heatmap_shuffled/freeway_0bbcc3ea_shuf101.txt",
+  "game": "freeway",
+  "net": "0bbcc3ea",
+  "cond": "heatmap_shuffled",
+  "truth": "decoy",
+  "chars": 21080
+ },
+ {
+  "file": "exp1c/prompts/heatmap_shuffled/freeway_0bbcc3ea_shuf102.txt",
+  "game": "freeway",
+  "net": "0bbcc3ea",
+  "cond": "heatmap_shuffled",
+  "truth": "decoy",
+  "chars": 21080
+ }
+]

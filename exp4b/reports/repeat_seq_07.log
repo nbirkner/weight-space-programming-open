@@ -1,0 +1,53 @@
+WARNING:absl:Grain multiprocess worker profiling requires jaxlib extension version 448 or later (jaxlib >= 0.11.0). Current version: 397.
+[repeat_seq_07] t1 finish=stop err=None ct=2994 pt=6102 ledger=$4.321 run=$0.004
+   exec 10.6s sims=0 used=0 flag=False out='embed.W (679, 128) 0.04552996134020618 2.37\nembed.b (128,) 0.006213281250000001 0.028800000000000003\nactor0.W (128, 128) 0.11171136474609375 0.5730000000000001\nactor0.b (128,) 0.023983593749999997 0.0'
+[repeat_seq_07] t2 finish=stop err=None ct=3705 pt=8052 ledger=$4.326 run=$0.009
+   exec 4.8s sims=0 used=0 flag=False out='const1 final body x 1.612 y 0.818 | min d_blue 1.17 at 31 | g at min 1.398 0.665\nconst2 final body x 4.766 y 0.88 | min d_blue 2.306 at 0 | g at min 2.537 0.735\n12 final body x 3.426 y 0.607 | min d_b'
+[repeat_seq_07] t3 finish=stop err=None ct=1069 pt=8945 ledger=$4.328 run=$0.010
+   exec 0.1s sims=0 used=0 flag=False out='0 body x,y,ang 2.8 0.725 0.0 | g 2.537 0.735 gvel 0.0 0.0 | w13 3.107 0.75\n4 body x,y,ang 2.793 0.647 -0.197 | g 2.538 0.708 gvel -0.384 -0.822 | w13 3.098 0.612\n8 body x,y,ang 2.7 0.667 -0.243 | g 2.'
+[repeat_seq_07] t4 finish=stop err=None ct=612 pt=9799 ledger=$4.329 run=$0.011
+   exec 0.6s sims=0 used=0 flag=False out='ns 8 obs shape (8, 679)\nns 16 obs shape (16, 679)\nns 32 obs shape (32, 679)\nns 64 obs shape (32, 679)\nns 128 obs shape (32, 679)\n256 act, ns64 -> (32, 679)\n'
+[repeat_seq_07] t5 finish=stop err=None ct=6096 pt=10077 ledger=$4.336 run=$0.019
+   exec 0.8s sims=0 used=0 flag=False out='1x32 min d_blue 1.17 at 31 | hit_red True | g end 1.398 0.665 | body end 1.612 0.818\n1x20 2x4 1x8 min d_blue 1.295 at 30 | hit_red True | g end 1.522 0.646 | body end 1.722 0.817\n1x16 2x4 1x12 min d_b'
+[repeat_seq_07] t6 finish=stop err=None ct=6366 pt=11444 ledger=$4.344 run=$0.027
+   exec 2.7s sims=0 used=0 flag=False out="2x0 then 1: ('RED', 31)\n2x8 then 1: ('RED', 56)\n2x16 then 1: ('RED', 68)\n2x24 then 1: ('RED', 72)\n2x32 then 1: ('TIMEOUT', 86)\n2x48 then 1: ('TIMEOUT', 92)\n2x64 then 1: ('TIMEOUT', 116)\n1x8 2x8 1: ('R"
+[repeat_seq_07] t7 finish=stop err=None ct=1713 pt=12268 ledger=$4.347 run=$0.029
+   exec 2.6s sims=0 used=0 flag=False out="1x12 then 0: ('TIMEOUT', 140)\n1x16 then 0: ('TIMEOUT', 32)\n1x18 then 0: ('TIMEOUT', 30)\n1x20 then 0: ('TIMEOUT', 30)\n1x22 then 0: ('RED', 30)\n1x24 then 0: ('TIMEOUT', 31)\n1x26 then 0: ('RED', 31)\n1x28"
+[repeat_seq_07] t8 finish=stop err=None ct=3880 pt=13263 ledger=$4.352 run=$0.035
+   exec 9.7s sims=0 used=0 flag=False out="1x0 2x4 1: ('TIMEOUT', (np.float32(1.555), np.float32(1.105)))\n1x0 2x8 1: ('TIMEOUT', (np.float32(2.114), np.float32(0.981)))\n1x0 2x12 1: ('TIMEOUT', (np.float32(3.068), np.float32(0.61)))\n1x0 2x16 1:"
+[repeat_seq_07] t9 finish=stop err=None ct=8121 pt=15435 ledger=$4.362 run=$0.045
+   exec 270.1s sims=None used=None flag=False out='[timed out after 240s; the python state was reset]'
+[repeat_seq_07] t10 finish=stop err=None ct=2099 pt=15918 ledger=$4.365 run=$0.048
+   exec 8.2s sims=0 used=0 flag=False out='0 body 2.8 0.725 0.0 | g 2.537 0.735 gv 0.0 0.0\n1 body 2.799 0.718 -0.06 | g 2.538 0.743 gv 0.01 0.27\n2 body 2.799 0.701 -0.12 | g 2.539 0.743 gv 0.05 -0.08\n3 body 2.798 0.672 -0.19 | g 2.542 0.732 gv'
+[repeat_seq_07] t11 finish=length err=None ct=16384 pt=17218 ledger=$4.385 run=$0.068
+[repeat_seq_07] t12 finish=stop err=None ct=8845 pt=17254 ledger=$4.396 run=$0.079
+   exec 2.3s sims=0 used=0 flag=False out="n_steps 32 -> len 32\nn_steps 64 -> len 32\nn_steps 128 -> len 32\nn_steps 256 -> len 32\n2x0 then 1: ('R', 31)\n2x8 then 1: ('R', 56)\n2x16 then 1: ('R', 68)\n2x24 then 1: ('R', 72)\n2x32 then 1: ('T', 86)\n2"
+[repeat_seq_07] t13 finish=stop err=None ct=7135 pt=17681 ledger=$4.405 run=$0.088
+   exec 11.9s sims=0 used=0 flag=False out="L1 32 -> 32\nL1 64 -> 32\nL1 100 -> 32\nL1 200 -> 32\nL1 256 -> 32\nL2 32 -> 32\nL2 64 -> 64\nL2 100 -> 100\nL2 200 -> 200\nL2 256 -> 256\n1x0 2x0 1: ('R', 31)\n1x0 2x8 1: ('R', 56)\n1x0 2x16 1: ('R', 68)\n1x0 2x2"
+[repeat_seq_07] t14 finish=stop err=None ct=1309 pt=18879 ledger=$4.407 run=$0.090
+   exec 0.3s sims=0 used=0 flag=False out='0 body 2.8 0.73 0.0 | g 2.54 0.73 gv 0.0 0.0\n2 body 2.8 0.7 -0.12 | g 2.54 0.74 gv 0.05 -0.08\n4 body 2.79 0.65 -0.2 | g 2.54 0.71 gv -0.38 -0.82\n6 body 2.76 0.64 -0.17 | g 2.5 0.7 gv -0.63 0.51\n8 body'
+[repeat_seq_07] t15 finish=stop err=None ct=7499 pt=20771 ledger=$4.416 run=$0.099
+   exec 23.5s sims=0 used=0 flag=False out='S a=0 b=28 78\nS a=0 b=34 88\nS a=0 b=38 91\nS a=2 b=28 81\nS a=2 b=30 82\nS a=2 b=32 88\nS a=2 b=34 89\nS a=2 b=38 95\nS a=2 b=40 93\nS a=4 b=30 87\nS a=4 b=34 92\nS a=4 b=38 94\nS a=4 b=40 97\nS a=6 b=32 91\nS a='
+[repeat_seq_07] t16 finish=stop err=None ct=1114 pt=21354 ledger=$4.418 run=$0.101
+   exec 0.9s sims=0 used=0 flag=False out='x> 4.0 at step 18 maxx 4.800292491912842\nx> 4.2 at step 19 maxx 4.800292491912842\nx> 4.3 at step 20 maxx 4.800292491912842\nx> 4.4 at step 21 maxx 4.800292491912842\nx> 4.5 at step 29 maxx 4.80029249191'
+[repeat_seq_07] t17 finish=stop err=None ct=1263 pt=21980 ledger=$4.420 run=$0.103
+   exec 1.0s sims=0 used=0 flag=False out='.venv/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide\n  c /= stddev[:, None]\n.venv'
+[repeat_seq_07] t18 finish=stop err=None ct=1990 pt=22675 ledger=$4.423 run=$0.106
+   exec 7.6s sims=0 used=0 flag=False out="switch at x>4.0 step 18: ('T', 72)\nswitch at x>4.2 step 19: ('T', 72)\nswitch at x>4.3 step 20: ('R', 66)\nswitch at x>4.5 step 29: ('S', 80)\nswitch at x>4.7 step 37: ('R', 88)\n2x20 1x4 2x40 1: ('R', 10"
+[repeat_seq_07] t19 finish=stop err=None ct=4374 pt=23397 ledger=$4.428 run=$0.111
+   exec 1.0s sims=0 used=0 flag=False out='a4 units corr x: [73 68 19 66 13 97 41 12] [ 0.56743129  0.5593707   0.54544499  0.52400661  0.48840827 -0.47807956\n -0.477512    0.44066377]\nunit 73 @x2.8 0.978 @x4.8 0.387 @left-end 0.99\nunit 68 @x2'
+[repeat_seq_07] t20 finish=stop err=None ct=3023 pt=24106 ledger=$4.432 run=$0.115
+   exec 1.0s sims=0 used=0 flag=False out='unit 12 r vx>0 vals [-0.137 -0.055 -0.989] r vx<0 [0.989 0.995 0.999] l vx<0 [ 0.999  0.673 -0.708]\nunit 41 r vx>0 vals [-0.744 -0.796  0.893] r vx<0 [-0.898 -0.91  -0.996] l vx<0 [ 0.582  0.99  -0.53'
+[repeat_seq_07] t21 finish=stop err=None ct=7009 pt=25391 ledger=$4.441 run=$0.124
+   exec 0.3s sims=0 used=0 flag=False out='len 79\n0 x 2.8 vx 0.0 gx 2.54 gy 0.73 u19 1.0 u73 0.98 u12 -0.56\n4 x 2.87 vx 1.27 gx 2.61 gy 0.63 u19 0.82 u73 0.97 u12 -0.05\n8 x 3.1 vx 1.98 gx 2.84 gy 0.61 u19 -0.99 u73 -0.84 u12 -1.0\n12 x 3.42 vx '
+[repeat_seq_07] t22 finish=stop err=None ct=10736 pt=26492 ledger=$4.455 run=$0.137
+   exec 17.0s sims=1 used=1 flag=False out="start logits entry0 [-10.  -5.   5.]\n[saved edit: 2312 of 171664 weights differ from the shown network]\n{'episodes': 64, 'successes': 0, 'success': 0.0, 'red': 0.0, 'timeout': 1.0, 'return': -0.323500"
+[repeat_seq_07] t23 finish=stop err=None ct=3681 pt=28000 ledger=$4.460 run=$0.143
+   exec 7.8s sims=1 used=2 flag=False out="start logits [-10.  -5.   5.]\n[saved edit: 2312 of 171664 weights differ from the shown network]\n{'episodes': 64, 'successes': 8, 'success': 0.125, 'red': 0.0, 'timeout': 0.875, 'return': -0.121604457"
+[repeat_seq_07] t24 finish=stop err=None ct=1876 pt=29389 ledger=$4.463 run=$0.145
+   exec 0.3s sims=0 used=2 flag=False out='18 x 4.09 y 0.597 vx 3.672 vy 0.0 ang -0.01 gx 3.83 gy 0.61\n19 x 4.214 y 0.597 vx 3.732 vy 0.0 ang -0.01 gx 3.95 gy 0.61\n20 x 4.34 y 0.597 vx 3.773 vy 0.0 ang -0.01 gx 4.08 gy 0.61\n21 x 4.466 y 0.597 '
+[repeat_seq_07] t25 finish=stop err=None ct=2145 pt=30447 ledger=$4.466 run=$0.149
+   exec 24.5s sims=1 used=3 flag=False out="start logits [-10.  -5.   5.]\n[saved edit: 2312 of 171664 weights differ from the shown network]\n{'episodes': 128, 'successes': 128, 'success': 1.0, 'red': 0.0, 'timeout': 0.0, 'return': 1.37432670593"
+[repeat_seq_07] t26 finish=stop err=None ct=379 pt=31791 ledger=$4.467 run=$0.150
+   SUBMISSION t26: search 256/256 changed=2312
+SUMMARY {"tag": "repeat_seq_07", "status": "solved on search", "turns": 26, "run_cost": 0.1496, "best": {"turn": 26, "src": "save_edit", "search": 1.0, "search_successes": 256, "changed": 2312, "rep": null}, "best_test": {"episodes": 1024, "successes": 1024, "success": 1.0, "red": 0.0, "timeout": 0.0, "return": 1.3743200302124023}, "best_changed": {"changed": 2312, "entries": 171664, "frac": 0.013468170379345699}}
